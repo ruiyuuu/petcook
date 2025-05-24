@@ -1,13 +1,23 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import { Geist, Geist_Mono, Lato, Noto_Sans } from "next/font/google";
+// import "./globals.css";
+import "./styles/style.scss";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
+const lato = Lato({
+  variable: "--lato",
   subsets: ["latin"],
+  weight:["100","300","400","700","900"]
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
+const notoSans = Noto_Sans({
+  variable: "--notoSans",
   subsets: ["latin"],
 });
 
@@ -19,9 +29,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${lato.variable} ${notoSans.variable} antialiased`}>
         {children}
       </body>
     </html>
