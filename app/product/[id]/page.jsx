@@ -104,8 +104,12 @@ export default function Page({ params }) {
               </div>
               <div className="table-PC">
                 <div className="table-PC__header">
-                  <span className="th">{product[0].block_compare.headerTH1}</span>
-                  <span className="th">{product[0].block_compare.headerTH2}</span>
+                  <span className="th">
+                    {product[0].block_compare.headerTH1}
+                  </span>
+                  <span className="th">
+                    {product[0].block_compare.headerTH2}
+                  </span>
                 </div>
                 <div className="table-PC__body">
                   <div className="tr">
@@ -127,7 +131,9 @@ export default function Page({ params }) {
                       )}
                     </span>
                     <div className="th">飼養方式</div>
-                    <span className="td">{product[0].block_compare.bodyTD1_2}</span>
+                    <span className="td">
+                      {product[0].block_compare.bodyTD1_2}
+                    </span>
                   </div>
                   <hr className="divide" />
                   <div className="tr">
@@ -149,7 +155,9 @@ export default function Page({ params }) {
                       )}
                     </span>
                     <div className="th">脂肪含量</div>
-                    <span className="td">{product[0].block_compare.bodyTD2_2}</span>
+                    <span className="td">
+                      {product[0].block_compare.bodyTD2_2}
+                    </span>
                   </div>
                   <hr className="divide" />
                   <div className="tr">
@@ -171,7 +179,9 @@ export default function Page({ params }) {
                       )}
                     </span>
                     <div className="th">營養成分</div>
-                    <span className="td">{product[0].block_compare.bodyTD3_2}</span>
+                    <span className="td">
+                      {product[0].block_compare.bodyTD3_2}
+                    </span>
                   </div>
                   <hr className="divide" />
                   <div className="tr">
@@ -193,7 +203,9 @@ export default function Page({ params }) {
                       )}
                     </span>
                     <div className="th">肉質風味</div>
-                    <span className="td">{product[0].block_compare.bodyTD4_2}</span>
+                    <span className="td">
+                      {product[0].block_compare.bodyTD4_2}
+                    </span>
                   </div>
                 </div>
               </div>
@@ -274,32 +286,54 @@ export default function Page({ params }) {
               </div>
             </div>
           )}
-          {product[0].block4 && (
+          {product[0].block_banner && (
             <div className="banner-block section">
-              <Sub sub={product[0].block4.subtitle} />
-              <div className="main-title">{product[0].block4.title}</div>
-              <div className="banner-block__banner">
-                <div className="banner-block__banner__mask">
+              <Sub sub={product[0].block_banner.subtitle} />
+              <div className="main-title">{product[0].block_banner.title}</div>
+              {product[0].block_banner.tags && (
+                <div className="banner-block__banner">
+                  <div className="banner-block__banner__mask">
+                    <Image
+                      src={product[0].block_banner.img}
+                      width={1130}
+                      height={622}
+                      alt=""
+                      className="banner-block__banner__img"
+                      unoptimized
+                    />
+                  </div>
+                  <div className="tag-group">
+                    {product[0].block_banner.tags?.map((item) => (
+                      <div className="tag" key={item}>
+                        #{item}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {product[0].block_banner.list && (
+                <div className="banner-block__listPic">
                   <Image
-                    src={product[0].block4.img}
+                    src={product[0].block_banner.img}
                     width={1130}
                     height={622}
                     alt=""
-                    className="banner-block__banner__img"
+                    className="banner-block__listPic__img"
                     unoptimized
                   />
+                  <ul className="banner_list">
+                    {product[0].block_banner.list?.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
                 </div>
-                <div className="tag-group">
-                  {product[0].block4.tags?.map((item) => (
-                    <div className="tag" key={item}>
-                      #{item}
-                    </div>
-                  ))}
-                </div>
+              )}
+              <div className="note">
+                * 食用小提醒：{product[0].block_banner.note}
               </div>
             </div>
           )}
-          {product[0].type === "dog" && (
+          {product[0].type && (
             <div className="card-block section">
               <DialogSub
                 sub={"酥脆骰子切塊"}
@@ -310,20 +344,36 @@ export default function Page({ params }) {
               <div className="card-block__content">
                 <div className="card-block__content__item s">
                   <div className="dog-block">
-                    <Image
-                      src={
-                        "https://img.shoplineapp.com/media/image_clips/6812eefd73fb33000c2beac6/original.png?1746071290"
-                      }
-                      alt=""
-                      width={290}
-                      height={290}
-                      className="dog"
-                      unoptimized
-                    />
+                    {product[0].type === "dog" && (
+                      <Image
+                        src={
+                          "https://img.shoplineapp.com/media/image_clips/6812eefd73fb33000c2beac6/original.png?1746071290"
+                        }
+                        alt=""
+                        width={290}
+                        height={290}
+                        className="dog"
+                        unoptimized
+                      />
+                    )}
+                    {product[0].type === "cat" && (
+                      <Image
+                        src={
+                          "https://img.shoplineapp.com/media/image_clips/6812eefdd3bb21000cb37396/original.png?1746071290"
+                        }
+                        alt=""
+                        width={290}
+                        height={290}
+                        className="dog"
+                        unoptimized
+                      />
+                    )}
                   </div>
                   <div className="card-block__content__text">
                     <div className="title">
-                      小型犬
+                      小型
+                      {product[0].type === "dog" && <>犬</>}
+                      {product[0].type === "cat" && <>貓</>}
                       {"(<5kg)"}
                     </div>
                     1~2 顆
@@ -331,38 +381,72 @@ export default function Page({ params }) {
                 </div>
                 <div className="card-block__content__item m">
                   <div className="dog-block">
-                    <Image
-                      src={
-                        "https://img.shoplineapp.com/media/image_clips/6812eefe0eadc4000b9c20ee/original.png?1746071291"
-                      }
-                      alt=""
-                      width={290}
-                      height={290}
-                      className="dog"
-                      unoptimized
-                    />
+                    {product[0].type === "dog" && (
+                      <Image
+                        src={
+                          "https://img.shoplineapp.com/media/image_clips/6812eefe0eadc4000b9c20ee/original.png?1746071291"
+                        }
+                        alt=""
+                        width={290}
+                        height={290}
+                        className="dog"
+                        unoptimized
+                      />
+                    )}
+                    {product[0].type === "cat" && (
+                      <Image
+                        src={
+                          "https://img.shoplineapp.com/media/image_clips/6812eefddc120a000ed97f60/original.png?1746071290"
+                        }
+                        alt=""
+                        width={290}
+                        height={290}
+                        className="dog"
+                        unoptimized
+                      />
+                    )}
                   </div>
                   <div className="card-block__content__text">
-                    <div className="title">中型犬 (5–10kg)</div>
+                    <div className="title">
+                      中型{product[0].type === "dog" && <>犬</>}
+                      {product[0].type === "cat" && <>貓</>} (5–10kg)
+                    </div>
                     2~4 顆
                   </div>
                 </div>
                 <div className="card-block__content__item l">
                   <div className="dog-block">
-                    <Image
-                      src={
-                        "https://img.shoplineapp.com/media/image_clips/6812eefd26a778000cd5ad6a/original.png?1746071290"
-                      }
-                      alt=""
-                      width={290}
-                      height={290}
-                      className="dog"
-                      unoptimized
-                    />
+                    {product[0].type === "dog" && (
+                      <Image
+                        src={
+                          "https://img.shoplineapp.com/media/image_clips/6812eefd26a778000cd5ad6a/original.png?1746071290"
+                        }
+                        alt=""
+                        width={290}
+                        height={290}
+                        className="dog"
+                        unoptimized
+                      />
+                    )}
+                    {product[0].type === "cat" && (
+                      <Image
+                        src={
+                          "https://img.shoplineapp.com/media/image_clips/6812eefd87e06f0011bc7757/original.png?1746071290"
+                        }
+                        alt=""
+                        width={290}
+                        height={290}
+                        className="dog"
+                        unoptimized
+                      />
+                    )}
                   </div>
                   <div className="card-block__content__text">
-                    <div className="title">大型犬 (10kg 以上)</div>4
-                    顆以上，依情況調整
+                    <div className="title">
+                      大型{product[0].type === "dog" && <>犬</>}
+                      {product[0].type === "cat" && <>貓</>} (10kg 以上)
+                    </div>
+                    4 顆以上，依情況調整
                   </div>
                 </div>
                 <div className="note">
@@ -379,7 +463,9 @@ export default function Page({ params }) {
           {product[0].block_recommend && (
             <div className="dialog-block section">
               <Sub sub={product[0].block_recommend.subtitle} />
-              <div className="main-title">{product[0].block_recommend.title}</div>
+              <div className="main-title">
+                {product[0].block_recommend.title}
+              </div>
               <div className="dialog-block__content">
                 <div className="dialog-block__content__group">
                   <div className="img-block">

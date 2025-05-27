@@ -32,6 +32,11 @@ export default function Home() {
       setLogin(true);
     }
   }
+  useEffect(() => {
+    if (sessionStorage.getItem("id") === "petcook") {
+      setLogin(true);
+    }
+  }, []);
   return (
     <>
       {login === false && (
@@ -62,12 +67,12 @@ export default function Home() {
           <li>
             <a href="./product/急凍骰子牛凍乾">急凍骰子牛凍乾</a>
           </li>
-          {/* <li>
-        <a href="./product/五告順優格雞肉凍乾">五告順優格雞肉凍乾</a>
-      </li>
-      <li>
-        <a href="./product/北歐交響鮭凍乾">北歐交響鮭凍乾</a>
-      </li> */}
+          <li>
+            <a href="./product/五告順優格雞肉凍乾">五告順優格雞肉凍乾</a>
+          </li>
+          <li>
+            <a href="./product/南方澳白帶魚捲凍乾">南方澳白帶魚捲凍乾</a>
+          </li>
         </ul>
       )}
     </>
