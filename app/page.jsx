@@ -69,10 +69,11 @@ export default function Home() {
           </li>
           <li>
             <a href="./product/五告順優格雞肉凍乾">五告順優格雞肉凍乾</a>
+            <span style={{ color: "red" }}> (缺產品圖＆banner圖)</span>
           </li>
-          <li>
+          {/* <li>
             <a href="./product/南方澳白帶魚捲凍乾">南方澳白帶魚捲凍乾</a>
-          </li>
+          </li> */}
         </ul>
       )}
     </>
