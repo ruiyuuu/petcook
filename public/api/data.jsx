@@ -2,7 +2,7 @@ export const data = [
   {
     product_name: "所有版型",
     type: "dog",
-    block1: {
+    block_intro: {
       title: "急凍骰子牛凍乾",
       subtitle: ["巴拉圭草飼牛肉", "純肉", "切塊"],
       slogan: (
@@ -14,7 +14,9 @@ export const data = [
           <span className="mb-none">」</span>
         </>
       ),
-      img: "/急凍骰子牛-1.png",
+      img: "https://img.shoplineapp.com/media/image_clips/6831e4aaf8e0140011dec81b/original.png?1748100265",
+      img_M:
+        "https://img.shoplineapp.com/media/image_clips/6831e4a6246fd2000c27d34f/original.png?1748100262",
       description: (
         <>
           派庫急凍骰子牛凍乾，選用來自南美洲巴拉圭的草飼牛肉，以自然放牧為主食、不施打賀爾蒙與抗生素。
@@ -25,7 +27,7 @@ export const data = [
         </>
       ),
     },
-    block2: {
+    block_compare: {
       subtitle: "營養成分比較",
       title: (
         <>
@@ -91,7 +93,7 @@ export const data = [
       bodyTD4_2: <>油花分佈較多</>,
       bodyTD4: "1",
     },
-    block3: {
+    block_content_img: {
       subtitle: "為什麼選用草飼牛？",
       title: "草飼牛凍乾的益處",
       description: (
@@ -106,15 +108,15 @@ export const data = [
           ，牛隻是以天然牧草為主食飼養，不施打抗生素、賀爾蒙，相對穀飼牛，脂肪含量較低、營養密度更高的選擇。
         </>
       ),
-      img: "/急凍骰子牛-2.png",
+      img: "https://img.shoplineapp.com/media/image_clips/6831e4a69c5a63000da2ff33/original.png?1748100262",
     },
-    block4: {
+    block_banner: {
       subtitle: "營養風味 Max",
       title: "100% 單一草飼牛肉凍乾",
-      img: "/急凍骰子牛-3.jpg",
+      img: "https://img.shoplineapp.com/media/image_clips/6831e4a88cf534000a45af0e/original.jpg?1748100263",
       tags: ["低脂肪", "高蛋白", "低膽固醇", "低敏肉源"],
     },
-    block5: {
+    block_recommend: {
       subtitle: "一口一個剛剛好",
       title: "推薦跟著這樣吃  最對味",
     },
@@ -130,15 +132,15 @@ export const data = [
         </>
       ),
       img: [
-        "/急凍骰子牛-report-1.png",
-        "/急凍骰子牛-report-2.png",
-        "/急凍骰子牛-report-3.png",
-        "/急凍骰子牛-report-4.png",
+        "https://img.shoplineapp.com/media/image_clips/6831e4a52e54e10011c4f677/original.png?1748100261",
+        "https://img.shoplineapp.com/media/image_clips/6831e4a63b3f25000beef21a/original.png?1748100262",
+        "https://img.shoplineapp.com/media/image_clips/6831e4a621e5b8000a5f5116/original.png?1748100262",
+        "https://img.shoplineapp.com/media/image_clips/6831e4a6357727000c5b0c01/original.png?1748100262",
       ],
     },
     block_info: {
       subtitle: "100% 純天然凍乾 成分看得到",
-      img: "/急凍骰子牛-4.png",
+      img: "https://img.shoplineapp.com/media/image_clips/6831e4a8d3e43d0010a402d5/original.png?1748100263",
       element: "牛肉",
       weight: "50±2g / 包",
       produce: "巴拉圭",
@@ -163,11 +165,12 @@ export const data = [
         },
       ],
     },
+    href: "https://www.petcookco.com/products/beef-freeze-dried",
   },
   {
     product_name: "急凍骰子牛凍乾",
     type: "dog",
-    block1: {
+    block_intro: {
       title: "急凍骰子牛凍乾",
       subtitle: ["巴拉圭草飼牛肉", "純肉", "切塊"],
       slogan: (
@@ -179,7 +182,9 @@ export const data = [
           <span className="mb-none">」</span>
         </>
       ),
-      img: "/急凍骰子牛-1.png",
+      img: "https://img.shoplineapp.com/media/image_clips/6831e4aaf8e0140011dec81b/original.png?1748100265",
+      img_M:
+        "https://img.shoplineapp.com/media/image_clips/6831e4a6246fd2000c27d34f/original.png?1748100262",
       description: (
         <>
           派庫急凍骰子牛凍乾，選用來自南美洲巴拉圭的草飼牛肉，以自然放牧為主食、不施打賀爾蒙與抗生素。
@@ -190,7 +195,7 @@ export const data = [
         </>
       ),
     },
-    block2: {
+    block_compare: {
       subtitle: "營養成分比較",
       title: (
         <>
@@ -256,7 +261,7 @@ export const data = [
       bodyTD4_2: <>油花分佈較多</>,
       bodyTD4: "1",
     },
-    block3: {
+    block_content_img: {
       subtitle: "為什麼選用草飼牛？",
       title: "草飼牛凍乾的益處",
       description: (
@@ -271,15 +276,15 @@ export const data = [
           ，牛隻是以天然牧草為主食飼養，不施打抗生素、賀爾蒙，相對穀飼牛，脂肪含量較低、營養密度更高的選擇。
         </>
       ),
-      img: "/急凍骰子牛-2.png",
+      img: "https://img.shoplineapp.com/media/image_clips/6831e4a69c5a63000da2ff33/original.png?1748100262",
     },
-    block4: {
+    block_banner: {
       subtitle: "營養風味 Max",
       title: "100% 單一草飼牛肉凍乾",
-      img: "/急凍骰子牛-3.jpg",
+      img: "https://img.shoplineapp.com/media/image_clips/6831e4a88cf534000a45af0e/original.jpg?1748100263",
       tags: ["低脂肪", "高蛋白", "低膽固醇", "低敏肉源"],
     },
-    block5: {
+    block_recommend: {
       subtitle: "一口一個剛剛好",
       title: "推薦跟著這樣吃  最對味",
     },
@@ -295,15 +300,15 @@ export const data = [
         </>
       ),
       img: [
-        "/急凍骰子牛-report-1.png",
-        "/急凍骰子牛-report-2.png",
-        "/急凍骰子牛-report-3.png",
-        "/急凍骰子牛-report-4.png",
+        "https://img.shoplineapp.com/media/image_clips/6831e4a52e54e10011c4f677/original.png?1748100261",
+        "https://img.shoplineapp.com/media/image_clips/6831e4a63b3f25000beef21a/original.png?1748100262",
+        "https://img.shoplineapp.com/media/image_clips/6831e4a621e5b8000a5f5116/original.png?1748100262",
+        "https://img.shoplineapp.com/media/image_clips/6831e4a6357727000c5b0c01/original.png?1748100262",
       ],
     },
     block_info: {
       subtitle: "100% 純天然凍乾 成分看得到",
-      img: "/急凍骰子牛-4.png",
+      img: "https://img.shoplineapp.com/media/image_clips/6831e4a8d3e43d0010a402d5/original.png?1748100263",
       element: "牛肉",
       weight: "50±2g / 包",
       produce: "巴拉圭",
@@ -328,6 +333,7 @@ export const data = [
         },
       ],
     },
+    href: "https://www.petcookco.com/products/beef-freeze-dried",
   },
   {
     block1: {

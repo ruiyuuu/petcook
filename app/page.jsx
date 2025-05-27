@@ -27,7 +27,6 @@ export default function Home() {
     },
   });
   function onSubmit(values) {
-    console.log(values);
     if (values.userId === "petcook") {
       sessionStorage.setItem("id", values.userId);
       setLogin(true);
