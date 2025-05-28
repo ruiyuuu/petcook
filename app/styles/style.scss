@@ -302,6 +302,7 @@ body {
       flex-direction: column;
       position: relative;
       overflow: hidden;
+      width: -webkit-fill-available;
       @media (max-width: 992px) {
         padding: 24px 16px 165px;
       }
@@ -758,7 +759,8 @@ body {
           padding: 0 10px;
           white-space: nowrap;
           @media (max-width: 992px) {
-            &:nth-child(1) {
+            &:nth-child(1),
+            &:nth-child(3) {
               margin-left: auto;
             }
           }
@@ -795,6 +797,7 @@ body {
         height: auto;
         border-radius: 40px;
         @media (max-width: 768px) {
+          width: 100%;
           border-radius: 24px;
         }
       }
@@ -848,6 +851,7 @@ body {
         padding: 20px;
         width: 80%;
         margin: auto;
+        background-position: center;
         @media (max-width: 576px) {
           padding: 0;
           margin: auto;
@@ -1288,6 +1292,9 @@ body {
         font-size: 16px;
         font-weight: 400;
       }
+    }
+    &__group{
+      width: 100%;
     }
     &__group,
     .primary-button {

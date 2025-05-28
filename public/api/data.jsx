@@ -115,6 +115,11 @@ export const data = [
       img: "https://img.shoplineapp.com/media/image_clips/6831e4a88cf534000a45af0e/original.jpg?1748100263",
       tags: ["低脂肪", "高蛋白", "低膽固醇", "低敏肉源"],
     },
+    block_suggest: {
+      s: "1~2 顆",
+      m: " 2~4 顆",
+      l: "4 顆以上，依情況調整",
+    },
     block_recommend: {
       subtitle: "一口一個剛剛好",
       title: "推薦跟著這樣吃  最對味",
@@ -282,6 +287,11 @@ export const data = [
       img: "https://img.shoplineapp.com/media/image_clips/6831e4a88cf534000a45af0e/original.jpg?1748100263",
       tags: ["低脂肪", "高蛋白", "低膽固醇", "低敏肉源"],
     },
+    block_suggest: {
+      s: "1~2 顆",
+      m: " 2~4 顆",
+      l: "4 顆以上，依情況調整",
+    },
     block_recommend: {
       subtitle: "一口一個剛剛好",
       title: "推薦跟著這樣吃  最對味",
@@ -347,9 +357,9 @@ export const data = [
           <span className="mb-none">」</span>
         </>
       ),
-      img: "https://img.shoplineapp.com/media/image_clips/6831e4aaf8e0140011dec81b/original.png?1748100265",
+      img: "https://img.shoplineapp.com/media/image_clips/683709a6b1fb30000dbbb4f6/original.png?1748437414",
       img_M:
-        "https://img.shoplineapp.com/media/image_clips/6831e4a6246fd2000c27d34f/original.png?1748100262",
+        "https://img.shoplineapp.com/media/image_clips/683709a6b1fb30000dbbb4f6/original.png?1748437414",
       description: (
         <>
           五告順優格雞肉凍乾是一款為貓咪設計的機能凍乾，選自苗栗純淨農場 100%
@@ -366,13 +376,18 @@ export const data = [
           排除體內毛球的機能凍乾
         </>
       ),
-      img: "https://img.shoplineapp.com/media/image_clips/6831e4a88cf534000a45af0e/original.jpg?1748100263",
+      img: "https://img.shoplineapp.com/media/image_clips/683706df3d7195b3cd5a500f/original.jpg?1748436703",
       list: [
         "👑 100%生乳優格：含活性乳酸菌，促進腸道健康",
         "👑 洋車前子：天然膳食纖維，有助排便順暢、排除體內毛球",
         "👑 木瓜酵素：自木瓜果實提取的天然酵素，幫助蛋白質分解吸收，協助腸胃消化",
       ],
       note: "若毛孩患有消化系統疾病,如胰臟炎、胃潰炎等情況，請食用前詢問獸醫師，以避免過量。",
+    },
+    block_suggest: {
+      s: "1~2 顆",
+      m: " 2~4 顆",
+      l: "4 顆以上，依情況調整",
     },
     block_recommend: {
       subtitle: "一口一個剛剛好",
@@ -446,6 +461,113 @@ export const data = [
         },
       ],
     },
-    href: "https://www.petcookco.com/products/beef-freeze-dried",
+    href: "https://www.petcookco.com/products/cat-yogurt",
+  },
+  {
+    product_name: "南方澳白帶魚捲凍乾",
+    type: "cat",
+    block_intro: {
+      subtitle: ["台灣", "南澳港直送", "整尾切片"],
+      slogan: (
+        <>
+          <span className="mb-none">「</span>
+          真正的愛
+          <br className="pc-none" />
+          藏在原型食物中
+          <span className="mb-none">」</span>
+        </>
+      ),
+      img: "https://img.shoplineapp.com/media/image_clips/6837214e598785000e0c5e87/original.png?1748443469",
+      img_M:
+        "https://img.shoplineapp.com/media/image_clips/6837214e598785000e0c5e87/original.png?1748443469",
+      description: (
+        <>
+          派庫白帶魚捲凍乾選用來自台灣南方澳的新鮮白帶魚，
+          <br />
+          整尾捲製切片，經冷凍乾燥技術製成，
+          <br />
+          口感酥脆、魚香不腥，讓挑嘴毛孩進食量upup~
+        </>
+      ),
+    },
+    block_banner: {
+      subtitle: "給海味控毛孩的原型零食補給",
+      title: (
+        <>
+          富含優質蛋
+          <br />
+          補充毛孩活動能量
+        </>
+      ),
+      img: "https://img.shoplineapp.com/media/image_clips/683722c03bae25000f72a650/original.jpg?1748443839",
+      tags: ["維生素", "高蛋白", "低脂", "DHA"],
+    },
+    block_suggest: {
+      s: "1 顆",
+      m: "1~2 顆",
+      l: "2 顆以上視體型與活動量調整",
+    },
+    block_recommend: {
+      subtitle: "一口一個剛剛好",
+      title: "推薦跟著這樣吃  最對味",
+    },
+    block_report: {
+      subtitle: "通過SGS安心檢驗 有認證食用更安心",
+      title: (
+        <>
+          派庫廚房
+          <br />
+          不吝嗇給毛孩最安心的食品選擇
+        </>
+      ),
+      description: (
+        <>
+          我們知道，毛孩吃進肚子裡的每一口，你都會在意。
+          <br />
+          派庫每一款食品的原肉來源皆產地透明與衛生安全，通過 SGS
+          食品安全檢測，食用零負擔！
+        </>
+      ),
+      img: [
+        "https://img.shoplineapp.com/media/image_clips/683724c950bfe500104edb12/original.jpeg?1748444360",
+        "https://img.shoplineapp.com/media/image_clips/683724c92129d0000d3c6624/original.jpeg?1748444360",
+      ],
+    },
+    block_info: {
+      subtitle: "100% 純天然凍乾 成分看得到",
+      img: "https://img.shoplineapp.com/media/image_clips/683726d2c82f1e000abfaa57/original.png?1748444881",
+      element: "白帶魚",
+      weight: "30±2g / 包",
+      produce: "台灣",
+      made: "低溫冷凍乾燥",
+      limit: "12個月（未開封）",
+      protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
+    },
+    block_question: {
+      subtitle: "你的疑問  派庫幫你解答",
+      qa: [
+        {
+          q: "白帶魚捲凍乾有刺嗎？可以整片吃嗎？",
+          a: (
+            <>
+              白帶魚捲本身為整尾魚去骨去刺，再捲製而成。經冷凍乾燥處理後，為酥脆、易咬的零食口感，可安心食用。
+            </>
+          ),
+        },
+        {
+          q: "魚類凍乾會不會有腥味？毛孩會接受嗎？",
+          a: (
+            <>
+              白帶魚經冷凍乾燥處理，風味自然濃縮但無腥味，口感酥香，大多數犬貓接受度高。
+            </>
+          ),
+        },
+        {
+          q: "魚捲這種形狀怎麼餵？會不會太硬？",
+          a: "捲狀白帶魚凍乾質地乾脆可剝可剪，小型犬貓可以剝碎餵食、中大型毛孩可整顆餵食、增加咀嚼樂趣，也可泡軟還原鮮肉後食用。",
+        },
+      ],
+    },
+    href: "https://www.petcookco.com/products/beltfish",
   },
 ];

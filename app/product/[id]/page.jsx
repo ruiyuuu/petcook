@@ -63,10 +63,7 @@ export default function Page({ params }) {
                 <FootPrint className="foot-print top" />
                 <Image
                   alt=""
-                  src={
-                    "https://img.shoplineapp.com/media/image_clips/6831e4aaf8e0140011dec81b/original.png?1748100265"
-                  }
-                  // src={product[0].block_intro.img}
+                  src={product[0].block_intro.img}
                   width={660}
                   height={462}
                   className="img-content-block__content__img"
@@ -328,9 +325,11 @@ export default function Page({ params }) {
                   </ul>
                 </div>
               )}
-              <div className="note">
-                * 食用小提醒：{product[0].block_banner.note}
-              </div>
+              {product[0].block_banner.note && (
+                <div className="note">
+                  * 食用小提醒：{product[0].block_banner.note}
+                </div>
+              )}
             </div>
           )}
           {product[0].type && (
@@ -376,7 +375,7 @@ export default function Page({ params }) {
                       {product[0].type === "cat" && <>貓</>}
                       {"(<5kg)"}
                     </div>
-                    1~2 顆
+                    {product[0].block_suggest.s}
                   </div>
                 </div>
                 <div className="card-block__content__item m">
@@ -411,7 +410,7 @@ export default function Page({ params }) {
                       中型{product[0].type === "dog" && <>犬</>}
                       {product[0].type === "cat" && <>貓</>} (5–10kg)
                     </div>
-                    2~4 顆
+                    {product[0].block_suggest.m}
                   </div>
                 </div>
                 <div className="card-block__content__item l">
@@ -446,7 +445,7 @@ export default function Page({ params }) {
                       大型{product[0].type === "dog" && <>犬</>}
                       {product[0].type === "cat" && <>貓</>} (10kg 以上)
                     </div>
-                    4 顆以上，依情況調整
+                    {product[0].block_suggest.l}
                   </div>
                 </div>
                 <div className="note">
