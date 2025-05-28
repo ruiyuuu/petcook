@@ -570,4 +570,116 @@ export const data = [
     },
     href: "https://www.petcookco.com/products/beltfish",
   },
+  {
+    product_name: "五告ㄎㄧㄤ貓草雞肉凍乾",
+    type: "cat",
+    block_intro: {
+      subtitle: ["貓咪", "放鬆、排毛、舒壓", "小點心"],
+      slogan: (
+        <>
+          <span className="mb-none">「</span>
+          真正的愛
+          <br className="pc-none" />
+          藏在原型食物中
+          <span className="mb-none">」</span>
+        </>
+      ),
+      img: "https://img.shoplineapp.com/media/image_clips/683730281969e2000eca9993/original.png?1748447272",
+      img_M:
+        "https://img.shoplineapp.com/media/image_clips/683730281969e2000eca9993/original.png?1748447272",
+      description: (
+        <>
+          五告ㄎㄧㄤ貓草雞肉凍乾，嚴選台灣在地優質雞肉，搭配天然貓草、貓薄荷製成，凍乾後保留完整香氣與營養，是一款能讓貓咪放鬆情緒、幫助排除毛球的機能型凍乾點心。
+          <br />
+          <br />
+          1x1cm 的方塊狀設計，口感酥脆、適口性高，非常適合貓咪日常營養補給。
+        </>
+      ),
+    },
+    block_banner: {
+      subtitle: "天然貓草+貓薄荷配方",
+      title: (
+        <>
+          挑嘴貓也難抗拒
+          <br />
+          超級機能凍乾
+        </>
+      ),
+      img: "https://img.shoplineapp.com/media/image_clips/68372ccae82f15001173350d/original.jpg?1748446410",
+      list: [
+        "👑 天然貓草＋貓荷薄：舒壓情緒、幫助毛球自然排出",
+        "👑 優質雞肉主成分：優質蛋白補充，營養不流失",
+        "👑 犬貓皆可食用，但特別為貓咪排毛設計機能凍乾",
+      ],
+    },
+    block_suggest: {
+      s: "1~2 顆",
+      m: "2~4 顆",
+      l: "4 顆以上視體型與活動量調整",
+    },
+    block_recommend: {
+      subtitle: "一口一個剛剛好",
+      title: "推薦跟著這樣吃  最對味",
+    },
+    block_report: {
+      subtitle: "天然ｘ健康ｘ營養 SGS 認證更安心",
+      title: (
+        <>
+          派庫廚房
+          <br />
+          不吝嗇給毛孩最安心的食品選擇
+        </>
+      ),
+      description: (
+        <>
+          我們知道，毛孩吃進肚子裡的每一口，你都會在意。
+          <br />
+          派庫每一款食品的原肉來源皆產地透明與衛生安全，通過 SGS
+          食品安全檢測，食用零負擔！
+        </>
+      ),
+      img: [
+        "https://img.shoplineapp.com/media/image_clips/681764203520c3000e8e8f01/original.jpeg?1746363424",
+        "https://img.shoplineapp.com/media/image_clips/68176421c7d61c000d67f524/original.jpeg?1746363424",
+        "https://img.shoplineapp.com/media/image_clips/68176421941df7000cd64b19/original.jpeg?1746363424",
+        "https://img.shoplineapp.com/media/image_clips/68176421ddacd0000b920229/original.jpeg?1746363424",
+      ],
+    },
+    block_info: {
+      subtitle: "100% 純天然凍乾 成分看得到",
+      img: "https://img.shoplineapp.com/media/image_clips/68372ec0f2ab39000af97adf/original.png?1748446912",
+      element: "雞肉,小麥草,貓草",
+      weight: "30±2g / 包",
+      produce: "台灣",
+      made: "低溫冷凍乾燥",
+      limit: "12個月（未開封）",
+      protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
+    },
+    block_question: {
+      subtitle: "你的疑問  派庫幫你解答",
+      qa: [
+        {
+          q: "這款貓草雞肉凍乾是貓用還是狗用？",
+          a: (
+            <>
+              貓狗都能吃，但本款是以「貓咪排毛與舒壓需求」為主設計。成分天然無添加，犬貓皆可食用，特別推薦給需要排毛或情緒較敏感的貓咪族群。
+            </>
+          ),
+        },
+        {
+          q: "貓草真的會讓貓咪放鬆嗎？會不會上癮？",
+          a: (
+            <>
+              天然貓草對多數貓咪具有放鬆、紓壓作用，但並不會讓貓咪上癮或產生依賴。效果約持續5～15分鐘，結束後會自然恢復平靜狀態約2小時，屬於安全的舒壓小點心。
+            </>
+          ),
+        },
+        {
+          q: "可以天天餵嗎？會排太多毛嗎？",
+          a: "可以作為日常機能點心適量餵食。建議每次餵食 1～2 顆作為獎勵點心或拌飯使用即可，依貓咪體型與活動量彈性調整。不會過度刺激排毛，請安心使用。",
+        },
+      ],
+    },
+    href: "https://www.petcookco.com/products/catmint",
+  },
 ];

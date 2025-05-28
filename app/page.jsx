@@ -73,6 +73,11 @@ export default function Home() {
           <li>
             <a href="./product/南方澳白帶魚捲凍乾">南方澳白帶魚捲凍乾</a>
           </li>
+          <li>
+            <a href="./product/五告ㄎㄧㄤ貓草雞肉凍乾">
+              五告ㄎㄧㄤ貓草雞肉凍乾
+            </a>
+          </li>
         </ul>
       )}
     </>
