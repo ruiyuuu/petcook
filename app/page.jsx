@@ -78,6 +78,59 @@ export default function Home() {
               五告ㄎㄧㄤ貓草雞肉凍乾
             </a>
           </li>
+          <li>
+            <a href="./product/急凍骰子鹿凍乾">急凍骰子鹿凍乾</a>
+          </li>
+          <li>
+            <a href="./product/北歐交響鮭凍乾">北歐交響鮭凍乾</a>
+          </li>
+          <li>
+            <a href="./product/極鮮蝦大廚凍乾">極鮮蝦大廚凍乾</a>
+          </li>
+          <li>
+            <a href="./product/香檳鳥下水凍乾">香檳鳥下水凍乾</a>
+          </li>
+          <li>
+            <a href="./product/酥卵地瓜球凍乾">酥卵地瓜球凍乾</a>
+          </li>
+          <li>
+            <a href="./product/筋肉胸雞丁凍乾">筋肉胸雞丁凍乾</a>
+          </li>
+          <li>
+            <a href="./product/櫻桃鴨柳片凍乾">櫻桃鴨柳片凍乾</a>
+          </li>
+          <li>
+            <a href="./product/虎克鬼頭刀凍乾">虎克鬼頭刀凍乾</a>
+          </li>
+          <li>
+            <a href="./product/酥酥丁香魚凍乾">酥酥丁香魚凍乾</a>
+          </li>
+          <li>
+            <a href="./product/酥胡啦雞佛凍乾">酥胡啦雞佛凍乾</a>
+            <span style={{ color: "red" }}>
+              (酥胡啦雞佛凍乾 & 溫體大雞佛
+              是同樣產品嗎？他們的檢驗證明是同一份嗎？ )
+            </span>
+          </li>
+          <li>
+            <a href="./product/海灣鮮干貝凍乾">海灣鮮干貝凍乾</a>
+          </li>
+          {/* 
+          <li>
+            <a href="./product/五告勇羊奶雞肉凍乾">五告勇羊奶雞肉凍乾</a>
+          </li>
+          <li>
+            <a href="./product/溫體大雞佛">溫體大雞佛</a>
+          </li>
+          
+          <li>
+            <a href="./product/廣島牛奶牡蠣">廣島牛奶牡蠣</a>
+          </li>
+          <li>
+            <a href="./product/五告桑舒壓海味凍乾">五告桑舒壓海味凍乾</a>
+          </li>
+          
+          */}
         </ul>
       )}
     </>

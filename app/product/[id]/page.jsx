@@ -287,6 +287,11 @@ export default function Page({ params }) {
             <div className="banner-block section">
               <Sub sub={product[0].block_banner.subtitle} />
               <div className="main-title">{product[0].block_banner.title}</div>
+              {product[0].block_banner.description && (
+                <p className="banner-block__des">
+                  {product[0].block_banner.description}
+                </p>
+              )}
               {product[0].block_banner.tags && (
                 <div className="banner-block__banner">
                   <div className="banner-block__banner__mask">
@@ -309,7 +314,14 @@ export default function Page({ params }) {
                 </div>
               )}
               {product[0].block_banner.list && (
-                <div className="banner-block__listPic">
+                <div
+                  className="banner-block__listPic"
+                  style={
+                    product[0].block_banner.list.length === 0
+                      ? { justifyContent: "center" }
+                      : null
+                  }
+                >
                   <Image
                     src={product[0].block_banner.img}
                     width={1130}
@@ -318,11 +330,13 @@ export default function Page({ params }) {
                     className="banner-block__listPic__img"
                     unoptimized
                   />
-                  <ul className="banner_list">
-                    {product[0].block_banner.list?.map((item) => (
-                      <li key={item}>{item}</li>
-                    ))}
-                  </ul>
+                  {product[0].block_banner.list.length > 0 && (
+                    <ul className="banner_list">
+                      {product[0].block_banner.list?.map((item) => (
+                        <li key={item}>{item}</li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
               )}
               {product[0].block_banner.note && (

@@ -717,6 +717,13 @@ body {
   .banner-block {
     display: flex;
     flex-direction: column;
+    &__des {
+      color: $g-700;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 150%;
+      letter-spacing: 0.025rem;
+    }
     &__banner {
       position: relative;
       margin-top: 38px;
@@ -1293,7 +1300,7 @@ body {
         font-weight: 400;
       }
     }
-    &__group{
+    &__group {
       width: 100%;
     }
     &__group,
