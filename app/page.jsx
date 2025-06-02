@@ -115,22 +115,18 @@ export default function Home() {
           <li>
             <a href="./product/海灣鮮干貝凍乾">海灣鮮干貝凍乾</a>
           </li>
-          {/* 
           <li>
             <a href="./product/五告勇羊奶雞肉凍乾">五告勇羊奶雞肉凍乾</a>
           </li>
           <li>
             <a href="./product/溫體大雞佛">溫體大雞佛</a>
           </li>
-          
           <li>
             <a href="./product/廣島牛奶牡蠣">廣島牛奶牡蠣</a>
           </li>
           <li>
             <a href="./product/五告桑舒壓海味凍乾">五告桑舒壓海味凍乾</a>
           </li>
-          
-          */}
         </ul>
       )}
     </>

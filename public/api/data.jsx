@@ -1151,9 +1151,9 @@ export const data = [
           <span className="mb-none">」</span>
         </>
       ),
-      img: "https://img.shoplineapp.com/media/image_clips/68373669069e13000f75b1a2/original.png?1748448872",
+      img: "https://img.shoplineapp.com/media/image_clips/683dce67123df9000dfa6110/original.png?1748880999",
       img_M:
-        "https://img.shoplineapp.com/media/image_clips/68373669069e13000f75b1a2/original.png?1748448872",
+        "https://img.shoplineapp.com/media/image_clips/683dce67123df9000dfa6110/original.png?1748880999",
       description: (
         <>
           五告勇羊奶雞肉凍乾，嚴選來自法國直送山羊奶粉，搭配臺灣鮮羊乳、雞骨粉、初乳蛋白與溫體雞肉製成的超級機能凍乾！
@@ -1175,7 +1175,7 @@ export const data = [
           營養好吸收
         </>
       ),
-      img: "https://img.shoplineapp.com/media/image_clips/68373669f2ab39000ff97b73/original.jpg?1748448873",
+      img: "https://img.shoplineapp.com/media/image_clips/683dce670f615a000e7eee11/original.jpg?1748880999",
       list: [
         "👑 羊乳基底：分子小、好吸收、不易脹氣",
         "👑 雞骨粉：天然鈣質補充，強化骨骼與牙齒發育",
@@ -1209,15 +1209,15 @@ export const data = [
         </>
       ),
       img: [
-        "https://img.shoplineapp.com/media/image_clips/683736db5e1a58000ebde3e3/original.jpeg?1748448987",
-        "https://img.shoplineapp.com/media/image_clips/683736db960caa000a044872/original.jpeg?1748448987",
-        "https://img.shoplineapp.com/media/image_clips/683736db985b18000be5c166/original.jpeg?1748448987",
-        "https://img.shoplineapp.com/media/image_clips/683736db336b3b000b99a465/original.jpeg?1748448987",
+        "https://img.shoplineapp.com/media/image_clips/683dcf25aaa7f0000c775139/original.jpeg?1748881189",
+        "https://img.shoplineapp.com/media/image_clips/683dcf25eebda30010098ef2/original.jpeg?1748881189",
+        "https://img.shoplineapp.com/media/image_clips/683dcf25e70282000cf5d99a/original.jpeg?1748881189",
+        "https://img.shoplineapp.com/media/image_clips/683dcf256d46414b56d02efd/original.jpeg?1748881189",
       ],
     },
     block_info: {
       subtitle: "100% 純天然凍乾 成分看得到",
-      img: "https://img.shoplineapp.com/media/image_clips/6837366912b64d000f7eb8b8/original.png?1748448872",
+      img: "https://img.shoplineapp.com/media/image_clips/683dce676f7dd2000a3f5471/original.png?1748880999",
       element: "羊奶,雞肉,雞骨粉,初乳蛋白",
       weight: "22±2g / 包",
       produce: "臺灣",
@@ -1275,9 +1275,9 @@ export const data = [
           <span className="mb-none">」</span>
         </>
       ),
-      img: "https://img.shoplineapp.com/media/image_clips/68373669069e13000f75b1a2/original.png?1748448872",
+      img: "https://img.shoplineapp.com/media/image_clips/683dd15db1b5c2000a0ec542/original.png?1748881757",
       img_M:
-        "https://img.shoplineapp.com/media/image_clips/68373669069e13000f75b1a2/original.png?1748448872",
+        "https://img.shoplineapp.com/media/image_clips/683dd15db1b5c2000a0ec542/original.png?1748881757",
       description: (
         <>
           派庫溫體大雞佛凍乾來自臺灣在地溫體雞，採用整顆原型製作，經冷凍乾燥技術處理，不經切割，完整保留形狀與營養。
@@ -1294,7 +1294,7 @@ export const data = [
     block_banner: {
       subtitle: "外酥內軟",
       title: <>適口性滿分的凍乾零食</>,
-      img: "https://img.shoplineapp.com/media/image_clips/68373669f2ab39000ff97b73/original.jpg?1748448873",
+      img: "https://img.shoplineapp.com/media/image_clips/683dd15dfce504000fd5c22e/original.jpg?1748881757",
       list: [
         "✅高蛋白：幫助活動力高的毛孩補充體力與維持肌肉量",
         "✅卵磷脂：毛孩掉毛困擾，日常營養補充get！",
@@ -1328,15 +1328,13 @@ export const data = [
         </>
       ),
       img: [
-        "https://img.shoplineapp.com/media/image_clips/683736db5e1a58000ebde3e3/original.jpeg?1748448987",
-        "https://img.shoplineapp.com/media/image_clips/683736db960caa000a044872/original.jpeg?1748448987",
-        "https://img.shoplineapp.com/media/image_clips/683736db985b18000be5c166/original.jpeg?1748448987",
-        "https://img.shoplineapp.com/media/image_clips/683736db336b3b000b99a465/original.jpeg?1748448987",
+        "https://img.shoplineapp.com/media/image_clips/683dcdb8f4e594000eb35bad/original.jpeg?1748880824",
+        "https://img.shoplineapp.com/media/image_clips/683dcdb9dd20510011a737c4/original.jpeg?1748880824",
       ],
     },
     block_info: {
       subtitle: "100% 純天然凍乾 成分看得到",
-      img: "https://img.shoplineapp.com/media/image_clips/6837366912b64d000f7eb8b8/original.png?1748448872",
+      img: "https://img.shoplineapp.com/media/image_clips/683dd15d7801b2000c648aac/original.png?1748881757",
       element: "雞佛",
       weight: "30±2g / 包",
       produce: "臺灣",
@@ -1609,9 +1607,9 @@ export const data = [
           <span className="mb-none">」</span>
         </>
       ),
-      img: "https://img.shoplineapp.com/media/image_clips/68373669069e13000f75b1a2/original.png?1748448872",
+      img: "https://img.shoplineapp.com/media/image_clips/683dd3076750dd000cb67544/original.png?1748882183",
       img_M:
-        "https://img.shoplineapp.com/media/image_clips/68373669069e13000f75b1a2/original.png?1748448872",
+        "https://img.shoplineapp.com/media/image_clips/683dd3076750dd000cb67544/original.png?1748882183",
       description: (
         <>
           派庫牡蠣凍乾選用日本廣島產牛奶牡蠣，以冷凍乾燥技術製成、無切割，完整保留牡蠣的鮮味與營養，富含鋅、Omega-3
@@ -1623,7 +1621,7 @@ export const data = [
     block_banner: {
       subtitle: "天然鋅補充",
       title: <>牡蠣凍乾一次補足微量營養</>,
-      img: "https://img.shoplineapp.com/media/image_clips/68373669f2ab39000ff97b73/original.jpg?1748448873",
+      img: "https://img.shoplineapp.com/media/image_clips/683dd307f4e594000eb35e55/original.jpg?1748882183",
       description:
         "牡蠣的營養密度非常高，對於平常比較少吃內臟或毛髮狀況需要加強的毛孩來說，是非常適合的補充來源。派庫選用廣島牛奶牡蠣，肉質更鮮甜、更大顆，同時富含對毛孩重要的天然營養素：",
       list: [
@@ -1659,15 +1657,13 @@ export const data = [
         </>
       ),
       img: [
-        "https://img.shoplineapp.com/media/image_clips/683736db5e1a58000ebde3e3/original.jpeg?1748448987",
-        "https://img.shoplineapp.com/media/image_clips/683736db960caa000a044872/original.jpeg?1748448987",
-        "https://img.shoplineapp.com/media/image_clips/683736db985b18000be5c166/original.jpeg?1748448987",
-        "https://img.shoplineapp.com/media/image_clips/683736db336b3b000b99a465/original.jpeg?1748448987",
+        "https://img.shoplineapp.com/media/image_clips/683dd39373008b00109e11fd/original.jpeg?1748882323",
+        "https://img.shoplineapp.com/media/image_clips/683dd393b6b4a7000eccbc39/original.jpeg?1748882323",
       ],
     },
     block_info: {
       subtitle: "100% 純天然凍乾 成分看得到",
-      img: "https://img.shoplineapp.com/media/image_clips/6837366912b64d000f7eb8b8/original.png?1748448872",
+      img: "https://img.shoplineapp.com/media/image_clips/683dd307b40db30010f14001/original.png?1748882183",
       element: "牡蠣",
       weight: "50±2g / 包",
       produce: "日本廣島",
@@ -1977,9 +1973,9 @@ export const data = [
           <span className="mb-none">」</span>
         </>
       ),
-      img: "https://img.shoplineapp.com/media/image_clips/68373669069e13000f75b1a2/original.png?1748448872",
+      img: "https://img.shoplineapp.com/media/image_clips/683dd627c2d772000da55333/original.png?1748882983",
       img_M:
-        "https://img.shoplineapp.com/media/image_clips/68373669069e13000f75b1a2/original.png?1748448872",
+        "https://img.shoplineapp.com/media/image_clips/683dd627c2d772000da55333/original.png?1748882983",
       description: (
         <>
           五告桑舒壓海味凍乾，來自嘉義布袋的新鮮虱目魚與紐西蘭空運綠貽貝，結合對貓咪有效紓緩情緒的酪蛋白和
@@ -1993,7 +1989,7 @@ export const data = [
     block_banner: {
       subtitle: "酪蛋白 & GABA 營養配方",
       title: <>天然、紓壓、適口性佳</>,
-      img: "https://img.shoplineapp.com/media/image_clips/68373669f2ab39000ff97b73/original.jpg?1748448873",
+      img: "https://img.shoplineapp.com/media/image_clips/683dd628dd8f36000e98c142/original.jpg?1748882983",
       list: [
         "👑 100% 天然成分：嘉義布袋虱目魚與紐西蘭綠貽貝，雙重海味營養。",
         "👑 酪蛋白舒壓： 幫助穩定血糖、維持情緒穩定。",
@@ -2030,15 +2026,15 @@ export const data = [
         </>
       ),
       img: [
-        "https://img.shoplineapp.com/media/image_clips/683736db5e1a58000ebde3e3/original.jpeg?1748448987",
-        "https://img.shoplineapp.com/media/image_clips/683736db960caa000a044872/original.jpeg?1748448987",
-        "https://img.shoplineapp.com/media/image_clips/683736db985b18000be5c166/original.jpeg?1748448987",
-        "https://img.shoplineapp.com/media/image_clips/683736db336b3b000b99a465/original.jpeg?1748448987",
+        "https://img.shoplineapp.com/media/image_clips/683dd685b8ea6d001026d4cc/original.jpeg?1748883077",
+        "https://img.shoplineapp.com/media/image_clips/683dd6861cd3ab000b0ddde2/original.jpeg?1748883077",
+        "https://img.shoplineapp.com/media/image_clips/683dd685b6b4a7000accbe4b/original.jpeg?1748883077",
+        "https://img.shoplineapp.com/media/image_clips/683dd685758d9f00114b398e/original.jpeg?1748883077",
       ],
     },
     block_info: {
       subtitle: "100% 純天然凍乾 成分看得到",
-      img: "https://img.shoplineapp.com/media/image_clips/6837366912b64d000f7eb8b8/original.png?1748448872",
+      img: "https://img.shoplineapp.com/media/image_clips/683dd627eaf76e0010f58bb5/original.png?1748882983",
       element: "虱目魚、酪蛋白、綠貽貝、GABA",
       weight: "22±2g / 包",
       produce: "臺灣",
@@ -2151,10 +2147,8 @@ export const data = [
         </>
       ),
       img: [
-        "https://img.shoplineapp.com/media/image_clips/683736db5e1a58000ebde3e3/original.jpeg?1748448987",
-        "https://img.shoplineapp.com/media/image_clips/683736db960caa000a044872/original.jpeg?1748448987",
-        "https://img.shoplineapp.com/media/image_clips/683736db985b18000be5c166/original.jpeg?1748448987",
-        "https://img.shoplineapp.com/media/image_clips/683736db336b3b000b99a465/original.jpeg?1748448987",
+        "https://img.shoplineapp.com/media/image_clips/683dcdb8f4e594000eb35bad/original.jpeg?1748880824",
+        "https://img.shoplineapp.com/media/image_clips/683dcdb9dd20510011a737c4/original.jpeg?1748880824",
       ],
     },
     block_info: {
