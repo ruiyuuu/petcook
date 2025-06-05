@@ -2417,4 +2417,106 @@ export const data = [
     },
     href: "https://www.petcookco.com/products/ghost-fish-freeze-dried",
   },
+  {
+    product_name: "南海極鮮貝柱",
+    type: "cat",
+    block_intro: {
+      subtitle: ["天然鮮味", "低脂低熱量", ""],
+      slogan: (
+        <>
+          <span className="mb-none">「</span>
+          新鮮干貝
+          <span className="mb-none">」</span>
+        </>
+      ),
+      img: "https://img.shoplineapp.com/media/image_clips/6841b3f56dfb5a000ebf4a32/original.png?1749136373",
+      img_M:
+        "https://img.shoplineapp.com/media/image_clips/6841b3f56dfb5a000ebf4a32/original.png?1749136373",
+      description: (
+        <>
+          南海極鮮貝柱選用南方海域的新鮮干貝，保留原始鮮味與營養、無添加，富含優質蛋白、低熱量、低膽固醇，作為毛孩日常零食無負擔，是控制體重的毛孩推薦小點心喔！
+        </>
+      ),
+    },
+    block_banner: {
+      subtitle: "保留食材營養．零食也能吃得健康",
+      title: (
+        <>
+          口感鮮甜酥脆
+          <br />
+          控制體重的毛孩低卡零食推薦
+        </>
+      ),
+      img: "https://img.shoplineapp.com/media/image_clips/6841b3f6269338000e9ae325/original.jpg?1749136374",
+      list: [
+        "☆ 100% 新鮮小干貝",
+        "☆ 優質蛋白質、胺基酸與礦物質，維持毛孩免疫力",
+        "☆ 低熱量、低膽固醇，適合控管體重的毛孩",
+        "☆ SGS 認證食品，產地可溯源",
+      ],
+    },
+    block_suggest: {
+      s: "4~6 顆／週",
+      m: "6~10 顆／週",
+      l: "10 顆以上視體型與活動量調整",
+    },
+    block_recommend: {
+      subtitle: "一口一個剛剛好",
+      title: "推薦跟著這樣吃  最對味",
+    },
+    block_report: {
+      subtitle: "南方澳產地直送 × SGS檢驗認證",
+      title: <>產地透明 x 食材新鮮 x 安全認證</>,
+      description: (
+        <>
+          好食材，好安心。 <br />
+          我們相信，對毛孩的照顧從一開始就不能馬虎。
+          <br />
+          從透明產地到新鮮製程，每一道關卡都層層把關，只為給毛孩最安心的選擇。
+        </>
+      ),
+      img: [
+        "https://img.shoplineapp.com/media/image_clips/683c7db1f151fd000d00e00c/original.jpeg?1748794800",
+        "https://img.shoplineapp.com/media/image_clips/683c7db131950c000d71e437/original.jpeg?1748794800",
+        "https://img.shoplineapp.com/media/image_clips/683c7db131950c001171e3cf/original.jpeg?1748794800",
+        "https://img.shoplineapp.com/media/image_clips/683c7db15c3ba2000b828b3f/original.jpeg?1748794800",
+      ],
+    },
+    block_info: {
+      subtitle: "100% 純天然凍乾 成分看得到",
+      img: "https://img.shoplineapp.com/media/image_clips/6841b3f6f6b4220010b8cf04/original.png?1749136374",
+      element: "干貝",
+      weight: "6±2g / 包",
+      produce: "日本廣島",
+      made: "低溫冷凍乾燥",
+      limit: "12 個月（未開封）",
+      protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
+    },
+    block_question: {
+      subtitle: "你的疑問  派庫幫你解答",
+      qa: [
+        {
+          q: "貓狗可以吃干貝嗎？",
+          a: (
+            <>
+              可以，干貝富含高品質蛋白質、胺基酸及多種礦物質，對毛孩是健康的食材喔！
+            </>
+          ),
+        },
+        {
+          q: "牙口不好的毛孩干貝凍乾會不會太硬？",
+          a: <>干貝經冷凍乾燥後，口感較為酥脆，牙口不佳的毛孩也能安心享用。</>,
+        },
+        {
+          q: "干貝凍乾適合什麼樣的毛孩？",
+          a: (
+            <>
+              一般來說，三個月以上、開始進食副食品的犬貓皆可食用。如毛孩有特殊疾病、過敏或飲食控制需求，建議先諮詢獸醫。
+            </>
+          ),
+        },
+      ],
+    },
+    href: "https://www.petcookco.com/products/ghost-fish-freeze-dried",
+  },
 ];

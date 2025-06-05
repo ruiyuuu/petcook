@@ -107,10 +107,6 @@ export default function Home() {
           </li>
           <li>
             <a href="./product/酥胡啦雞佛凍乾">酥胡啦雞佛凍乾</a>
-            <span style={{ color: "red" }}>
-              (酥胡啦雞佛凍乾 & 溫體大雞佛
-              是同樣產品嗎？他們的檢驗證明是同一份嗎？ )
-            </span>
           </li>
           <li>
             <a href="./product/海灣鮮干貝凍乾">海灣鮮干貝凍乾</a>
@@ -126,6 +122,9 @@ export default function Home() {
           </li>
           <li>
             <a href="./product/五告桑舒壓海味凍乾">五告桑舒壓海味凍乾</a>
+          </li>
+          <li>
+            <a href="./product/南海極鮮貝柱">南海極鮮貝柱</a>
           </li>
         </ul>
       )}

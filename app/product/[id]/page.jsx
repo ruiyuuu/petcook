@@ -286,7 +286,7 @@ export default function Page({ params }) {
           {product[0].block_banner && (
             <div className="banner-block section">
               <Sub sub={product[0].block_banner.subtitle} />
-              <div className="main-title">{product[0].block_banner.title}</div>
+              <h2 className="main-title">{product[0].block_banner.title}</h2>
               {product[0].block_banner.description && (
                 <p className="banner-block__des">
                   {product[0].block_banner.description}
@@ -476,9 +476,9 @@ export default function Page({ params }) {
           {product[0].block_recommend && (
             <div className="dialog-block section">
               <Sub sub={product[0].block_recommend.subtitle} />
-              <div className="main-title">
+              <h2 className="main-title">
                 {product[0].block_recommend.title}
-              </div>
+              </h2>
               <div className="dialog-block__content">
                 <div className="dialog-block__content__group">
                   <div className="img-block">
@@ -547,9 +547,9 @@ export default function Page({ params }) {
             <>
               <div className="report-block section">
                 <Sub sub={product[0].block_report.subtitle} />
-                <div className="main-title">
+                <h2 className="main-title">
                   {product[0].block_report.title}
-                </div>
+                </h2>
                 <div className="report-block__content">
                   <div className="report-block__description">
                     {product[0].block_report.description}
@@ -581,9 +581,9 @@ export default function Page({ params }) {
             <div className="info-block section">
               <div className="info-block__left">
                 <Sub sub={product[0].block_info.subtitle} />
-                <div className="main-title">
+                <h2 className="main-title">
                   {product[0].product_name}產品資訊
-                </div>
+                </h2>
                 <ul className="info-block__content">
                   <li>
                     <span className="title">成分</span>
@@ -623,7 +623,7 @@ export default function Page({ params }) {
           {product[0].block_question && (
             <div className="qa-block section">
               <Sub sub={product[0].block_question.subtitle} />
-              <div className="main-title">{product[0].product_name} Q&A</div>
+              <h2 className="main-title">{product[0].product_name} Q&A</h2>
               <div className="qa-block__content">
                 {product[0].block_question.qa?.map((item, index) => (
                   <div key={item.q} className="qa-block__group">

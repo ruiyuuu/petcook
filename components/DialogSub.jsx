@@ -20,11 +20,11 @@ export default function DialogSub({ sub, title, position, color }) {
           height={24}
         />
       </div>
-      <div
+      <h2
         className={`dialog-subtitle-group__title ${color}`}
       >
         {title}
-      </div>
+      </h2>
     </div>
   );
 }
