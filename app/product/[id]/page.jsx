@@ -476,9 +476,7 @@ export default function Page({ params }) {
           {product[0].block_recommend && (
             <div className="dialog-block section">
               <Sub sub={product[0].block_recommend.subtitle} />
-              <h2 className="main-title">
-                {product[0].block_recommend.title}
-              </h2>
+              <h2 className="main-title">{product[0].block_recommend.title}</h2>
               <div className="dialog-block__content">
                 <div className="dialog-block__content__group">
                   <div className="img-block">
@@ -547,9 +545,7 @@ export default function Page({ params }) {
             <>
               <div className="report-block section">
                 <Sub sub={product[0].block_report.subtitle} />
-                <h2 className="main-title">
-                  {product[0].block_report.title}
-                </h2>
+                <h2 className="main-title">{product[0].block_report.title}</h2>
                 <div className="report-block__content">
                   <div className="report-block__description">
                     {product[0].block_report.description}
@@ -579,45 +575,45 @@ export default function Page({ params }) {
           )}
           {product[0].block_info && (
             <div className="info-block section">
-              <div className="info-block__left">
-                <Sub sub={product[0].block_info.subtitle} />
-                <h2 className="main-title">
-                  {product[0].product_name}產品資訊
-                </h2>
-                <ul className="info-block__content">
-                  <li>
-                    <span className="title">成分</span>
-                    {product[0].block_info.element}
-                  </li>
-                  <li>
-                    <span className="title">淨重</span>
-                    {product[0].block_info.weight}
-                  </li>
-                  <li>
-                    <span className="title">原產地</span>
-                    {product[0].block_info.produce}
-                  </li>
-                  <li>
-                    <span className="title">製作方式</span>
-                    {product[0].block_info.made}
-                  </li>
-                  <li>
-                    <span className="title">保存期限</span>
-                    {product[0].block_info.limit}
-                  </li>
-                  <li>
-                    <span className="title">保存方式</span>
-                    {product[0].block_info.protect}
-                  </li>
-                </ul>
+              <Sub sub={product[0].block_info.subtitle} />
+              <h2 className="main-title">{product[0].product_name}產品資訊</h2>
+              <div className="info-block__des">
+                <div className="info-block__left">
+                  <ul className="info-block__content">
+                    <li>
+                      <span className="title">成分</span>
+                      {product[0].block_info.element}
+                    </li>
+                    <li>
+                      <span className="title">淨重</span>
+                      {product[0].block_info.weight}
+                    </li>
+                    <li>
+                      <span className="title">原產地</span>
+                      {product[0].block_info.produce}
+                    </li>
+                    <li>
+                      <span className="title">製作方式</span>
+                      {product[0].block_info.made}
+                    </li>
+                    <li>
+                      <span className="title">保存期限</span>
+                      {product[0].block_info.limit}
+                    </li>
+                    <li>
+                      <span className="title">保存方式</span>
+                      {product[0].block_info.protect}
+                    </li>
+                  </ul>
+                </div>
+                <Image
+                  src={product[0].block_info.img}
+                  width={438}
+                  height={618}
+                  alt=""
+                  unoptimized
+                />
               </div>
-              <Image
-                src={product[0].block_info.img}
-                width={438}
-                height={618}
-                alt=""
-                unoptimized
-              />
             </div>
           )}
           {product[0].block_question && (
