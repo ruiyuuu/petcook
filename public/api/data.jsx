@@ -148,6 +148,7 @@ export const data = [
       element: "牛肉",
       weight: "50±2g / 包",
       produce: "巴拉圭",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
       limit: "12個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
@@ -175,13 +176,13 @@ export const data = [
     product_name: "急凍骰子牛凍乾",
     type: "dog",
     block_intro: {
-      subtitle: ["巴拉圭草飼牛肉", "純肉", "切塊"],
+      subtitle: ["巴拉圭草飼牛肉", "低油花", "原塊凍乾"],
       slogan: (
         <>
           <span className="mb-none">「</span>
-          真正的愛
+          100% 單一草飼牛凍乾
           <br className="pc-none" />
-          藏在原型食物中
+          吃就要吃最好的！
           <span className="mb-none">」</span>
         </>
       ),
@@ -193,8 +194,7 @@ export const data = [
           派庫急凍骰子牛凍乾，選用來自南美洲巴拉圭的草飼牛肉，以自然放牧為主食、不施打賀爾蒙與抗生素。
           <br />
           <br />
-          凍乾使用 100%
-          單一成分製作，製程天然、無添加，經冷凍乾燥後，切製骰子狀，方便毛孩日常零食、訓練獎勵，或拌入主食食用，也是適合毛孩補充蛋白質與鐵質的來源之一喔！
+          100%單一牛肉，天然無添加、骰子狀大小，方便毛孩日常零食、訓練獎勵，或拌入主食食用，也是適合毛孩補充蛋白質與鐵質的來源之一喔！
         </>
       ),
     },
@@ -282,10 +282,21 @@ export const data = [
       img: "https://img.shoplineapp.com/media/image_clips/6831e4a69c5a63000da2ff33/original.png?1748100262",
     },
     block_banner: {
-      subtitle: "營養風味 Max",
-      title: "100% 單一草飼牛肉凍乾",
+      subtitle: "天然放牧草飼牛．營養風味 Max",
+      title: (
+        <>
+          100%純牛肉 營養滿分
+          <br />
+          肉肉控毛孩激推凍乾
+        </>
+      ),
       img: "https://img.shoplineapp.com/media/image_clips/6831e4a88cf534000a45af0e/original.jpg?1748100263",
-      tags: ["低脂肪", "高蛋白", "低膽固醇", "低敏肉源"],
+      list: [
+        "☆ 低油花、低脂肪",
+        "☆ 高蛋白、OMEGA-3補充",
+        "☆ 天然鐵質補充",
+        "☆ 挑嘴毛孩首選",
+      ],
     },
     block_suggest: {
       s: "1~2 顆",
@@ -298,7 +309,13 @@ export const data = [
     },
     block_report: {
       subtitle: "產地透明 × 安心檢驗",
-      title: "讓毛孩食用更安心",
+      title: (
+        <>
+          派庫層層把關
+          <br />
+          為了讓毛孩食用更安心
+        </>
+      ),
       description: (
         <>
           我們知道，毛孩吃進肚子裡的每一口，你都會在意。
@@ -320,8 +337,9 @@ export const data = [
       element: "牛肉",
       weight: "50±2g / 包",
       produce: "巴拉圭",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
-      limit: "12個月（未開封）",
+      limit: "10 個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
     },
     block_question: {
@@ -347,13 +365,13 @@ export const data = [
     product_name: "五告順優格雞肉凍乾",
     type: "cat",
     block_intro: {
-      subtitle: ["貓咪", "順順排便", "機能零食凍乾推薦"],
+      subtitle: ["貓咪", "順順排便", "誘食推薦"],
       slogan: (
         <>
           <span className="mb-none">「</span>
-          真正的愛
+          酸甜酥脆
           <br className="pc-none" />
-          藏在原型食物中
+          挑嘴貓咪難以抗拒
           <span className="mb-none">」</span>
         </>
       ),
@@ -423,6 +441,7 @@ export const data = [
       element: "雞肉、優格、洋車前子、木瓜酵素",
       weight: "22±2g / 包",
       produce: "臺灣",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
       limit: "12個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
@@ -471,9 +490,9 @@ export const data = [
       slogan: (
         <>
           <span className="mb-none">「</span>
-          真正的愛
+          捲捲白帶魚咬得香、
           <br className="pc-none" />
-          藏在原型食物中
+          美味又好玩的魚肉凍乾！
           <span className="mb-none">」</span>
         </>
       ),
@@ -482,11 +501,9 @@ export const data = [
         "https://img.shoplineapp.com/media/image_clips/6837214e598785000e0c5e87/original.png?1748443469",
       description: (
         <>
-          派庫白帶魚捲凍乾選用來自臺灣南方澳的新鮮白帶魚，
+          派庫白帶魚捲凍乾選用臺灣南方澳的新鮮白帶魚，整尾捲製切片。天然無添加、無泡鹽，魚香十足，口感酥脆口感
           <br />
-          整尾捲製切片，經冷凍乾燥技術製成，
-          <br />
-          口感酥脆、魚香不腥，讓挑嘴毛孩進食量upup~
+          捲狀設計，增加毛孩食用趣味，就連挑嘴毛孩也難以抗拒，適合給毛孩加餐的營養零食喔！
         </>
       ),
     },
@@ -494,9 +511,9 @@ export const data = [
       subtitle: "給海味控毛孩的原型零食補給",
       title: (
         <>
-          富含優質蛋
+          毛孩超派零食
           <br />
-          補充毛孩活動能量
+          美味 × 趣味一次滿足
         </>
       ),
       img: "https://img.shoplineapp.com/media/image_clips/683722c03bae25000f72a650/original.jpg?1748443839",
@@ -512,7 +529,7 @@ export const data = [
       title: "推薦跟著這樣吃  最對味",
     },
     block_report: {
-      subtitle: "通過SGS安心檢驗 有認證食用更安心",
+      subtitle: "通過SGS安心檢驗 食用更安心",
       title: (
         <>
           派庫廚房
@@ -539,8 +556,9 @@ export const data = [
       element: "白帶魚",
       weight: "30±2g / 包",
       produce: "臺灣",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
-      limit: "12個月（未開封）",
+      limit: "10個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
     },
     block_question: {
@@ -574,13 +592,13 @@ export const data = [
     product_name: "五告ㄎㄧㄤ貓草雞肉凍乾",
     type: "cat",
     block_intro: {
-      subtitle: ["貓咪", "放鬆、排毛、舒壓", "小點心"],
+      subtitle: ["貓咪", "放鬆舒壓", "消化排毛"],
       slogan: (
         <>
           <span className="mb-none">「</span>
-          真正的愛
+          天然貓草 x 貓薄荷
           <br className="pc-none" />
-          藏在原型食物中
+          幫助貓咪舒緩壓力
           <span className="mb-none">」</span>
         </>
       ),
@@ -597,7 +615,7 @@ export const data = [
       ),
     },
     block_banner: {
-      subtitle: "天然貓草+貓薄荷配方",
+      subtitle: "天然貓草 + 貓薄荷配方",
       title: (
         <>
           挑嘴貓也難抗拒
@@ -607,9 +625,9 @@ export const data = [
       ),
       img: "https://img.shoplineapp.com/media/image_clips/68372ccae82f15001173350d/original.jpg?1748446410",
       list: [
-        "👑 天然貓草＋貓荷薄：舒壓情緒、幫助毛球自然排出",
-        "👑 優質雞肉主成分：優質蛋白補充，營養不流失",
-        "👑 犬貓皆可食用，但特別為貓咪排毛設計機能凍乾",
+        "👑 幫助貓咪舒緩情緒與自然排毛",
+        "👑 100% 雞肉主成分：富含蛋白質、低熱量",
+        "👑 專為貓咪設計的零食凍乾，狗狗也可以吃喔！",
       ],
     },
     block_suggest: {
@@ -651,6 +669,7 @@ export const data = [
       element: "雞肉,小麥草,貓草",
       weight: "30±2g / 包",
       produce: "臺灣",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
       limit: "12個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
@@ -686,13 +705,13 @@ export const data = [
     product_name: "急凍骰子鹿凍乾",
     type: "dog",
     block_intro: {
-      subtitle: ["毛孩", "關節保養", "補給零食"],
+      subtitle: ["天然軟骨素", "關節保養", "低卡零食"],
       slogan: (
         <>
           <span className="mb-none">「</span>
-          真正的愛
+          嚴選紐西蘭草飼鹿
           <br className="pc-none" />
-          藏在原型食物中
+          低敏低熱量原肉零食
           <span className="mb-none">」</span>
         </>
       ),
@@ -705,19 +724,24 @@ export const data = [
           紐西蘭草飼鹿肉製成的鹿肉凍乾點心，採用急速冷凍乾燥技術製成，完整保留原肉的鮮香與營養。
           <br />
           <br />
-          鹿肉脂肪含量低、蛋白質高，屬於低敏性肉源，適合毛孩日常點心的營養補給推薦之一。
+          鹿肉脂肪含量低、蛋白質高，屬於低敏肉源，適合毛孩日常營養補充的零食選擇。
         </>
       ),
     },
     block_banner: {
-      subtitle: "單一成分肉源",
-      title: <>選用紐西蘭草飼鹿肉</>,
+      subtitle: "100% 單一成分．低敏鹿肉",
+      title: (
+        <>
+          紐西蘭草飼鹿
+          <br />
+          熱量控管毛孩推薦
+        </>
+      ),
       img: "https://img.shoplineapp.com/media/image_clips/68373669f2ab39000ff97b73/original.jpg?1748448873",
       list: [
-        "👑 100% 紐西蘭草飼鹿肉單一成分",
-        "👑 高蛋白、低脂肪、低膽固醇、低敏性肉源",
-        "👑 天然軟骨素、葡萄糖胺補充，毛孩關節保養補給",
-        "👑 骰子狀原肉塊，方便餵食、訓練獎勵與點心兩相宜！",
+        "👑 高蛋白、低脂肪，毛孩管理體重推薦",
+        "👑 天然軟骨素、葡萄糖胺，維持毛孩關節健康",
+        "👑 骰子狀原肉塊，方便餵食、外出餵食也方便！",
       ],
     },
     block_suggest: {
@@ -730,7 +754,7 @@ export const data = [
       title: "推薦跟著這樣吃  最對味",
     },
     block_report: {
-      subtitle: "紐西蘭草飼鹿肉 SGS 認證更安心",
+      subtitle: "00%單一肉品食材 SGS 食品認證",
       title: (
         <>
           派庫廚房
@@ -740,10 +764,10 @@ export const data = [
       ),
       description: (
         <>
-          急凍骰子鹿凍乾選用來自紐西蘭的草飼鹿肉，透過急速冷凍乾燥製程，完整保留鹿肉鮮香與營養密度。
+          急凍骰子鹿凍乾選用紐西蘭草飼鹿肉，不同於野生鹿肉較濃烈野味，草飼鹿肉風味更為溫和。
           <br />
-          別於野生鹿肉的較濃烈野味，草飼鹿肉風味更為溫和，是毛孩更容易接受的天然紅肉選擇。凍乾全製程不添加鹽、糖、香料或防腐劑，並通過
-          SGS 原料檢驗，是真正單一成分的純肉凍乾，讓飼主放心、毛孩吃得安心。
+          製程不添加鹽、糖、香料或防腐劑，通過 SGS
+          檢驗認證，讓毛孩食用更安心的零食選擇喔！
         </>
       ),
       img: [
@@ -758,9 +782,10 @@ export const data = [
       img: "https://img.shoplineapp.com/media/image_clips/6837366912b64d000f7eb8b8/original.png?1748448872",
       element: "鹿肉",
       weight: "40±2g / 包",
-      produce: "臺灣",
+      produce: "紐西蘭",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
-      limit: "12個月（未開封）",
+      limit: "10個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
     },
     block_question: {
@@ -794,13 +819,12 @@ export const data = [
     product_name: "北歐交響鮭凍乾",
     type: "cat",
     block_intro: {
-      subtitle: ["空運挪威", "生食級", "鮭魚"],
+      subtitle: ["挪威空運", "生食級", "鮭魚凍乾"],
       slogan: (
         <>
           <span className="mb-none">「</span>
-          天然 Omega-3
-          <br className="pc-none" />
-          補給首選
+          生食級鮭魚原塊肉肉 <br className="pc-none" />
+          食感滿分
           <span className="mb-none">」</span>
         </>
       ),
@@ -822,20 +846,13 @@ export const data = [
       ),
     },
     block_banner: {
-      subtitle: "嚴選人食級鮭魚",
-      title: (
-        <>
-          只為讓毛孩吃進
-          <br />
-          最安心的營養
-        </>
-      ),
+      subtitle: "挪威空運．人食級鮭魚",
+      title: <>我們不吝給毛孩最美味的食材</>,
       img: "https://img.shoplineapp.com/media/image_clips/683c666c7f3aa70011223078/original.jpg?1748788844",
       list: [
-        "👑 使用挪威鮮凍鮭魚，冷鏈空運確保品質",
-        "👑 富含Omega-3、DHA、EPA 與優質蛋白質",
-        "👑 無鹽、無油、無香料，100% 單一天然成分凍乾",
-        "👑 自然魚香味、切丁形狀，挑嘴毛孩嚐鮮推薦",
+        "👑 挪威空運鮭魚，人食級高規格品質",
+        "👑 富含Omega-3，亮眸、亮毛，維持免疫力",
+        "👑 完整切狀魚塊，挑嘴毛孩回購 TOP1",
       ],
     },
     block_suggest: {
@@ -848,7 +865,7 @@ export const data = [
       title: "推薦跟著這樣吃  最對味",
     },
     block_report: {
-      subtitle: "選用挪威生鮮級鮭魚 SGS 認證更安心",
+      subtitle: "100% 單一成分．SGS 認證更安心",
       title: (
         <>
           派庫廚房
@@ -858,9 +875,8 @@ export const data = [
       ),
       description: (
         <>
-          北歐交響鮭凍乾選用來自挪威海域的生鮮級鮭魚肉，品質穩定、來源安心，保留鮭魚自然香氣與營養，是補充天然
-          Omega-3 魚油的理想選擇。 <br />經 SGS
-          原料檢驗合格，全製程無添加，讓飼主更放心、毛孩吃得更安心！
+          北歐交響鮭凍乾選用挪威生鮮級鮭魚，高規格品質、安心來源。
+          <br />經 SGS 檢驗合格，全製程無添加，讓飼主餵食放心、毛孩吃得更安心！
         </>
       ),
       img: [
@@ -875,9 +891,10 @@ export const data = [
       img: "https://img.shoplineapp.com/media/image_clips/683c666c6ab973000be18752/original.png?1748788844",
       element: "鮭魚",
       weight: "50±2g / 包",
-      produce: "臺灣",
+      produce: "臺灣、挪威",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
-      limit: "12個月（未開封）",
+      limit: "10個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
     },
     block_question: {
@@ -913,11 +930,12 @@ export const data = [
     product_name: "極鮮蝦大廚凍乾",
     type: "cat",
     block_intro: {
-      subtitle: ["寵物界的", "天然", "蝦味鮮"],
+      subtitle: ["完整鮮蝦", "天然無添加", "食感滿分"],
       slogan: (
         <>
           <span className="mb-none">「</span>
-          派庫回購 NO.1
+          主廚級極鮮大蝦 <br className="pc-none" />
+          營養香氣 NO.1
           <span className="mb-none">」</span>
         </>
       ),
@@ -926,24 +944,28 @@ export const data = [
         "https://img.shoplineapp.com/media/image_clips/683c6c4897ca0c000d6c311b/original.png?1748790344",
       description: (
         <>
-          整隻蝦製成、真材實料，每一口都吃得到天然的鮮味凍乾。
+          <b>超派！比人類零食更天然，寵物界蝦味仙抵家啦！</b>
           <br />
+          嚴選臺灣半淡半海水域的白蝦仁，經冷凍乾燥技術保留完整風味與營養，無添加、無切割，保有蝦仁最原始的酥脆口感。
           <br />
-          嚴選臺灣半淡半海水域的白蝦仁，經冷凍乾燥技術保留完整風味與營養，無添加、不腥、不切割，保有蝦仁最原始的酥脆口感。
-          <br />
-          <br />
-          富含蝦青素、DHA、維生素B12等海洋營養素，補元氣、護毛髮、顧眼睛，是一款讓貓狗一吃就愛上的高適口性凍乾點心。
+          富含蝦青素、DHA、維生素B12等營養素，維持活力、護毛髮、顧眼睛，是一款讓貓狗一吃就愛上的高適口性凍乾點心。
         </>
       ),
     },
     block_banner: {
-      subtitle: "天然蝦凍乾",
-      title: <>不添加，就是最好的營養</>,
+      subtitle: "寵物界蝦味先．挑嘴毛孩加餐首選 ",
+      title: (
+        <>
+          給毛孩最好的選擇！
+          <br />
+          每一口都是真材實料的鮮蝦凍乾
+        </>
+      ),
       img: "https://img.shoplineapp.com/media/image_clips/683c6c4851d223000e67309c/original.jpg?1748790344",
       list: [
-        "👑 100% 原肉凍乾，一眼看得出完整蝦仁",
-        "👑 天然海味，保留蝦原本的鮮甜滋味，適口性佳",
-        "👑 天然營養補充，眼睛亮眸、毛髮光澤 up up",
+        "👑 100% 蝦凍乾，無切割、營養滿分",
+        "👑 DHA、EPA天然營養，幫助代謝、維持健康",
+        "👑 低敏、低熱量零食，毛孩日常餵食無負擔",
       ],
     },
     block_suggest: {
@@ -956,7 +978,7 @@ export const data = [
       title: "推薦跟著這樣吃  最對味",
     },
     block_report: {
-      subtitle: "來自臺灣半淡半海水域鮮蝦 SGS 認證更安心",
+      subtitle: "臺灣半淡半海水域鮮蝦 SGS食品認證",
       title: (
         <>
           派庫廚房
@@ -966,9 +988,9 @@ export const data = [
       ),
       description: (
         <>
-          極鮮蝦大廚凍乾選用來自臺灣半淡半海水域養殖的白蝦仁，水質清澈、鹽度適中，使蝦肉質地緊實、鮮味更突出。經低溫冷凍乾燥製成，並通過
-          SGS
-          原料檢驗認證，從產地到毛孩口中，全程把關、無添加，讓每日補給更安心。
+          極鮮蝦大廚凍乾嚴選半鹹水域養殖白蝦仁，水質清澈、鹽度適中，肉緊實彈性、鮮甜濃郁。
+          <br />
+          從產地到餐碗層層把關，通過 SGS 檢驗認證，讓每日補給更安心！
         </>
       ),
       img: [
@@ -984,8 +1006,9 @@ export const data = [
       element: "蝦仁",
       weight: "30±2g / 包",
       produce: "臺灣",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
-      limit: "12個月（未開封）",
+      limit: "10個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
     },
     block_question: {
@@ -1029,11 +1052,12 @@ export const data = [
     product_name: "香檳鳥下水凍乾",
     type: "dog",
     block_intro: {
-      subtitle: ["在地小農", "安心", "特選"],
+      subtitle: ["在地小農特選", "心肝部位", "活力補充"],
       slogan: (
         <>
           <span className="mb-none">「</span>
-          派庫回購 NO.1
+          元氣補充原肉零食 <br className="pc-none" />
+          毛孩回購NO.1
           <span className="mb-none">」</span>
         </>
       ),
@@ -1042,11 +1066,10 @@ export const data = [
         "https://img.shoplineapp.com/media/image_clips/683c6fba51d2230011672e53/original.png?1748791226",
       description: (
         <>
-          臺灣在地小農飼養鵪鶉
+          香檳鳥，又稱台灣鵪鶉，是由多種鵪鶉品系混種、經長年選育而成的肉用禽種。肉質細嫩、腥味低，屬於高蛋白、低脂肪的優質肉類。派庫選用在天然飼養的香檳鳥，無藥物殘留、飲食天然純淨。
           <br />
-          特選心、胗部位 2 合1 口感層次更豐富，
           <br />
-          適口性更高
+          這款下水凍乾特別選自香檳鳥的「心胗部位」製成，含有鐵質、維生素B群、蛋白質與鋅，幫助毛孩補血補氣、維持體力與日常活力。
         </>
       ),
     },
@@ -1054,10 +1077,9 @@ export const data = [
       subtitle: "天然補鐵 毛孩能量補給零食",
       title: (
         <>
-          {" "}
-          內臟部位 心胗2合1
+          心胗2合1 內臟部位
           <br />
-          剝碎加入主食更美味
+          剝碎加入主食更美味！
         </>
       ),
       img: "https://img.shoplineapp.com/media/image_clips/683c6fbab8cd3a000e4f72cc/original.jpg?1748791226",
@@ -1083,9 +1105,9 @@ export const data = [
       ),
       description: (
         <>
-          極鮮蝦大廚凍乾選用來自臺灣半淡半海水域養殖的白蝦仁，水質清澈、鹽度適中，使蝦肉質地緊實、鮮味更突出。經低溫冷凍乾燥製成，並通過
-          SGS
-          原料檢驗認證，從產地到毛孩口中，全程把關、無添加，讓每日補給更安心。
+          香檳鳥下水凍乾選用在地小農飼養、來源透明，且通過 SGS 食品級檢驗。
+          <br />
+          我們把每個細節都顧好，就是希望你在挑選的時候，不用擔心，放心讓毛孩吃得開心又安心。
         </>
       ),
       img: [
@@ -1101,8 +1123,9 @@ export const data = [
       element: "鵪鶉心胗",
       weight: "50±2g / 包",
       produce: "臺灣",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
-      limit: "12個月（未開封）",
+      limit: "10個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
     },
     block_question: {
@@ -1141,13 +1164,13 @@ export const data = [
     product_name: "五告勇羊奶雞肉凍乾",
     type: "cat",
     block_intro: {
-      subtitle: ["", "補鈣補蛋白", "毛孩勇起來"],
+      subtitle: ["低乳糖", "好吸收", "貓咪營養配方"],
       slogan: (
         <>
           <span className="mb-none">「</span>
-          真正的愛
+          天然鈣補充
           <br className="pc-none" />
-          藏在原型食物中
+          毛孩勇起來
           <span className="mb-none">」</span>
         </>
       ),
@@ -1159,20 +1182,17 @@ export const data = [
           五告勇羊奶雞肉凍乾，嚴選來自法國直送山羊奶粉，搭配臺灣鮮羊乳、雞骨粉、初乳蛋白與溫體雞肉製成的超級機能凍乾！
           <br />
           <br />
-          富含酪蛋白、天然鈣磷營養素，有助毛孩骨骼健康、腸道吸收與營養補充兼具的天然凍乾零食！
-          <br />
-          <br />
-          0.8x3cm 的棒狀條形設計，口感酥脆、易咬入口，適合毛孩日常訓練與補給。
+          富含酪蛋白、天然鈣磷營養素，幫助毛孩骨骼健康、腸道吸收，是款營養、開胃兼具的天然凍乾零食！。
         </>
       ),
     },
     block_banner: {
-      subtitle: "羊奶機能凍乾",
+      subtitle: "關節保健．維持腸胃健康的天然凍乾",
       title: (
         <>
-          高蛋白、低脂肪、低乳糖
+          雞骨粉添加 天然鈣質攝取
           <br />
-          營養好吸收
+          羊奶基底 營養好吸收
         </>
       ),
       img: "https://img.shoplineapp.com/media/image_clips/683dce670f615a000e7eee11/original.jpg?1748880999",
@@ -1181,6 +1201,7 @@ export const data = [
         "👑 雞骨粉：天然鈣質補充，強化骨骼與牙齒發育",
         "👑 初乳蛋白：富含免疫因子與消化道保護營養",
       ],
+      note: "日常獎勵或營養補充皆適用，不適合作為主食大量食用喔！",
     },
     block_suggest: {
       s: "1~2 顆",
@@ -1192,7 +1213,7 @@ export const data = [
       title: "推薦跟著這樣吃  最對味",
     },
     block_report: {
-      subtitle: "天然ｘ健康ｘ營養 通過 SGS 安心檢驗",
+      subtitle: "食材來源透明Ｘ通過 SGS 安心檢驗",
       title: (
         <>
           派庫廚房
@@ -1221,8 +1242,9 @@ export const data = [
       element: "羊奶,雞肉,雞骨粉,初乳蛋白",
       weight: "22±2g / 包",
       produce: "臺灣",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
-      limit: "12個月（未開封）",
+      limit: "12 個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
     },
     block_question: {
@@ -1265,13 +1287,11 @@ export const data = [
     product_name: "溫體大雞佛",
     type: "dog",
     block_intro: {
-      subtitle: ["真材實料", "100%", "原型雞佛"],
+      subtitle: ["100%雞佛", "高蛋白", "無添加"],
       slogan: (
         <>
           <span className="mb-none">「</span>
-          整個的雞佛，
-          <br className="pc-none" />
-          有吃過嗎？！
+          咖滋！咖滋！
           <span className="mb-none">」</span>
         </>
       ),
@@ -1280,26 +1300,32 @@ export const data = [
         "https://img.shoplineapp.com/media/image_clips/683dd15db1b5c2000a0ec542/original.png?1748881757",
       description: (
         <>
-          派庫溫體大雞佛凍乾來自臺灣在地溫體雞，採用整顆原型製作，經冷凍乾燥技術處理，不經切割，完整保留形狀與營養。
+          整顆吃，更對味的超派凍乾top 1！
           <br />
           <br />
-          此款雞佛凍乾單顆重量約
-          3-4g，富含蛋白質、卵磷脂與鋅，是犬貓天然營養的良好補充來源。凍乾後的雞佛口感酥脆、無腥味、風味濃郁，適口性佳，特別適合偏食或需要誘食輔助的毛孩。
+          讓毛孩一吃就愛上的酥胡啦雞佛凍乾，嚴選新鮮雞佛，無切割、完整呈現，高蛋白、鐵、鋅等營養補充，口感酥脆，特別愛嚐鮮的毛孩！
           <br />
           <br />
-          雞佛本身屬於脂肪量中等的內臟類食材，適合當作高蛋白點心，依照毛孩體型與活動量彈性補充攝取量。
+          雞佛本身膽固醇偏高，有在控管體重的毛孩，建議適量食用喔！
         </>
       ),
     },
     block_banner: {
-      subtitle: "外酥內軟",
-      title: <>適口性滿分的凍乾零食</>,
+      subtitle: "單一食材・純雞佛凍乾",
+      title: (
+        <>
+          無添加製程
+          <br />
+          原型看得見
+        </>
+      ),
       img: "https://img.shoplineapp.com/media/image_clips/683dd15dfce504000fd5c22e/original.jpg?1748881757",
       list: [
-        "✅高蛋白：幫助活動力高的毛孩補充體力與維持肌肉量",
-        "✅卵磷脂：毛孩掉毛困擾，日常營養補充get！",
-        "✅天然鋅、維生素補充：維持毛孩活力upup天然營養素",
+        "☆超大顆雞佛，無內臟混料",
+        "☆ 含蛋白質、鈣、鐵等，維持毛孩活力",
+        "☆ 內酥外軟，適合牙口差犬貓食用",
       ],
+      note: "日常獎勵或營養補充皆適用，不適合作為主食大量食用喔！",
     },
     block_suggest: {
       s: "1 顆",
@@ -1311,7 +1337,7 @@ export const data = [
       title: "推薦跟著這樣吃  最對味",
     },
     block_report: {
-      subtitle: "通過 SGS 安心檢驗 有認證食用更安心",
+      subtitle: "CAS認證食材．SGS檢驗認證",
       title: (
         <>
           派庫廚房
@@ -1321,10 +1347,11 @@ export const data = [
       ),
       description: (
         <>
-          我們知道，毛孩吃進肚子裡的每一口，你都會在意。
+          酥胡啦雞佛凍乾嚴選台灣在地 CAS 認證溫體雞
           <br />
-          派庫每一款食品的原肉來源皆產地透明與衛生安全，通過 SGS
-          食品安全檢測，食用零負擔！
+          全程依食品安全標準製作，通過 SGS 檢驗
+          <br />
+          確保肉品來源到製程通通有把關！
         </>
       ),
       img: [
@@ -1338,8 +1365,9 @@ export const data = [
       element: "雞佛",
       weight: "30±2g / 包",
       produce: "臺灣",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
-      limit: "12個月（未開封）",
+      limit: "12 個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
     },
     block_question: {
@@ -1387,13 +1415,13 @@ export const data = [
     product_name: "海灣鮮干貝凍乾",
     type: "cat",
     block_intro: {
-      subtitle: ["", "人食級", "干貝製作"],
+      subtitle: ["100%純干貝", "天然海味", "營養升級"],
       slogan: (
         <>
           <span className="mb-none">「</span>
           100%
           <br className="pc-none" />
-          天然純淨海味
+          純淨海味極鮮上桌
           <span className="mb-none">」</span>
         </>
       ),
@@ -1402,20 +1430,25 @@ export const data = [
         "https://img.shoplineapp.com/media/image_clips/683c7da08f69e100102350a8/original.png?1748794784",
       description: (
         <>
-          來自乾淨南方海域的珍貴小干貝，經冷凍乾燥技術，完整保留最天然的風味與營養的，高蛋白、低熱量，一口咬下，還原干貝鮮甜滋味，是挑嘴毛孩的寵物零食！
+          嚴選食品級極鮮干貝，保留海味鮮香與高營養密度，富含優質蛋白、牛磺酸與多種礦物質，幫助毛孩維持活力與元氣，是毛孩天然零食的高級選擇！
         </>
       ),
+      note: "日常獎勵或營養補充皆適用，不適合作為主食大量食用喔！",
     },
     block_banner: {
-      subtitle: "毛孩食用更安心",
-      title: <>天然無添加寵物凍乾</>,
+      subtitle: "保留食材營養．零食也能吃得健康",
+      title: (
+        <>
+          單一食材純干貝、無添加
+          <br />
+          挑嘴毛孩也超愛的海味補品！
+        </>
+      ),
       img: "https://img.shoplineapp.com/media/image_clips/683c7da017e62b000cebc0ff/original.jpg?1748794784",
       list: [
-        "✅ 100% 純天然食材：嚴選南方海域珍貴小干貝，天然凍乾推薦！",
-        "✅ 冷凍乾燥技術完整保留干貝的風味與營養成分，適食補充零負擔",
-        "✅ 無鹽、無添加、無香料，天然低敏零負擔",
-        "✅ 適合 3 個月以上的全犬貓，挑嘴毛孩吃得也開心",
-        "✅ 臺灣製造，SGS 認證品質，產地可溯源，食用更安心",
+        "☆ 100%新鮮干貝．敏感毛孩安心享用！",
+        "☆ 營養密度高，適合補元氣補體力",
+        "☆ 自然海味，提升主食吸引力",
       ],
     },
     block_suggest: {
@@ -1428,7 +1461,7 @@ export const data = [
       title: "推薦跟著這樣吃  最對味",
     },
     block_report: {
-      subtitle: "臺灣製作 SGS 食材認證",
+      subtitle: "人食級食材ｘSGS安心認證",
       title: (
         <>
           派庫廚房
@@ -1438,10 +1471,9 @@ export const data = [
       ),
       description: (
         <>
-          我們知道，毛孩吃進肚子裡的每一口，你都會在意。
+          從產地到餐碗，派庫透明把關每一步－
           <br />
-          派庫每一款食品的原肉來源皆產地透明與衛生安全，通過 SGS
-          食品安全檢測，食用零負擔！
+          每一款原肉都來自安心產地，經 SGS 檢驗合格，給毛孩最天然的選擇！
         </>
       ),
       img: [
@@ -1457,8 +1489,9 @@ export const data = [
       element: "干貝",
       weight: "30±2g / 包",
       produce: "臺灣",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
-      limit: "12個月（未開封）",
+      limit: "10 個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
     },
     block_question: {
@@ -1489,13 +1522,12 @@ export const data = [
     product_name: "酥卵地瓜球凍乾",
     type: "dog",
     block_intro: {
-      subtitle: ["卵磷脂", "亮毛", "補充"],
+      subtitle: ["卵磷脂", "亮毛護膚", "人氣獎勵零食"],
       slogan: (
         <>
           <span className="mb-none">「</span>
-          臺灣
-          <br className="pc-none" />
-          溫體雞整顆蛋黃
+          100%新鮮雞蛋黃 <br className="pc-none" />
+          外酥內軟 超~美~味~
           <span className="mb-none">」</span>
         </>
       ),
@@ -1505,20 +1537,25 @@ export const data = [
       description: (
         <>
           酥卵地瓜球凍乾選用臺灣溫體雞的整顆蛋黃，以凍乾技術保留自然營養，淡淡的蛋香味、外酥內鬆的球型點心一口咬下、入口剛剛好。
-          富含天然卵磷脂、維生素 B、D
-          等營養素，是毛孩亮毛補給、適口性佳的營養零食推薦。
+          <br />
+          富含天然卵磷脂、維生素 B、D 等營養素，是毛孩亮毛護膚的天然零食推薦。
         </>
       ),
     },
     block_banner: {
-      subtitle: "整顆蛋黃",
-      title: <>給寶貝們完整營養</>,
+      subtitle: "超大顆新鮮蛋黃．酥酥軟軟超美味",
+      title: (
+        <>
+          蛋香十足、營養完整，
+          <br />
+          毛孩入門零食推薦！
+        </>
+      ),
       img: "https://img.shoplineapp.com/media/image_clips/683c7209de169c0010378395/original.jpg?1748791817",
       list: [
-        "✅ 臺灣在地溫體雞，產地到餐桌品質更安心",
-        "✅ CAS 認證，食材追溯有保障",
-        "✅ 天然核黃素、卵磷脂補充，毛孩亮毛美膚利器",
-        "✅ 酥脆口感、蛋黃清香，挑嘴毛孩也愛吃",
+        "✅ 臺灣在地溫體雞，產地到餐桌品安心食材",
+        "✅ 富含卵磷脂，毛孩亮毛美膚營養補充",
+        "✅ 外酥內軟、蛋香十足，挑嘴毛孩超愛吃",
       ],
     },
     block_suggest: {
@@ -1541,9 +1578,8 @@ export const data = [
       ),
       description: (
         <>
-          酥卵地瓜球凍乾選用臺灣在地的新鮮溫體雞蛋黃，不切塊、不混料，每一顆都是完整蛋黃凍乾而成。
-          <br />
-          派庫全凍乾通過 SGS
+          酥卵地瓜球凍乾選用台灣在地的新鮮溫體雞蛋黃，不切塊、不混料，每一顆都是完整蛋黃凍乾而成。派庫全凍乾通過
+          SGS
           原料檢驗，全程無添加，讓你看得見我們對品質的堅持，也讓毛孩吃得更安心。
         </>
       ),
@@ -1560,8 +1596,9 @@ export const data = [
       element: "雞蛋黃",
       weight: "100±2g / 包",
       produce: "臺灣",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
-      limit: "12個月（未開封）",
+      limit: "10個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
     },
     block_question: {
@@ -1599,11 +1636,13 @@ export const data = [
     product_name: "廣島牛奶牡蠣",
     type: "dog",
     block_intro: {
-      subtitle: ["營養", "營養美味", "一次補足"],
+      subtitle: ["超大牡蠣", "營養美味", "海味十足"],
       slogan: (
         <>
           <span className="mb-none">「</span>
-          超～大顆牡蠣！
+          超~大~顆、超甜、
+          <br className="pc-none" />
+          超香牛奶牡蠣
           <span className="mb-none">」</span>
         </>
       ),
@@ -1612,24 +1651,30 @@ export const data = [
         "https://img.shoplineapp.com/media/image_clips/683dd3076750dd000cb67544/original.png?1748882183",
       description: (
         <>
-          派庫牡蠣凍乾選用日本廣島產牛奶牡蠣，以冷凍乾燥技術製成、無切割，完整保留牡蠣的鮮味與營養，富含鋅、Omega-3
+          派庫牡蠣凍乾選用日本廣島產牛奶牡蠣，超大顆牡蠣、無切割，富含鋅、Omega-3
           脂肪酸、牛磺酸與維生素 B
-          群，可以幫助毛孩維持免疫力、毛髮光澤的天然營養素，非常推薦給海鮮控毛孩喔！
+          群，幫助毛孩維持免疫力、毛髮光澤，非常推薦給海鮮控毛孩喔！
         </>
       ),
     },
     block_banner: {
-      subtitle: "天然鋅補充",
-      title: <>牡蠣凍乾一次補足微量營養</>,
+      subtitle: "天然鋅補充的海味凍乾推薦",
+      title: (
+        <>
+          超大顆牡蠣凍乾
+          <br />
+          一次補足微量營養
+        </>
+      ),
       img: "https://img.shoplineapp.com/media/image_clips/683dd307f4e594000eb35e55/original.jpg?1748882183",
       description:
         "牡蠣的營養密度非常高，對於平常比較少吃內臟或毛髮狀況需要加強的毛孩來說，是非常適合的補充來源。派庫選用廣島牛奶牡蠣，肉質更鮮甜、更大顆，同時富含對毛孩重要的天然營養素：",
       list: [
-        "✅ 鋅：幫助犬貓皮膚穩定、毛髮生長良好，減少換季掉毛的困擾",
-        "✅ Omega-3：抗發炎、有助維持亮毛與關節健康",
-        "✅ 維生素B群：日常維持體力與能量補充，減緩疲倦或情緖緊張",
+        "☆ 天然鋅：幫助毛孩護膚、亮毛",
+        "☆ Omega-3：抗發炎、維持亮毛與關節健康",
+        "☆ 維生素B群：維持身活力，抒緩疲倦",
       ],
-      note: "一般成犬建議每週餵食 1～2 顆即可，視體型與活動量彈性調整喔！",
+      note: "牡蠣是一款營養密度較高的食材，對平常較少吃內臟或毛髮狀況需要加強的毛孩，可以適量補充！",
     },
     block_suggest: {
       s: "1顆／週",
@@ -1667,8 +1712,9 @@ export const data = [
       element: "牡蠣",
       weight: "50±2g / 包",
       produce: "日本廣島",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
-      limit: "12 個月（未開封）",
+      limit: "10 個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
     },
     block_question: {
@@ -1703,11 +1749,13 @@ export const data = [
     product_name: "筋肉胸雞丁凍乾",
     type: "cat",
     block_intro: {
-      subtitle: ["100%", "臺灣", "溫體雞胸肉"],
+      subtitle: ["CAS溫體雞", "低脂低熱量", "飲控毛孩推薦"],
       slogan: (
         <>
           <span className="mb-none">「</span>
-          低脂凍乾入門推薦
+          低脂、高蛋白、無調味雞胸凍乾
+          <br className="pc-none" />
+          體重控管毛孩推薦no.1
           <span className="mb-none">」</span>
         </>
       ),
@@ -1716,22 +1764,29 @@ export const data = [
         "https://img.shoplineapp.com/media/image_clips/683c736a51d223000f673140/original.png?1748792169",
       description: (
         <>
-          筋肉胸雞丁凍乾選用臺灣CAS認證的溫體雞胸肉，低脂高蛋白，整塊切丁、冷凍乾燥製成，保留食材原始風味與營養。凍乾
-          100%
-          無添加，適合犬貓日常作為獎勵點心或營養補充，是毛孩凍乾零食的基本款推薦喔！
+          嚴選在地溫體雞肉製成的雞丁凍乾，低脂高蛋白，富含維生素B群與多種礦物質，營養密度高、好吸收，是犬貓都能安心享用的日常補養點心。
+          <br />
+          <br />
+          適合成長期、活動量大、或需要補營養的毛孩！
         </>
       ),
     },
     block_banner: {
-      subtitle: "低脂低熱量、適口性高",
-      title: <>是營養滿分的原型食物</>,
+      subtitle: "100%單一雞肉成分．低脂低熱量",
+      title: (
+        <>
+          無添加 無調味雞胸部位
+          <br />
+          寵物凍乾入門推薦
+        </>
+      ),
       img: "https://img.shoplineapp.com/media/image_clips/683c736aee2e09000f9d8129/original.jpg?1748792170",
       description:
         "雞胸肉屬於低脂高蛋白的原型肉食材，是許多飼主用來補充蛋白質的常見選擇。派庫雞丁凍乾使用 100% 單一雞胸肉製作，特別適合貪吃但需控制熱量的毛孩。",
       list: [
-        "✅ 優質蛋白質：有助肌肉維持與活動力支撐",
-        "✅ 低脂肪、低熱量：雞胸肉脂肪含量相對低，適合需控制熱量攝取的毛孩。",
-        "✅ 高適口性：香氣自然、無腥味，連挑嘴毛孩也容易接受。",
+        "☆ 單一純雞肉製成，安心無添加",
+        "☆ 低脂高蛋白，適合每日營養補充",
+        "☆ 質地酥香，適口性高犬貓都適合",
       ],
     },
     block_suggest: {
@@ -1747,7 +1802,7 @@ export const data = [
       subtitle: "臺灣 CAS × SGS 檢驗雙認證",
       title: (
         <>
-          派庫廚房
+          派庫廚房從食材到成品
           <br />
           嚴格把關更安心
         </>
@@ -1773,8 +1828,9 @@ export const data = [
       element: "雞肉",
       weight: "50±2g / 包",
       produce: "臺灣",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
-      limit: "12 個月（未開封）",
+      limit: "10 個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
     },
     block_question: {
@@ -1840,7 +1896,9 @@ export const data = [
       slogan: (
         <>
           <span className="mb-none">「</span>
-          臺灣 CAS 認證櫻桃鴨
+          大片香脆鴨柳片
+          <br className="pc-none" />
+          手餵互動更有感！
           <span className="mb-none">」</span>
         </>
       ),
@@ -1849,18 +1907,32 @@ export const data = [
         "https://img.shoplineapp.com/media/image_clips/683c74d1f8dba3e689e6400e/original.png?1748792528",
       description: (
         <>
+          大片鴨柳片，輕鬆撕片、慢慢餵食，陪毛孩一起享受吃點心的時間－
+          <br />
+          <br />
           派庫櫻桃鴨柳片凍乾選用臺灣 CAS
-          認證櫻桃鴨胸肉，肉質細嫩、較無腥味，經冷凍乾燥技術製成，保留鴨肉原始風味與營養。每片鴨柳片均為單一原肉切片，高蛋白、低敏，富含鐵質及維生素，犬貓皆可食用喔！
+          認證櫻桃鴨胸肉，手撕鴨柳片肉質細嫩、香氣自然濃郁，保留鮮肉原始纖維與營養。
+          <br />
+          <br />
+          低敏鴨肉，輕鬆撕片、方便手餵，是零食時間互動與補養兼具的互動點心！
         </>
       ),
     },
     block_banner: {
-      subtitle: "低敏高蛋白",
-      title: <>派庫人氣凍乾推薦</>,
+      subtitle: "低過敏源肉品．營養價值高零食推薦",
+      title: (
+        <>
+          大片鴨柳好撕好餵
+          <br />
+          香氣一出毛孩就坐好等！
+        </>
+      ),
       img: "https://img.shoplineapp.com/media/image_clips/683c74d136f2cd0010028df0/original.jpg?1748792528",
-      description:
-        "櫻桃鴨為臺灣常見優質飼養肉品之一，含有豐富的蛋白質與鐵質，脂肪與熱量介於紅肉與白肉之間，屬於相對溫和的營養肉類。派庫鴨柳凍乾採用整片手工切片鴨胸肉製成，不拼接、不加工，淡淡肉香、口感酥脆，是派庫人氣凍乾 TOP3！",
-      list: [],
+      list: [
+        "☆ 大片原肉，好撕、不碎裂，互動零食首選",
+        "☆ 豐富蛋白質與鐵質，維持肌肉成長",
+        "☆ 低過敏源肉類，溫和好吸引",
+      ],
     },
     block_suggest: {
       s: "1~2 顆",
@@ -1872,10 +1944,10 @@ export const data = [
       title: "推薦跟著這樣吃  最對味",
     },
     block_report: {
-      subtitle: "臺灣 CAS × SGS 檢驗雙認證",
+      subtitle: "臺灣 CAS 認證櫻桃鴨 × SGS 檢驗雙認證",
       title: (
         <>
-          派庫廚房
+          派庫廚房 從食材到製程
           <br />
           嚴格把關更安心
         </>
@@ -1884,8 +1956,7 @@ export const data = [
         <>
           派庫廚房不吝嗇給毛孩最優質的食品選擇！
           <br />
-          鴨柳凍乾選用 CAS 認證的在地櫻桃鴨肉，肉品可溯源、品質穩定，並通過 SGS
-          食品安全檢驗。
+          我們的鴨柳凍乾選用CAS認證的在地櫻桃鴨肉，肉品可溯源、品質穩定，並通過SGS食品安全檢驗。
         </>
       ),
       img: [
@@ -1901,8 +1972,9 @@ export const data = [
       element: "鴨肉",
       weight: "50±2g / 包",
       produce: "臺灣",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
-      limit: "12 個月（未開封）",
+      limit: "10 個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
     },
     block_question: {
@@ -1963,13 +2035,11 @@ export const data = [
     product_name: "五告桑舒壓海味凍乾",
     type: "cat",
     block_intro: {
-      subtitle: ["貓咪", "舒壓、穩定血糖", "配方"],
+      subtitle: ["貓咪", "穩定舒壓", "配方"],
       slogan: (
         <>
           <span className="mb-none">「</span>
-          真正的愛
-          <br className="pc-none" />
-          藏在原型食物中
+          GABA 安撫貓咪緊張情緒
           <span className="mb-none">」</span>
         </>
       ),
@@ -1988,14 +2058,18 @@ export const data = [
     },
     block_banner: {
       subtitle: "酪蛋白 & GABA 營養配方",
-      title: <>天然、紓壓、適口性佳</>,
+      title: (
+        <>
+          酪蛋白 & GABA
+          <br />
+          配方紓壓放鬆海味凍乾推薦
+        </>
+      ),
       img: "https://img.shoplineapp.com/media/image_clips/683dd628dd8f36000e98c142/original.jpg?1748882983",
       list: [
-        "👑 100% 天然成分：嘉義布袋虱目魚與紐西蘭綠貽貝，雙重海味營養。",
-        "👑 酪蛋白舒壓： 幫助穩定血糖、維持情緒穩定。",
-        "👑 GABA 放鬆配方： 減少焦慮感、促進深層睡眠。",
-        "👑 0.8cm × 3條裝： 小巧酥脆棒狀，好咬易消化。",
-        "👑 無添加人工香料及防腐劑： 安心餵食，健康無負擔。",
+        "☆ 虱目魚+綠貽貝主成分，營養又美味。",
+        "☆ 酪蛋白+GABA： 幫助情緒紓緩。",
+        "☆ 無添加人工香料及防腐劑，食用更安心。",
       ],
       note: "若毛孩患有消化系統疾病,如胰臟炎、胃潰炎等情況，請食用前詢問獸醫師，以避免過量。",
     },
@@ -2009,20 +2083,15 @@ export const data = [
       title: "推薦跟著這樣吃  最對味",
     },
     block_report: {
-      subtitle: "臺灣在地食材嚴選ｘSGS檢驗認證",
-      title: (
-        <>
-          派庫廚房
-          <br />
-          嚴格把關更安心
-        </>
-      ),
+      subtitle: "新鮮食材嚴選ｘSGS檢驗認證",
+      title: <>派庫為毛孩嚴格把關更安心</>,
       description: (
         <>
-          派庫廚房不吝嗇給毛孩最優質的食品選擇！
+          派庫不吝嗇給毛孩最優質的食品選擇！
           <br />
-          鴨柳凍乾選用 CAS 認證的在地櫻桃鴨肉，肉品可溯源、品質穩定，並通過 SGS
-          食品安全檢驗。
+          來自嘉養食袋新鮮虱目魚，食材來源透明、品質穩定
+          <br />
+          通過 SGS 食品安全檢驗，只給毛孩最安心的選擇。
         </>
       ),
       img: [
@@ -2038,6 +2107,7 @@ export const data = [
       element: "虱目魚、酪蛋白、綠貽貝、GABA",
       weight: "22±2g / 包",
       produce: "臺灣",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
       limit: "12 個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
@@ -2089,11 +2159,13 @@ export const data = [
     product_name: "酥胡啦雞佛凍乾",
     type: "dog",
     block_intro: {
-      subtitle: ["台灣溫體雞", "高蛋白", "無添加"],
+      subtitle: ["100%雞佛", "香濃誘食", "食補零食"],
       slogan: (
         <>
           <span className="mb-none">「</span>
           咖滋！咖滋！
+          <br className="pc-none" />
+          這不是點心 是毛孩能量補給炸彈
           <span className="mb-none">」</span>
         </>
       ),
@@ -2105,18 +2177,29 @@ export const data = [
           整顆吃，更對味的天然寵物零食人氣 top 1！
           <br />
           <br />
-          讓毛孩一吃就愛上的酥胡啦雞佛凍乾，嚴選台灣CAS認證的溫體雞雞佛，透過冷凍乾燥技術100%保留原始風味與營養，高蛋白、無添加，口感酥脆，特別適合愛吃肉肉的毛孩！
+          讓毛孩一吃就愛上的酥胡啦雞佛凍乾，選用新鮮大雞佛，完整保留食材原型，營養密度高、香氣濃郁，是市面少見的高能補養點心。
+          <br />
+          特別適合需要補充元氣、提振活力的毛孩食用，挑嘴族也常回購指定！
+          <br />
+          <br />
+          雞佛本身膽固醇偏高，有在控管體重的毛孩，建議適量食用喔！
         </>
       ),
     },
     block_banner: {
-      subtitle: "天然無添加寵物凍乾",
-      title: <>毛孩食用更安心</>,
+      subtitle: "單一食材・純雞佛凍乾",
+      title: (
+        <>
+          整顆雞佛，挑嘴也臣服
+          <br />
+          一次一顆，補養剛剛好！
+        </>
+      ),
       img: "https://img.shoplineapp.com/media/image_clips/683c7b7eb3dc1c000a783649/original.jpg?1748794238",
       list: [
-        "👑 100% 純天然食材：台灣在地溫體雞製成，無內臟混料、無添加",
-        "👑 高蛋白質、鈣、鐵等天然營養素，幫助毛孩補充體力",
-        "👑 內酥外軟，適合牙口差的犬貓食用",
+        "☆超大顆雞佛，真材實料，市售no.1",
+        "☆ 高脂營養，補氣、開胃強力支援",
+        "☆ 內酥外軟、香氣十足，挑嘴毛孩換食推薦！",
       ],
     },
     block_suggest: {
@@ -2129,21 +2212,13 @@ export const data = [
       title: "推薦跟著這樣吃  最對味",
     },
     block_report: {
-      subtitle: "台灣 CAS 認證溫體雞 × SGS認證",
-      title: (
-        <>
-          派庫廚房
-          <br />
-          嚴格把關更安心
-        </>
-      ),
+      subtitle: "從原料到製程．把關毛孩的每一口",
+      title: <>天然食材嚴選 × SGS檢驗認證</>,
       description: (
         <>
-          酥胡啦雞佛凍乾選用台灣在地 CAS
-          認證的新鮮溫體雞，從肉品來源、品質控管到製程把關，皆依食品安全衛生規範進行檢驗，採用符合國家標準與國際認可的方法，確保原料的新鮮與潔淨。
+          派庫廚房不吝給毛孩最好的選擇！
           <br />
-          原料經 SGS
-          檢驗合格，為派庫凍乾全程把關，讓飼主看得見用心，毛孩吃得更安心。
+          食品全程依第三方安全標準製作，通過SGS檢驗，確保食材來源到製程通通有把關！
         </>
       ),
       img: [
@@ -2157,8 +2232,9 @@ export const data = [
       element: "雞佛",
       weight: "30±2g / 包",
       produce: "臺灣",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
-      limit: "12 個月（未開封）",
+      limit: "10 個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
     },
     block_question: {
@@ -2201,7 +2277,9 @@ export const data = [
       slogan: (
         <>
           <span className="mb-none">「</span>
-          台灣海味 Max！
+          超香~超脆~超有料 新鮮小魚乾
+          <br className="pc-none" />
+          補鈣香香好入口
           <span className="mb-none">」</span>
         </>
       ),
@@ -2210,28 +2288,32 @@ export const data = [
         "https://img.shoplineapp.com/media/image_clips/683c7a30804836000ce45378/original.png?1748793904",
       description: (
         <>
-          酥酥丁香魚凍乾選用整尾來自澎湖的新鮮丁香魚，保留完整丁香魚魚體與營養成分，鈣質含量豐富，是毛孩補鈣的好幫手。
+          小小一尾，滿滿營養～現在就讓毛孩吃吃看這款人氣魚乾！
           <br />
           <br />
-          經低溫冷凍乾燥處理，完整封存魚肉香氣與營養價值，無添加鹽分與油脂，口感酥脆、一口一隻更夠味。
+          酥酥丁香魚凍乾選用整尾澎湖在地新鮮丁香魚，保留完整丁香魚魚體與營養成分，鈣質含量豐富，是毛孩補鈣的好幫手。
           <br />
           <br />
-          ✅ 天然鈣質與蛋白質
-          <br />
-          ✅ Omega-3
-          <br />✅ EPA、DHA
+          口感酥脆、香氣十足，一咬即斷、好咀嚼，適口性佳的天然小魚乾零食！
         </>
       ),
     },
     block_banner: {
-      subtitle: "原型魚肉完整呈現",
-      title: <>澎湖在地大尾丁香魚凍乾</>,
+      subtitle: "100% 單一魚肉．極鮮上桌",
+      title: (
+        <>
+          澎湖在地大尾丁香魚
+          <br />
+          天然鈣質不流失
+        </>
+      ),
       img: "https://img.shoplineapp.com/media/image_clips/683c7a3012512d000c2d36bc/original.jpg?1748793904",
       list: [
-        "👑 完整魚肉製成，海味滿滿，適口性 no.1",
-        "👑 富含天然鈣質與蛋白質，幫助毛孩骨骼的健康補充",
-        "👑 無鹽、無著色、無防腐劑，食用零負擔",
+        "☆ 超大尾丁香魚，海味十足，挑嘴毛孩超推！",
+        "☆ 天然鈣質，維持毛孩關節健康",
+        "☆ 無鹽、無泡發，食用超安心",
       ],
+      note: "日常獎勵或營養補充皆適用，不適合作為主食大量食用喔！",
     },
     block_suggest: {
       s: "1~2 尾",
@@ -2243,19 +2325,19 @@ export const data = [
       title: "推薦跟著這樣吃  最對味",
     },
     block_report: {
-      subtitle: "台灣 CAS 認證溫體雞 × SGS認證",
+      subtitle: "台灣海域新鮮魚獲 × SGS認證",
       title: (
         <>
           派庫廚房
           <br />
-          嚴格把關更安心
+          為毛孩每一口嚴格把關更安心
         </>
       ),
       description: (
         <>
-          酥酥丁香魚凍乾選用來自澎湖在地新鮮大尾丁香魚，鮮魚來源可追溯、製程不經漂白、不泡發、不泡鹽與化學處理，保留原型魚肉完整營養與鈣質。
+          嚴選澎湖在地新鮮大尾丁香魚，製程不漂白、不泡發、不泡鹽，保留丁香魚完原型。
           <br />
-          凍乾 SGS 原料檢驗合格，全程無添加，讓每一口營養補給都安心又單純！
+          經SGS檢驗合格，食用安心又純粹！
         </>
       ),
       img: [
@@ -2271,8 +2353,9 @@ export const data = [
       element: "丁香魚",
       weight: "50±2g / 包",
       produce: "臺灣",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
-      limit: "12 個月（未開封）",
+      limit: "10 個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
     },
     block_question: {
@@ -2312,11 +2395,13 @@ export const data = [
     product_name: "虎克鬼頭刀凍乾",
     type: "cat",
     block_intro: {
-      subtitle: ["小切丁", "天然", "魚肉凍乾"],
+      subtitle: ["原塊魚肉", "香氣滿分", "貓咪推薦"],
       slogan: (
         <>
           <span className="mb-none">「</span>
-          台灣海域新鮮魚貨～尚青
+          台灣海域新鮮魚貨
+          <br className="pc-none" />
+          貓咪一吃就愛上的魚肉凍乾！
           <span className="mb-none">」</span>
         </>
       ),
@@ -2334,15 +2419,21 @@ export const data = [
       ),
     },
     block_banner: {
-      subtitle: "毛孩食用零負擔",
-      title: <>100% 單一魚肉成分 無添加</>,
+      subtitle: "100% 單一魚肉成分．食用零負擔",
+      title: (
+        <>
+          完整魚塊、食感滿滿
+          <br />
+          挑嘴貓最愛！
+        </>
+      ),
       img: "https://img.shoplineapp.com/media/image_clips/683c782f12512dfeca2d02f0/original.jpg?1748793391",
       list: [
-        "👑 選用整塊鬼頭刀魚肉，新鮮海味香氣，一聞就愛上",
-        "👑 冷凍乾燥技術，保留鮮魚完整營養",
-        "👑 優質蛋白質、omega-3、維生素B等天然營養補充",
-        "👑 切丁狀大小、更好餵食，毛孩獎勵零食推薦",
+        "☆ 魚肉單一成分，無添加、低脂高蛋白",
+        "☆富含 Omega-3，幫助毛孩元氣與毛髮健康",
+        "☆ 1x1 丁狀凍乾，適合訓練獎勵或搭配主食",
       ],
+      note: "日常獎勵或營養補充皆適用，不適合作為主食大量食用喔！",
     },
     block_suggest: {
       s: "1~2 顆",
@@ -2354,18 +2445,17 @@ export const data = [
       title: "推薦跟著這樣吃  最對味",
     },
     block_report: {
-      subtitle: "台灣在地食材 SGS 認證更安心",
+      subtitle: "選用台灣海域鮮魚 SGS 認證更安心",
       title: (
         <>
-          派庫廚房
+          派庫為毛孩嚴格把關
           <br />
-          嚴格把關更安心
+          食用更安心
         </>
       ),
       description: (
         <>
-          <b>鬼頭刀主要漁獲來自台灣海域</b>
-          ，包括台東新港、宜蘭南方澳與屏東東港等地，皆為可追溯來源的在地漁港，並通過
+          鬼頭刀主要漁獲來自台灣海域，包括台東新港、宜蘭南方澳與屏東東港等地，皆為可追溯來源的在地漁港，並通過
           SGS 認證的原料檢驗，從產地到毛孩口中，全程把關、安心食用！
         </>
       ),
@@ -2382,8 +2472,9 @@ export const data = [
       element: "鬼頭刀",
       weight: "50±2g / 包",
       produce: "臺灣",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
-      limit: "12 個月（未開封）",
+      limit: "10 個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
     },
     block_question: {
@@ -2421,11 +2512,13 @@ export const data = [
     product_name: "南海極鮮貝柱",
     type: "cat",
     block_intro: {
-      subtitle: ["天然鮮味", "低脂低熱量", ""],
+      subtitle: ["天然鮮味", "低脂低熱量", "海味零食"],
       slogan: (
         <>
           <span className="mb-none">「</span>
-          新鮮干貝
+          南海鮮甜小貝干
+          <br className="pc-none" />
+          極鮮上桌！
           <span className="mb-none">」</span>
         </>
       ),
@@ -2440,13 +2533,7 @@ export const data = [
     },
     block_banner: {
       subtitle: "保留食材營養．零食也能吃得健康",
-      title: (
-        <>
-          口感鮮甜酥脆
-          <br />
-          控制體重的毛孩低卡零食推薦
-        </>
-      ),
+      title: <>控制體重的毛孩零食推薦</>,
       img: "https://img.shoplineapp.com/media/image_clips/6841b3f6269338000e9ae325/original.jpg?1749136374",
       list: [
         "☆ 100% 新鮮小干貝",
@@ -2454,6 +2541,7 @@ export const data = [
         "☆ 低熱量、低膽固醇，適合控管體重的毛孩",
         "☆ SGS 認證食品，產地可溯源",
       ],
+      note: "日常獎勵或營養補充皆適用，不適合作為主食大量食用喔！",
     },
     block_suggest: {
       s: "4~6 顆／週",
@@ -2487,9 +2575,10 @@ export const data = [
       img: "https://img.shoplineapp.com/media/image_clips/6841b3f6f6b4220010b8cf04/original.png?1749136374",
       element: "干貝",
       weight: "6±2g / 包",
-      produce: "日本廣島",
+      produce: "臺灣",
+      origin: "臺灣",
       made: "低溫冷凍乾燥",
-      limit: "12 個月（未開封）",
+      limit: "10 個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
     },
     block_question: {

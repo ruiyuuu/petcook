@@ -45,7 +45,7 @@ export default function Page({ params }) {
     }
   }, [router]);
 
-  if (!allowed) return <p>重新認證</p>;
+  if (!allowed) return <p>loading..</p>;
   const { id } = React.use(params);
   const product = data
     .filter((item) => item.product_name === decodeURI(id))
@@ -589,12 +589,16 @@ export default function Page({ params }) {
                       {product[0].block_info.weight}
                     </li>
                     <li>
-                      <span className="title">原產地</span>
-                      {product[0].block_info.produce}
-                    </li>
-                    <li>
                       <span className="title">製作方式</span>
                       {product[0].block_info.made}
+                    </li>
+                    <li>
+                      <span className="title">製作產地</span>
+                      {product[0].block_info.origin}
+                    </li>
+                    <li>
+                      <span className="title">食材產地</span>
+                      {product[0].block_info.produce}
                     </li>
                     <li>
                       <span className="title">保存期限</span>
