@@ -2608,4 +2608,748 @@ export const data = [
     },
     href: "https://www.petcookco.com/products/ghost-fish-freeze-dried",
   },
+  {
+    product_name: "涮嘴。吻仔魚",
+    type: "cat",
+    block_intro: {
+      subtitle: ["鮮魚熟成", "低鹽高鈣", "拌飯神器"],
+      slogan: (
+        <>
+          <span className="mb-none">「</span>
+          小吻仔，大營養、越吃越＂涮嘴＂
+          <br className="pc-none" />
+          拌入罐罐飼料更美味！
+          <span className="mb-none">」</span>
+        </>
+      ),
+      img: "https://img.shoplineapp.com/media/image_clips/6841b3f56dfb5a000ebf4a32/original.png?1749136373",
+      img_M:
+        "https://img.shoplineapp.com/media/image_clips/6841b3f56dfb5a000ebf4a32/original.png?1749136373",
+      description: (
+        <>
+          拌入毛孩飼料或罐罐，超香～超開胃！
+          <br />
+          <br />
+          來自台灣魩鱙漁業的吻仔魚，現撈、低溫運輸到凍乾製程，保持魚貨最新鮮狀態，經熟成處理後再以
+          -50°C 冷凍乾燥，全程無漂白、無加鹽，給毛孩最原始的海味與營養！
+        </>
+      ),
+    },
+    block_banner: {
+      subtitle: "傲嬌貓貓伸手手零食推薦",
+      title: (
+        <>
+          貓界天然小魚干
+          <br />
+          營養美味讓毛孩淪陷
+        </>
+      ),
+      img: "https://img.shoplineapp.com/media/image_clips/6841b3f6269338000e9ae325/original.jpg?1749136374",
+      list: [
+        "☆ 無添加、無泡鹽，熟魚製程少負擔",
+        "☆ 熟食凍乾，好消化、好吸收",
+        "☆ 補鈣、補鐵、補營養，吃得香也顧健康",
+      ],
+    },
+    block_suggest: {
+      s: "1~2 茶匙",
+      m: "2～3 茶匙",
+      l: "5 茶匙以上，依情況調整",
+      note: [
+        "零食攝取量建議每日攝取熱量不超過主食的 10%，並依活動量與體態調整",
+        "建議拌入主食、或作為獎勵點心適量給予，不建議取代主食喔！",
+      ],
+    },
+    block_recommend: {
+      subtitle: "一口一個剛剛好",
+      title: (
+        <>
+          派庫吻仔魚凍乾
+          <br />
+          這樣吃超美味
+        </>
+      ),
+    },
+    block_report: {
+      subtitle: "新鮮短鏈食材 × SGS檢驗安心把關",
+      title: <>從產地到毛孩碗裡，我們每一步都是看得見安心</>,
+      description: (
+        <>
+          我們凍乾製程，採用通過 ISO22000 與 HACCP
+          認證的食品工廠，全程衛生、安全可溯源。
+          <br />
+          每批食品都經過第三方 SGS
+          檢驗合格層層把關，只為讓你放心，毛孩安心吃下每一口！
+        </>
+      ),
+      img: [
+        "https://img.shoplineapp.com/media/image_clips/683c7db1f151fd000d00e00c/original.jpeg?1748794800",
+        "https://img.shoplineapp.com/media/image_clips/683c7db131950c000d71e437/original.jpeg?1748794800",
+        "https://img.shoplineapp.com/media/image_clips/683c7db131950c001171e3cf/original.jpeg?1748794800",
+        "https://img.shoplineapp.com/media/image_clips/683c7db15c3ba2000b828b3f/original.jpeg?1748794800",
+      ],
+    },
+    block_info: {
+      subtitle: "100% 純天然凍乾 成分看得到",
+      img: "https://img.shoplineapp.com/media/image_clips/6841b3f6f6b4220010b8cf04/original.png?1749136374",
+      element: "吻仔魚",
+      weight: "30±2g / 包",
+      produce: "臺灣",
+      origin: "臺灣",
+      made: "低溫冷凍乾燥",
+      limit: "12 個月（未開封）",
+      protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
+      nutrition: "",
+    },
+    block_question: {
+      subtitle: "你的疑問  派庫幫你解答",
+      qa: [
+        {
+          q: "這款會不會太鹹？",
+          a: (
+            <>
+              不會喔！這款吻仔魚台灣東部海域現撈後，經過熟食處理後凍乾，過程無添加鹽、無泡鹽，自然鮮味但鹹度大幅降低，對貓咪來說是相對低鈉、適口性又好的營養點心。
+            </>
+          ),
+        },
+        {
+          q: "吻仔魚凍乾是生食嗎？",
+          a: (
+            <>
+              不是生食喔！這款吻仔魚凍乾是先熟食再冷凍乾燥的「熟凍乾」，好保存、好消化，也不會有生食疑慮。很適合腸胃較敏感、年紀稍長或剛換食的毛孩食用。
+            </>
+          ),
+        },
+        {
+          q: "可以給狗狗吃嗎?",
+          a: (
+            <>
+              雖然本產品為貓咪設計，但成分天然、無添加，也很適合狗狗食用喔！若狗狗喜歡魚味、對魚類無過敏狀況，可以安心餵食。
+            </>
+          ),
+        },
+        {
+          q: "適合所有貓咪嗎？幼貓或年長貓可以吃嗎?",
+          a: (
+            <>
+              吻仔魚凍乾使用天然食材、不加任何人工添加，營養單純、負擔低。含有豐富蛋白質、鈣質等天然營養素，2
+              個月以上的貓狗都可以安心食用。如果毛孩對魚類有過敏情況，就不建議食用喔！
+            </>
+          ),
+        },
+      ],
+    },
+    href: "https://www.petcookco.com/products/ghost-fish-freeze-dried",
+  },
+  {
+    product_name: "蒸的是。嫩雞",
+    type: "dog",
+    block_intro: {
+      subtitle: ["天然鮮味", "低脂低熱量", "海味零食"],
+      slogan: (
+        <>
+          <span className="mb-none">「</span>
+          別再忙著煮柴柴肉
+          <br className="pc-none" />
+          毛孩只想吃嫩嫩雞！
+          <span className="mb-none">」</span>
+        </>
+      ),
+      img: "https://img.shoplineapp.com/media/image_clips/6841b3f56dfb5a000ebf4a32/original.png?1749136373",
+      img_M:
+        "https://img.shoplineapp.com/media/image_clips/6841b3f56dfb5a000ebf4a32/original.png?1749136373",
+      description: (
+        <>
+          <b>
+            一點也不柴的嫩雞胸！
+            <br />
+          </b>
+          選用溫體雞胸肉，經高溫滅菌釜熟成工藝，封存食材肉汁與營養，熟嫩多汁、真的不柴！
+          <br />
+          <br />
+          無添加、無調味，每天只要撕開包裝，毛孩就能大口吃肉、補充滿滿蛋白質喔！
+        </>
+      ),
+    },
+    block_banner: {
+      subtitle: "毛孩健康加餐小點心",
+      title: <>鮮嫩多汁 好吃到舔碗底</>,
+      img: "https://img.shoplineapp.com/media/image_clips/6841b3f6269338000e9ae325/original.jpg?1749136374",
+      list: [
+        "☆ 選用台灣CAS認證雞胸，品質有保障",
+        "☆ 無添加、無調味，無人工添加",
+        "☆ 高溫滅菌處理，鮮嫩多汁、營養不流失",
+      ],
+      note: "日常獎勵或營養補充皆適用，不適合作為主食大量食用喔！",
+    },
+    block_suggest: {
+      s: "4~6 顆／週",
+      m: "6~10 顆／週",
+      l: "10 顆以上視體型與活動量調整",
+    },
+    block_recommend: {
+      subtitle: "一口一個剛剛好",
+      title: "推薦跟著這樣吃  最對味",
+    },
+    block_report: {
+      subtitle: "ISO22000, HACCP 合規製程 × SGS檢驗認證",
+      title: <>從原料到製程都讓你看得見安心</>,
+      description: (
+        <>
+          我們凍乾製程，採用通過 ISO22000 與 HACCP
+          認證的食品工廠，全程衛生、安全可溯源。 每批食品都經過第三方 SGS
+          檢驗合格層層把關，只為讓你放心，毛孩安心吃下每一口！
+        </>
+      ),
+      img: [
+        "https://img.shoplineapp.com/media/image_clips/683c7db1f151fd000d00e00c/original.jpeg?1748794800",
+        "https://img.shoplineapp.com/media/image_clips/683c7db131950c000d71e437/original.jpeg?1748794800",
+        "https://img.shoplineapp.com/media/image_clips/683c7db131950c001171e3cf/original.jpeg?1748794800",
+        "https://img.shoplineapp.com/media/image_clips/683c7db15c3ba2000b828b3f/original.jpeg?1748794800",
+      ],
+    },
+    block_info: {
+      subtitle: "100% 純天然凍乾 成分看得到",
+      img: "https://img.shoplineapp.com/media/image_clips/6841b3f6f6b4220010b8cf04/original.png?1749136374",
+      element: "雞胸",
+      weight: "40±2g / 包",
+      produce: "臺灣",
+      origin: "臺灣",
+      made: "低溫冷凍乾燥",
+      limit: "12 個月（未開封）",
+      protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
+    },
+    block_question: {
+      subtitle: "你的疑問  派庫幫你解答",
+      qa: [
+        {
+          q: "這款是生的還是熟的？",
+          a: (
+            <>
+              是熟的。使用高溫滅菌釜蒸熟處理，開封即可食用，也樣拌入主食增加風味，提升毛孩的食慾喔！
+            </>
+          ),
+        },
+        {
+          q: "需要冷藏嗎？保存方式是什麼？",
+          a: (
+            <>
+              未開封可常溫保存，不需冷藏。開封後，請儘快食用完畢，不建議放隔餐喔。
+            </>
+          ),
+        },
+        {
+          q: "雞肉有白白的雜質正常嗎?",
+          a: (
+            <>
+              是正常的喔！那是雞肉蛋白質在高溫蒸煮過程中自然析出的物質，有些會附著在肉塊或湯汁上，並不影響品質與風味，請放心食用。
+            </>
+          ),
+        },
+      ],
+    },
+    href: "https://www.petcookco.com/products/ghost-fish-freeze-dried",
+  },
+  {
+    product_name: "鴨力管理員",
+    type: "dog",
+    block_intro: {
+      subtitle: ["100% 鴨氣管", "純天然", "毛孩啃咬零食"],
+      slogan: (
+        <>
+          <span className="mb-none">「</span>
+          寵物界脆迪酥－Stress！
+          <br className="pc-none" />
+          來一根 釋放毛孩的壓力
+          <span className="mb-none">」</span>
+        </>
+      ),
+      img: "https://img.shoplineapp.com/media/image_clips/6841b3f56dfb5a000ebf4a32/original.png?1749136373",
+      img_M:
+        "https://img.shoplineapp.com/media/image_clips/6841b3f56dfb5a000ebf4a32/original.png?1749136373",
+      description: (
+        <>
+          <b>
+            「鴨力管理員」出動！
+            <br />
+          </b>
+          嚴選100%純天然鴨氣管，富含膠原蛋白與天然彈性纖維，不僅能滿足毛孩天生的啃咬慾望，還能透過咀嚼動作幫助潔牙、釋放壓力。
+          <br />
+          <br />
+          有時候，毛孩只是想啃一啃、咬一咬，把累積一整天的情緒釋放出來－
+          <br />
+          <br />
+          這時候，就讓「鴨力管理員」出動吧！
+        </>
+      ),
+    },
+    block_banner: {
+      title: <>低敏肉源ｘ剪段餵食ｘ大中小犬都適用</>,
+      img: "https://img.shoplineapp.com/media/image_clips/6841b3f6269338000e9ae325/original.jpg?1749136374",
+      list: [
+        "☆ 100% 鴨氣管原型製作、完整保留彈性咬感",
+        "☆ 酥脆有嚼勁，幫助狗狗潔牙與釋放壓力",
+        "☆ 低脂高蛋白，控制體態無負擔",
+        "☆ 可剪段餵食，適合所有犬食用",
+      ],
+      note: "日常獎勵或營養補充皆適用，不適合作為主食大量食用喔！",
+    },
+    block_suggest: {
+      s: "0.5~1 條",
+      m: "1 條",
+      l: "1 條以上視體型與活動量調整",
+    },
+    block_recommend: {
+      subtitle: "一口一個剛剛好",
+      title: "推薦跟著這樣吃  最對味",
+    },
+    block_report: {
+      subtitle: "ISO22000, HACCP 合規製程 × SGS檢驗認證",
+      title: <>從原料到製程都讓你看得見安心</>,
+      description: (
+        <>
+          我們凍乾製程，採用通過 ISO22000 與 HACCP
+          認證的食品工廠，全程衛生、安全可溯源。 每批食品都經過第三方 SGS
+          檢驗合格層層把關，只為讓你放心，毛孩安心吃下每一口！
+        </>
+      ),
+      img: [
+        "https://img.shoplineapp.com/media/image_clips/683c7db1f151fd000d00e00c/original.jpeg?1748794800",
+        "https://img.shoplineapp.com/media/image_clips/683c7db131950c000d71e437/original.jpeg?1748794800",
+        "https://img.shoplineapp.com/media/image_clips/683c7db131950c001171e3cf/original.jpeg?1748794800",
+        "https://img.shoplineapp.com/media/image_clips/683c7db15c3ba2000b828b3f/original.jpeg?1748794800",
+      ],
+    },
+    block_info: {
+      subtitle: "100% 純天然凍乾 成分看得到",
+      img: "https://img.shoplineapp.com/media/image_clips/6841b3f6f6b4220010b8cf04/original.png?1749136374",
+      element: "雞胸",
+      weight: "40±2g / 包",
+      produce: "臺灣",
+      origin: "臺灣",
+      made: "低溫冷凍乾燥",
+      limit: "12 個月（未開封）",
+      protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
+    },
+    block_question: {
+      subtitle: "你的疑問  派庫幫你解答",
+      qa: [
+        {
+          q: "這款是生的還是熟的？",
+          a: (
+            <>
+              是熟的。使用高溫滅菌釜蒸熟處理，開封即可食用，也樣拌入主食增加風味，提升毛孩的食慾喔！
+            </>
+          ),
+        },
+        {
+          q: "需要冷藏嗎？保存方式是什麼？",
+          a: (
+            <>
+              未開封可常溫保存，不需冷藏。開封後，請儘快食用完畢，不建議放隔餐喔。
+            </>
+          ),
+        },
+        {
+          q: "雞肉有白白的雜質正常嗎?",
+          a: (
+            <>
+              是正常的喔！那是雞肉蛋白質在高溫蒸煮過程中自然析出的物質，有些會附著在肉塊或湯汁上，並不影響品質與風味，請放心食用。
+            </>
+          ),
+        },
+      ],
+    },
+    href: "https://www.petcookco.com/products/ghost-fish-freeze-dried",
+  },
+  {
+    product_name: "鮮酥虱目魚凍乾",
+    type: "cat",
+    block_intro: {
+      slogan: (
+        <>
+          <span className="mb-none">「</span>
+          鮮嫩魚柳 × 牛磺酸補充
+          <br className="pc-none" />
+          挑嘴貓推薦
+          <span className="mb-none">」</span>
+        </>
+      ),
+      img: "https://img.shoplineapp.com/media/image_clips/6841b3f56dfb5a000ebf4a32/original.png?1749136373",
+      img_M:
+        "https://img.shoplineapp.com/media/image_clips/6841b3f56dfb5a000ebf4a32/original.png?1749136373",
+      description: (
+        <>
+          <b>
+            鮮酥的好滋味，咪嗚～好吃！
+            <br />
+          </b>
+          鮮酥虱目魚凍乾選用臺南虱目魚魚柳，在-50°C環境中冷凍乾燥製成。富含蛋白質、Omega-3與多種維生素，幫助毛孩成長、維持免疫力。
+          <br />
+          <br />
+          魚柳鮮酥好入口，吃得到魚肉、補得到營養，讓貓咪一吃上癮，狗狗也超買單！
+        </>
+      ),
+    },
+    block_banner: {
+      title: (
+        <>
+          100% 新鮮魚肉
+          <br />
+          低敏 高營養價值
+        </>
+      ),
+      img: "https://img.shoplineapp.com/media/image_clips/6841b3f6269338000e9ae325/original.jpg?1749136374",
+      list: [
+        "☆ 選用台南養殖虱目魚，肉質細膩、口感鮮甜",
+        "☆ 天然牛磺酸：維持貓咪眼睛、心臟、骨骼健康",
+        "☆ Omega-3補充：維持毛孩皮毛光澤亮麗",
+      ],
+      note: "日常獎勵或營養補充皆適用，不適合作為主食大量食用喔！",
+    },
+    block_suggest: {
+      s: "0.5~1 條",
+      m: "1 條",
+      l: "2 條以上視體型與活動量調整",
+    },
+    block_recommend: {
+      subtitle: "一口一個剛剛好",
+      title: "推薦跟著這樣吃  最對味",
+    },
+    block_report: {
+      subtitle: "ISO22000, HACCP 合規製程 × SGS檢驗認證",
+      title: <>從原料到製程都讓你看得見安心</>,
+      description: (
+        <>
+          我們凍乾製程，採用通過 ISO22000 與 HACCP
+          認證的食品工廠，全程衛生、安全可溯源。 每批食品都經過第三方 SGS
+          檢驗合格層層把關，只為讓你放心，毛孩安心吃下每一口！
+        </>
+      ),
+      img: [
+        "https://img.shoplineapp.com/media/image_clips/683c7db1f151fd000d00e00c/original.jpeg?1748794800",
+        "https://img.shoplineapp.com/media/image_clips/683c7db131950c000d71e437/original.jpeg?1748794800",
+        "https://img.shoplineapp.com/media/image_clips/683c7db131950c001171e3cf/original.jpeg?1748794800",
+        "https://img.shoplineapp.com/media/image_clips/683c7db15c3ba2000b828b3f/original.jpeg?1748794800",
+      ],
+    },
+    block_info: {
+      subtitle: "100% 純天然凍乾 成分看得到",
+      img: "https://img.shoplineapp.com/media/image_clips/6841b3f6f6b4220010b8cf04/original.png?1749136374",
+      element: "虱目魚",
+      weight: "40±2g / 包",
+      produce: "臺灣",
+      origin: "臺灣",
+      made: "低溫冷凍乾燥",
+      limit: "12 個月（未開封）",
+      protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
+    },
+    block_question: {
+      subtitle: "你的疑問  派庫幫你解答",
+      qa: [
+        {
+          q: "鮮酥虱目魚凍乾的營養價值是什麼？",
+          a: (
+            <>
+              虱目魚本身富含天然牛磺酸、Omega-3脂肪酸、優質蛋白質與多種維生素，是非常適合貓狗日常補充的營養來源。
+              <br />
+              其中牛磺酸是貓咪無法自行合成的必需氨基酸，因此適量補充，對貓咪視力與心血管健康有幫助，Omega-3
+              則有助於毛孩皮膚健康與毛髮亮麗，適量餵食可作為毛孩日常的營養素補充。
+            </>
+          ),
+        },
+        {
+          q: "虱目魚凍乾會不會膽固醇太高？可以每天吃嗎？",
+          a: (
+            <>
+              虱目魚屬於低脂、低熱量、營養密度高的魚類。雖含有天然膽固醇，但適量餵食量，對大部分毛孩不會造成負擔。
+              <div className="note">
+                * 建議可作為每日的營養補給或訓練獎勵，不建議以大量取代主餐 *
+              </div>
+            </>
+          ),
+        },
+        {
+          q: "鮮酥虱目魚凍乾看起來比較大片，毛孩好咬嗎?",
+          a: (
+            <>
+              虱目魚柳凍乾是經 -50°C
+              冷凍乾燥後，呈現酥脆易咬碎的口感，大多數犬貓都能輕鬆咬碎。針對牙口不佳的高齡毛孩或小型貓狗，也可將魚柳剪碎或加水還原成鮮魚肉，同樣美味好入口喔！
+            </>
+          ),
+        },
+      ],
+    },
+    href: "https://www.petcookco.com/products/ghost-fish-freeze-dried",
+  },
+  {
+    product_name: "母雞抖雞柳凍乾",
+    type: "dog",
+    block_intro: {
+      slogan: (
+        <>
+          <span className="mb-none">「</span>
+          鮮嫩雞里肌
+          <br className="pc-none" />
+          低脂 高蛋白
+          <span className="mb-none">」</span>
+        </>
+      ),
+      img: "https://img.shoplineapp.com/media/image_clips/6841b3f56dfb5a000ebf4a32/original.png?1749136373",
+      img_M:
+        "https://img.shoplineapp.com/media/image_clips/6841b3f56dfb5a000ebf4a32/original.png?1749136373",
+      description: (
+        <>
+          <b>
+            母雞抖。雞柳是什麼？
+            <br />
+          </b>
+          母雞抖雞柳凍乾選用台灣CAS認證溫體雞里肌，整條雞里肌在-50°C環境中冷凍乾燥製成。保留滿滿蛋白質與營養。
+          <br />
+          <br />
+          天然無添加、無切割，低脂、高蛋白，讓毛孩吃完，不只搖尾巴、還會開心到抖抖抖～
+        </>
+      ),
+    },
+    block_banner: {
+      subtitle: "100%純雞柳製作，入口即抖，尾巴甩翻天！",
+      title: <>全雞中脂肪量最低、口感細嫩的部位！</>,
+      description:
+        "雞柳 (雞里肌) 位於雞胸內側，是雞隻中脂肪含量最低、肉質軟嫩的部位 (每100g 約0.6%脂肪，雞胸約 2%)，可以撕碎撒在毛孩的主飼料上或加水還原鮮肉，增加毛孩喝水量。",
+      img: "https://img.shoplineapp.com/media/image_clips/6841b3f6269338000e9ae325/original.jpg?1749136374",
+      list: [
+        "☆ 低脂、低熱量：適合減脂、控制體重的毛孩",
+        "☆ 優質蛋白質：有助維持毛孩肌肉發展",
+        "☆ 高適口性：凍乾口感酥脆、易咬碎。",
+      ],
+      note: "日常獎勵或營養補充皆適用，不適合作為主食大量食用喔！",
+    },
+    block_suggest: {
+      s: "0.5~1 條",
+      m: "1 條",
+      l: "2 條以上視體型與活動量調整",
+    },
+    block_recommend: {
+      subtitle: "一口一個剛剛好",
+      title: "推薦跟著這樣吃  最對味",
+    },
+    block_report: {
+      subtitle: "台灣CAS × SGS檢驗雙認證",
+      title: <>從原料到製程都讓你看得見安心</>,
+      description: (
+        <>
+          我們選用通過 CAS 認證的溫體雞柳，來源可追溯，品質有保證。
+          <br />
+          食品製作則在通過 ISO22000 與 HACCP 認證的工廠製成，並經過第三方 SGS
+          檢驗，多重保證、讓毛孩食用更安心！
+        </>
+      ),
+      img: [
+        "https://img.shoplineapp.com/media/image_clips/683c7db1f151fd000d00e00c/original.jpeg?1748794800",
+        "https://img.shoplineapp.com/media/image_clips/683c7db131950c000d71e437/original.jpeg?1748794800",
+        "https://img.shoplineapp.com/media/image_clips/683c7db131950c001171e3cf/original.jpeg?1748794800",
+        "https://img.shoplineapp.com/media/image_clips/683c7db15c3ba2000b828b3f/original.jpeg?1748794800",
+      ],
+    },
+    block_info: {
+      subtitle: "100% 純天然凍乾 成分看得到",
+      img: "https://img.shoplineapp.com/media/image_clips/6841b3f6f6b4220010b8cf04/original.png?1749136374",
+      element: "雞肉",
+      weight: "50±2g / 包",
+      produce: "臺灣",
+      origin: "臺灣",
+      made: "低溫冷凍乾燥",
+      limit: "12 個月（未開封）",
+      protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
+    },
+    block_question: {
+      subtitle: "你的疑問  派庫幫你解答",
+      qa: [
+        {
+          q: "什麼是 CAS 認證？這款雞柳凍乾有嗎？",
+          a: (
+            <>
+              CAS
+              優良農產品標章，是農業部針對食品安全與品質所設立的認證制度。簡單來說，有
+              CAS 標章的產品，代表從來源到生產，都經過把關，讓你更安心。
+              <br />
+              CAS 的四大標準包括：
+              <ol>
+                <li>使用台灣本地的農、水、畜產原料為主 最終產品必須符合CAS</li>
+                <li>規定的品質標準 在高品質工廠製造，設備與流程需達標</li>
+                <li>食品安全與衛生需經第三方單位檢驗與追蹤</li>
+              </ol>
+              我們雞柳凍乾所使用的雞里肌，皆通過 CAS 認證溫體雞，且與符合
+              ISO22000、 HACCP
+              的工廠製程，來源透明、品質穩定，讓寵物飼主安心選購！
+              <small>
+                (參考來源：
+                <a href="https://www.moa.gov.tw/ws.php?id=3877">農業部</a>)
+              </small>
+            </>
+          ),
+        },
+        {
+          q: "雞柳大小大概多大？小型犬或貓咪適合嗎？",
+          a: (
+            <>
+              母雞抖雞柳凍乾為無切割的條狀原型雞柳，口感酥脆，加水還原口感較雞胸柔軟，適合大多數犬貓咀嚼。對體型較小或牙口較弱的毛孩，可剝碎或泡水軟化後再餵食。
+            </>
+          ),
+        },
+        {
+          q: "雞柳凍乾的一次食用量多少？一次一條會不會吃得多?",
+          a: (
+            <>
+              雞柳凍乾每塊大約8~12克，建議攝取量如下，依毛孩體型與活動量調整為佳：
+              <ol>
+                <li>小型犬貓 {"(<5kg)"} ：約半條~1條</li>
+                <li>中型犬貓(5~10kg) ：約1條</li>
+                <li>大型犬貓 {"(>10g) "}：1~2條</li>
+              </ol>
+              雞柳凍乾為營養補充的零食，不建議作為主餐取代喔！
+            </>
+          ),
+        },
+      ],
+    },
+    href: "https://www.petcookco.com/products/ghost-fish-freeze-dried",
+  },
+  {
+    product_name: "Super Lollipop 超狗能量棒(雞肉南瓜口味)",
+    type: "dog",
+    block_intro: {
+      subtitle: ["咀嚼潔牙", "腸胃健康", "啃咬零食"],
+      slogan: (
+        <>
+          <span className="mb-none">「</span>
+          狗狗的Super超級能量棒 新上市！
+          <br className="pc-none" />
+          舔一舔 × 咬一咬 × 腸胃順順
+          <span className="mb-none">」</span>
+        </>
+      ),
+      img: "https://img.shoplineapp.com/media/image_clips/68654c5845d18d000ce0164c/original.png?1751469144",
+      img_M:
+        "https://img.shoplineapp.com/media/image_clips/68654c5845d18d000ce0164c/original.png?1751469144",
+      description: (
+        <>
+          <b>
+            雙重口感，一支兩吃！
+            <br />
+            <br />
+          </b>
+          Super Lollipop 超狗能量棒－雞肉南瓜口味，外層為 100%
+          雞肉經低溫烘烤，香氣四溢；棒身是雞肉潔牙骨，讓狗狗延長啃咬時間，幫助舒緩壓力、釋放精力與清潔牙齒。
+          <br />
+          <br />
+          添加南瓜粉，含有膳食纖維與β-胡蘿蔔素，維持消化道機能健康，是一款適合狗狗日常補充與紓壓的零食喔！
+        </>
+      ),
+    },
+    block_banner: {
+      subtitle: "為狗狗量身打造的超級能量小宇宙",
+      title: (
+        <>
+          好吃、好玩又營養的
+          <br />
+          狗狗天然能量零食
+        </>
+      ),
+      img: "https://img.shoplineapp.com/media/image_clips/68654c59fedefa000e466708/original.jpg?1751469145",
+      list: [
+        "☆ 100%雞肉成分，天然無添加，安心舔到底",
+        "☆ 南瓜粉：膳食纖維與β-胡蘿蔔素天然補充",
+        "☆ 棒棒糖造型零食：每日獎勵、外出訓練都好用",
+      ],
+      note: "日常獎勵或營養補充皆適用，不適合作為主食大量食用喔！",
+    },
+    block_suggest: {
+      s: "1條／次",
+      m: "1條／次",
+      l: "1條／次",
+      note: [
+        "本產品為可啃咬型點心，建議每日限量餵食，適量為宜。建議飼主在旁陪伴，觀察狗狗咀嚼狀況，避免整支吞食。",
+      ],
+    },
+    block_recommend: {
+      subtitle: "一口一個剛剛好",
+      title: "推薦跟著這樣吃  最對味",
+    },
+    block_report: {
+      subtitle: "ISO22000, HACCP 合規製程 × SGS檢驗認證",
+      title: <>從原料到製程都讓你看得見安心</>,
+      description: (
+        <>
+          我們產品製程，採用通過 ISO22000 與 HACCP
+          認證的食品工廠，全程衛生、安全可溯源。 <br />
+          每批食品都經過第三方 SGS
+          檢驗合格層層把關，只為讓你放心，毛孩安心吃下每一口！
+        </>
+      ),
+      img: [],
+    },
+    block_info: {
+      subtitle: "100% 純天然凍乾 成分看得到",
+      img: "https://img.shoplineapp.com/media/image_clips/68654c59e821c8000b2e57a9/original.png?1751469144",
+      element: "雞肉、南瓜、維生素Ｅ、維生素Ｃ",
+      weight: "1入 (約19±1) /包",
+      produce: "臺灣",
+      origin: "臺灣",
+      made: "低溫冷凍乾燥",
+      limit: "10 個月（未開封）",
+      protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
+      nutrition: [
+        { name: "熱量", data: "403.9Kcal" },
+        { name: "水分", data: "1.1%" },
+        { name: "灰份", data: "2.8%" },
+        { name: "粗蛋白", data: "1%" },
+        { name: "粗脂肪", data: "1%" },
+        { name: "飽和脂肪", data: "1%" },
+        { name: "反式脂肪", data: "0%" },
+        { name: "碳水化合物", data: "0%" },
+        { name: "鈉", data: "0.2%" },
+      ],
+    },
+    block_question: {
+      subtitle: "你的疑問  派庫幫你解答",
+      qa: [
+        {
+          q: "這款適合什麼年齡或體型的狗狗？",
+          a: (
+            <>
+              Super Lollipop 超狗能棒適合所有體型的 3
+              個月以上狗狗，尤其推薦給愛咬咬的成犬。不建議給換牙期的幼犬或牙口較弱的高齡犬整支啃咬，請視狗狗咀嚼能力斟酌。
+            </>
+          ),
+        },
+        {
+          q: "狗狗吃完整支可以嗎？",
+          a: (
+            <>
+              這款能量棒設計為可啃咬點心，<b>建議每次一支、適量給予</b>
+              ，不宜當正餐食用。飼主可依狗狗體型與飲食習慣調整餵食量，並在旁陪伴觀察，避免整支吞食。
+            </>
+          ),
+        },
+        {
+          q: "這款可以幫助潔牙嗎?",
+          a: (
+            <>
+              此款能量棒的棒身為雞肉潔牙骨，可延長狗狗啃咬時間，幫助減少牙垢與齒垢累積，同時達到咀嚼放鬆與幫助清潔牙齒的雙重效果！
+            </>
+          ),
+        },
+        {
+          q: "開封後要怎麼保存?",
+          a: (
+            <>
+              為保持能量棒的風味與品質，請封緊包裝並存放於陰涼乾燥處，避免陽光直射與潮濕高溫。建議開封後儘速食用完畢，享受最新鮮的美味！
+            </>
+          ),
+        },
+      ],
+    },
+    href: "https://www.petcookco.com/products/energybar-pumpkin",
+  },
 ];

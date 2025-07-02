@@ -349,7 +349,6 @@ export default function Page({ params }) {
           {product[0].type && (
             <div className="card-block section">
               <DialogSub
-                sub={"酥脆骰子切塊"}
                 title={"建議餵食方式與攝取量"}
                 position={"center"}
                 color={"orange"}
@@ -462,15 +461,48 @@ export default function Page({ params }) {
                     {product[0].block_suggest.l}
                   </div>
                 </div>
+                {product[0].block_suggest.note && (
+                  <div className="note">
+                    * 食用小提醒：
+                    <br />
+                    <ol>
+                      {product[0].block_suggest.note?.map((item) => (
+                        <li key={item}>
+                          {item}
+                          <br />
+                        </li>
+                      ))}
+                    </ol>
+                  </div>
+                )}
+                {!product[0].block_suggest.note && (
+                  <div className="note">
+                    \ 食用建議 /<br />
+                    日常獎勵或營養補充皆適用，不適合作為主食大量食用喔！
+                  </div>
+                )}
+              </div>
+              {product[0].block_suggest.note && (
                 <div className="note">
-                  \ 食用建議 /<br />
-                  日常獎勵或營養補充皆適用，不適合作為主食大量食用喔！
+                  * 食用小提醒：
+                  <br />
+                  <ol>
+                    {product[0].block_suggest.note?.map((item) => (
+                      <li key={item}>
+                        {item}
+                        <br />
+                      </li>
+                    ))}
+                  </ol>
                 </div>
-              </div>
-              <div className="note">
-                \ 食用建議：日常獎勵或營養補充皆適用，不適合作為主食大量食用喔！
-                /
-              </div>
+              )}
+              {!product[0].block_suggest.note && (
+                <div className="note">
+                  \
+                  食用建議：日常獎勵或營養補充皆適用，不適合作為主食大量食用喔！
+                  /
+                </div>
+              )}
             </div>
           )}
           {product[0].block_recommend && (
@@ -607,6 +639,24 @@ export default function Page({ params }) {
                     <li>
                       <span className="title">保存方式</span>
                       {product[0].block_info.protect}
+                    </li>
+                    <li>
+                      <span className="title">營養標示</span>
+                      <span className="nutrition">
+                        <span>營養標示每 100g</span>
+                        <span className="nutrition__block">
+                          {product[0].block_info.nutrition.map((item) => (
+                            <span key={item.name} className="nutrition__item">
+                              <span className="nutrition__name">
+                                {item.name}
+                              </span>
+                              <span className="nutrition__data">
+                                {item.data}
+                              </span>
+                            </span>
+                          ))}
+                        </span>
+                      </span>
                     </li>
                   </ul>
                 </div>
