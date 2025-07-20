@@ -3229,9 +3229,9 @@ export const data = [
           <span className="mb-none">」</span>
         </>
       ),
-      img: "https://img.shoplineapp.com/media/image_clips/68654c5845d18d000ce0164c/original.png?1751469144",
+      img: "https://img.shoplineapp.com/media/image_clips/6866957eadf297000d6c9366/original.png?1751553406",
       img_M:
-        "https://img.shoplineapp.com/media/image_clips/68654c5845d18d000ce0164c/original.png?1751469144",
+        "https://img.shoplineapp.com/media/image_clips/6866957eadf297000d6c9366/original.png?1751553406",
       description: (
         <>
           <b>
