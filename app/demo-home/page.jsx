@@ -529,10 +529,10 @@ export default function Page() {
             </a>
           </div>
           <div className="all-partner__items">
-            <SlideShop shops={shops} />
+            <SlideShop shops={shops} reverseDirection={false} />
           </div>
           <div className="all-partner__items reverse">
-            <SlideShop shops={shopsRevers} />
+            <SlideShop shops={shopsRevers} reverseDirection={true} />
           </div>
         </div>
         <div>

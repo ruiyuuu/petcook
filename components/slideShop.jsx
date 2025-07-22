@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
-export default function SlideShop({ shops }) {
+export default function SlideShop({ shops, reverseDirection }) {
   return (
     <Swiper
       spaceBetween={16}
@@ -14,7 +14,11 @@ export default function SlideShop({ shops }) {
       slidesPerView={"auto"}
       allowTouchMove={false}
       modules={[Autoplay, Pagination, Navigation]}
-      autoplay={{ delay: 0, disableOnInteraction: false }}
+      autoplay={{
+        delay: 0,
+        disableOnInteraction: false,
+        reverseDirection: reverseDirection,
+      }}
       loop={true}
       speed={3000}
       className="marquee"
