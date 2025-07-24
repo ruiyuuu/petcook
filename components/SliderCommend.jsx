@@ -17,8 +17,8 @@ export default function SliderCommend() {
     },
     {
       img: "/commend-photo-1.png",
-      name: "崽崽",
-      age: "1",
+      name: "崽崽/璐娜/櫻桃",
+      age: "1/0.4/0.2",
       des: "每一餐都要吃鴨肉和雞肉凍乾搭配才行",
     },
     {
@@ -29,23 +29,41 @@ export default function SliderCommend() {
     },
     {
       img: "/commend-photo-1.png",
-      name: "皮蛋&米血",
-      age: "6",
-      des: "每次聽到開冰箱聲音就會興奮的一直叫,所以想把他們趕出一個空間的話，拿出你們家的凍乾，就會跑出來了",
+      name: "Uni & money",
+      age: "0.9",
+      des: "大家極推鮭魚，但雙寶目前最愛的就是干貝了❤️",
     },
     {
       img: "/commend-photo-1.png",
-      name: "皮蛋&米血",
-      age: "6",
-      des: "每次聽到開冰箱聲音就會興奮的一直叫,所以想把他們趕出一個空間的話，拿出你們家的凍乾，就會跑出來了",
+      name: "憨吉",
+      age: "0.6",
+      des: "丁香魚凍乾，香脆而且有蛋，憨吉吃得很開心",
     },
     {
       img: "/commend-photo-1.png",
-      name: "皮蛋&米血",
-      age: "6",
-      des: "每次聽到開冰箱聲音就會興奮的一直叫,所以想把他們趕出一個空間的話，拿出你們家的凍乾，就會跑出來了",
+      name: "姆姆",
+      age: "0.6",
+      des: "我們家貓咪最喜歡吃派庫的主食罐，最喜歡的口味是鱷魚雞肉，可能是口感質地他很愛，市面上感覺也真的很少這種質地的主食罐",
     },
   ];
+  // HTML輪播
+  // const swiper = new Swiper(".swiper.commend", {
+  //   spaceBetween: "30",
+  //   slidesPerView: "1",
+  //   centeredSlides: true,
+  //   autoplay: {
+  //     delay: 2500,
+  //     disableOnInteraction: false,
+  //   },
+  //   loop: true,
+  //   navigation: true,
+  //   breakpoints: {
+  //     1200: {
+  //       slidesPerView: 3,
+  //       spaceBetween: 20,
+  //     },
+  //   },
+  // });
   return (
     <Swiper
       spaceBetween={30}
@@ -64,6 +82,7 @@ export default function SliderCommend() {
           spaceBetween: 20,
         },
       }}
+      className="commend"
     >
       {data?.map((item) => (
         <SwiperSlide>
@@ -82,6 +101,7 @@ export function Card({ img, name, age, des }) {
         src={img}
         width={295}
         height={214}
+        unoptimized
         priority
         className="slide-card__img"
       />

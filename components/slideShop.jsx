@@ -7,6 +7,19 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 export default function SlideShop({ shops, reverseDirection }) {
+  // const swiper = new Swiper(".swiper.marquee", {
+  //   spaceBetween: 16,
+  //   centeredSlides: true,
+  //   slidesPerView: "auto",
+  //   allowTouchMove: false,
+  //   autoplay: {
+  //     delay: 0,
+  //     disableOnInteraction: false,
+  //   },
+  //   loop: true,
+  //   navigation: true,
+  //   speed: 3000,
+  // });
   return (
     <Swiper
       spaceBetween={16}
@@ -17,11 +30,11 @@ export default function SlideShop({ shops, reverseDirection }) {
       autoplay={{
         delay: 0,
         disableOnInteraction: false,
-        reverseDirection: reverseDirection,
       }}
       loop={true}
       speed={3000}
       className="marquee"
+      dir={reverseDirection}
     >
       {shops?.map((item) => (
         <SwiperSlide>

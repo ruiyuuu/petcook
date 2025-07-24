@@ -95,8 +95,8 @@ export default function Page() {
           制定專屬方案
         </>
       ),
-      img1: "/step-01.png",
-      img2: "/step-01-2.png",
+      img1: "https://img.shoplineapp.com/media/image_clips/687fa55fec6651000cc1e829/original.png?1753195871",
+      img2: "https://img.shoplineapp.com/media/image_clips/687fa55df917f4000e44c000/original.png?1753195868",
     },
     {
       id: 2,
@@ -108,8 +108,8 @@ export default function Page() {
           提供專業建議
         </>
       ),
-      img1: "/step-02.png",
-      img2: "/step-02-2.png",
+      img1: "https://img.shoplineapp.com/media/image_clips/687fa55d95c09f001633977c/original.png?1753195868",
+      img2: "https://img.shoplineapp.com/media/image_clips/687fa55d5ba4820010c9361b/original.png?1753195868",
     },
     {
       id: 3,
@@ -121,8 +121,8 @@ export default function Page() {
           確保穩定供應
         </>
       ),
-      img1: "/step-03.png",
-      img2: "/step-03-2.png",
+      img1: "https://img.shoplineapp.com/media/image_clips/687fa55d55338b0010fea59e/original.png?1753195868",
+      img2: "https://img.shoplineapp.com/media/image_clips/687fa55ba77cf9000ee0ac47/original.png?1753195866",
     },
     {
       id: 4,
@@ -134,8 +134,8 @@ export default function Page() {
           全程服務
         </>
       ),
-      img1: "/step-04.png",
-      img2: "/step-04-2.png",
+      img1: "https://img.shoplineapp.com/media/image_clips/687fa55de23b180016b606aa/original.png?1753195868",
+      img2: "https://img.shoplineapp.com/media/image_clips/687fa55bd32ac300141277cc/original.png?1753195866",
     },
   ];
   return (
@@ -144,12 +144,14 @@ export default function Page() {
       <div className="intro">
         <div className="intro__dialog">
           <Image
-            src={DialogPic}
+            src={
+              "https://img.shoplineapp.com/media/image_clips/687fa55baed6ec0016255591/original.png?1753195867"
+            }
             width={685}
             height={514}
             alt=""
             className="dialogPic"
-            priority
+            unoptimized
           />
           <div className="intro__dialog__content">
             <div className="intro__dialog__content__title">
@@ -169,39 +171,50 @@ export default function Page() {
           </div>
         </div>
         <Image
-          src={Kitchen}
-          width={0}
-          height={0}
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa572c1dd8a000c6fc958/original.png?1753195887"
+          }
+          width={1920}
+          height={1682}
           alt=""
           className="intro__bg"
           priority
+          unoptimized
         />
         <Image
-          src={Kitchen_M}
-          width={0}
-          height={0}
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa565830a45000c70ff8d/original.png?1753195876"
+          }
+          width={991}
+          height={3345}
           alt=""
           className="intro__bg mobile"
           priority
+          unoptimized
         />
         <Image
-          src={Cat}
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55d528c700018fc8d89/original.png?1753195869"
+          }
           width={244}
           height={366}
           alt=""
           className="intro__cat"
           priority
+          unoptimized
         />
         <Image
-          src={Dog}
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55dc2a47100185dcb3e/original.png?1753195869"
+          }
           width={262}
           height={443}
           alt=""
           className="intro__dog"
           priority
+          unoptimized
         />
         <div className="comic-border rotate"></div>
-        <div className="comic-border w-100 absolute bottom"></div>
         <div className="comic-border vertical"></div>
         <div className="source">
           <div className="source__content">
@@ -212,11 +225,14 @@ export default function Page() {
           </div>
           <div className="circles">
             <Image
-              src={Circles}
+              src={
+                "https://img.shoplineapp.com/media/image_clips/687fa55a268d160018ed350d/original.png?1753195866"
+              }
               alt=""
               priority
-              width={0}
-              height={0}
+              unoptimized
+              width={450}
+              height={121}
               className="circles__bg"
             />
             <div className="circles__text">
@@ -226,187 +242,402 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <Image src={Can} alt="" priority width={0} height={0} className="can" />
         <Image
-          src={ShineBorder}
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa56a0ea831000e741a21/original.png?1753195881"
+          }
           alt=""
           priority
-          width={0}
-          height={0}
+          unoptimized
+          width={1152}
+          height={720}
+          className="can"
+        />
+        <Image
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55a53ab74000c15f562/original.png?1753195866"
+          }
+          alt=""
+          priority
+          unoptimized
+          width={23}
+          height={30}
           className="shine border"
         />
         <Image
-          src={ShineOrange}
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55b4e7ba40014a85dc7/original.png?1753195866"
+          }
           alt=""
           priority
+          unoptimized
           width={23}
           height={29}
           className="shine orange"
         />
         <Image
-          src={ShineBrown}
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55ae65d7d001017092a/original.png?1753195866"
+          }
           alt=""
           priority
-          width={0}
-          height={0}
+          unoptimized
+          width={23}
+          height={30}
           className="shine brown"
         />
-        <Image src={Wow} alt="" priority width={0} height={0} className="wow" />
         <Image
-          src={Yes}
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55df56bb0001618bc74/original.png?1753195868"
+          }
           alt=""
           priority
+          unoptimized
+          width={384}
+          height={225}
+          className="wow"
+        />
+        <Image
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55a1c8dc20010b6494a/original.png?1753195866"
+          }
+          alt=""
+          priority
+          unoptimized
           width={180}
           height={138}
           className="yes"
         />
         <Image
-          src={Yes}
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55a1c8dc20010b6494a/original.png?1753195866"
+          }
           alt=""
           priority
+          unoptimized
           width={180}
           height={138}
           className="yes two"
         />
         <Image
-          src={Minus1}
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55a091e63000e3ade39/original.png?1753195866"
+          }
           alt=""
           priority
-          width={87}
-          height={56}
+          unoptimized
+          width={154}
+          height={87}
           className="minus1"
         />
         <Image
-          src={Minus1}
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55a091e63000e3ade39/original.png?1753195866"
+          }
           alt=""
           priority
-          width={0}
-          height={0}
+          unoptimized
+          width={154}
+          height={87}
           className="minus1 two"
         />
         <Image
-          src={Minus1}
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55a091e63000e3ade39/original.png?1753195866"
+          }
           alt=""
           priority
-          width={0}
-          height={0}
+          unoptimized
+          width={154}
+          height={87}
           className="minus1 three"
         />
         <Image
-          src={ShineBorder}
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55a53ab74000c15f562/original.png?1753195866"
+          }
           alt=""
           priority
-          width={0}
-          height={0}
+          unoptimized
+          width={23}
+          height={29}
           className="shine three"
         />
         <Image
-          src={ShineOrange}
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55b4e7ba40014a85dc7/original.png?1753195866"
+          }
           alt=""
           priority
+          unoptimized
           width={23}
           height={29}
           className="shine two"
         />
+        <div className="comic-border w-100 absolute bottom"></div>
       </div>
       <div className="product">
         <Image
-          src={ProductBG1}
-          width={1440}
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55dc56339000e1328d1/original.png?1753195869"
+          }
+          width={1920}
           height={624}
           alt=""
+          className="product-bg"
+          priority
+          unoptimized
+        />
+        <div className="comic-border w-100 absolute bottom"></div>
+        <div>
+          <Image
+            src={
+              "https://img.shoplineapp.com/media/image_clips/687fa55a1cbfe400108f1d8a/original.png?1753195866"
+            }
+            width={116}
+            height={152}
+            alt=""
+            className="paw"
+            priority
+            unoptimized
+          />
+          <Image
+            src={
+              "https://img.shoplineapp.com/media/image_clips/687fa55a1cbfe400108f1d8a/original.png?1753195866"
+            }
+            width={116}
+            height={152}
+            alt=""
+            className="paw"
+            priority
+            unoptimized
+          />
+        </div>
+        <Image
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55de65d7d00141707c3/original.png?1753195869"
+          }
+          width={268}
+          height={141}
+          alt=""
+          className="popular-prod"
+          priority
+          unoptimized
+        />
+        <Image
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55b32d89c0014b3760f/original.png?1753195867"
+          }
+          width={494}
+          height={237}
+          alt=""
+          className="machine"
+          priority
+          unoptimized
+        />
+      </div>
+      <div className="product">
+        <Image
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55dee8fd8000aa3bdbd/original.png?1753195869"
+          }
+          width={1920}
+          height={624}
+          alt=""
+          className="product-bg"
+          priority
+          unoptimized
+        />
+        <div className="comic-border w-100 absolute bottom"></div>
+        <div>
+          <Image
+            src={
+              "https://img.shoplineapp.com/media/image_clips/687fa55a1cbfe400108f1d8a/original.png?1753195866"
+            }
+            width={116}
+            height={152}
+            alt=""
+            className="paw"
+            priority
+            unoptimized
+          />
+          <Image
+            src={
+              "https://img.shoplineapp.com/media/image_clips/687fa55a1cbfe400108f1d8a/original.png?1753195866"
+            }
+            width={116}
+            height={152}
+            alt=""
+            className="paw"
+            priority
+            unoptimized
+          />
+        </div>
+        <Image
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55d8c4d590012ee8fee/original.png?1753195869"
+          }
+          width={268}
+          height={141}
+          alt=""
+          className="popular-prod"
+          priority
+          unoptimized
+        />
+        <Image
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55b32d89c0014b3760f/original.png?1753195867"
+          }
+          width={494}
+          height={237}
+          alt=""
+          className="machine"
+          priority
+          unoptimized
+        />
+      </div>
+      <div className="product">
+        <Image
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55dc56339000e1328d1/original.png?1753195869"
+          }
+          width={1920}
+          height={624}
+          alt=""
+          className="product-bg"
+          priority
+          unoptimized
+        />
+        <div className="comic-border w-100 absolute bottom"></div>
+        <div>
+          <Image
+            src={
+              "https://img.shoplineapp.com/media/image_clips/687fa55a1cbfe400108f1d8a/original.png?1753195866"
+            }
+            width={116}
+            height={152}
+            alt=""
+            unoptimized
+            className="paw"
+          />
+          <Image
+            src={
+              "https://img.shoplineapp.com/media/image_clips/687fa55a1cbfe400108f1d8a/original.png?1753195866"
+            }
+            width={116}
+            height={152}
+            alt=""
+            unoptimized
+            className="paw"
+          />
+        </div>
+        <Image
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55dd206fa0010796fd4/original.png?1753195869"
+          }
+          width={268}
+          height={141}
+          alt=""
+          unoptimized
+          className="popular-prod"
+        />
+        <Image
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55b32d89c0014b3760f/original.png?1753195867"
+          }
+          width={494}
+          height={237}
+          alt=""
+          unoptimized
+          className="machine"
+        />
+      </div>
+      <div className="product">
+        <Image
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55dee8fd8000aa3bdbd/original.png?1753195869"
+          }
+          width={1920}
+          height={624}
+          alt=""
+          unoptimized
           className="product-bg"
         />
         <div className="comic-border w-100 absolute bottom"></div>
         <div>
-          <Image src={Paw} width={0} height={0} alt="" className="paw" />
-          <Image src={Paw} width={0} height={0} alt="" className="paw" />
+          <Image
+            src={
+              "https://img.shoplineapp.com/media/image_clips/687fa55a1cbfe400108f1d8a/original.png?1753195866"
+            }
+            width={116}
+            height={152}
+            alt=""
+            unoptimized
+            className="paw"
+          />
+          <Image
+            src={
+              "https://img.shoplineapp.com/media/image_clips/687fa55a1cbfe400108f1d8a/original.png?1753195866"
+            }
+            width={116}
+            height={152}
+            alt=""
+            unoptimized
+            className="paw"
+          />
         </div>
         <Image
-          src={Popular_PRD}
-          width={0}
-          height={0}
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55d82f6cc001004e772/original.png?1753195869"
+          }
+          width={268}
+          height={141}
           alt=""
+          unoptimized
           className="popular-prod"
         />
-        <Image src={Machine} width={0} height={0} alt="" className="machine" />
-      </div>
-      <div className="product">
         <Image
-          src={ProductBG2}
-          width={1440}
-          height={624}
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55b32d89c0014b3760f/original.png?1753195867"
+          }
+          width={494}
+          height={237}
           alt=""
-          className="product-bg"
+          unoptimized
+          className="machine"
         />
-        <div className="comic-border w-100 absolute bottom"></div>
-        <div>
-          <Image src={Paw} width={0} height={0} alt="" className="paw" />
-          <Image src={Paw} width={0} height={0} alt="" className="paw" />
-        </div>
-        <Image
-          src={PickyEater_PRD}
-          width={0}
-          height={0}
-          alt=""
-          className="popular-prod"
-        />
-        <Image src={Machine} width={0} height={0} alt="" className="machine" />
-      </div>
-      <div className="product">
-        <Image
-          src={ProductBG1}
-          width={1440}
-          height={624}
-          alt=""
-          className="product-bg"
-        />
-        <div className="comic-border w-100 absolute bottom"></div>
-        <div>
-          <Image src={Paw} width={0} height={0} alt="" className="paw" />
-          <Image src={Paw} width={0} height={0} alt="" className="paw" />
-        </div>
-        <Image
-          src={Nature_PRD}
-          width={0}
-          height={0}
-          alt=""
-          className="popular-prod"
-        />
-        <Image src={Machine} width={0} height={0} alt="" className="machine" />
-      </div>
-      <div className="product">
-        <Image
-          src={ProductBG2}
-          width={1440}
-          height={624}
-          alt=""
-          className="product-bg"
-        />
-        <div className="comic-border w-100 absolute bottom"></div>
-        <div>
-          <Image src={Paw} width={0} height={0} alt="" className="paw" />
-          <Image src={Paw} width={0} height={0} alt="" className="paw" />
-        </div>
-        <Image
-          src={Handmade_PRD}
-          width={0}
-          height={0}
-          alt=""
-          className="popular-prod"
-        />
-        <Image src={Machine} width={0} height={0} alt="" className="machine" />
       </div>
       <div className="iso">
-        <Image src={ISO} width={0} height={0} alt="" className="iso__bg" />
         <Image
-          src={ISO_laptop}
-          width={0}
-          height={0}
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa573aed6ec00142552fc/original.png?1753195889"
+          }
+          width={1920}
+          height={1680}
           alt=""
+          unoptimized
+          className="iso__bg"
+        />
+        <Image
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa5721c16c200140ddbb0/original.png?1753195887"
+          }
+          width={768}
+          height={1776}
+          alt=""
+          unoptimized
           className="iso__bg laptop"
         />
-        <Image src={ISO_M} width={0} height={0} alt="" className="iso__bg m" />
+        <Image
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa564cb89020014cc1c5c/original.png?1753195876"
+          }
+          width={576}
+          height={1972}
+          alt=""
+          unoptimized
+          className="iso__bg m"
+        />
         <div>
           <div className="comic-border rotate"></div>
           <div className="comic-border rotate"></div>
@@ -430,19 +661,46 @@ export default function Page() {
             食品合格檢驗
           </a>
         </div>
-        <Image alt="" src={CatHead} className="cat-head" />
+        <Image
+          alt=""
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55d55338b0016fea330/original.png?1753195869"
+          }
+          width={154}
+          height={193}
+          unoptimized
+          className="cat-head"
+        />
         <div className="best-choice">
           <div className="best-choice__title blue">冷凍乾燥是什麼？</div>
           <div className="best-choice__title">
             最適合犬貓的天然寵物食品選擇！
           </div>
           <div className="ribbon">
-            <Image src={Ribbon} alt="" className="ribbon__foot" />
+            <Image
+              src={
+                "https://img.shoplineapp.com/media/image_clips/687fa55b268d160016ed360c/original.png?1753195867"
+              }
+              width={33}
+              height={75}
+              alt=""
+              unoptimized
+              className="ribbon__foot"
+            />
             <div className="ribbon__text">
               100% <br />
               還原食材營養與風味
             </div>
-            <Image src={Ribbon} alt="" className="ribbon__foot" />
+            <Image
+              src={
+                "https://img.shoplineapp.com/media/image_clips/687fa55b268d160016ed360c/original.png?1753195867"
+              }
+              width={33}
+              height={75}
+              alt=""
+              unoptimized
+              className="ribbon__foot"
+            />
           </div>
           <div className="best-choice__description">
             冷凍乾燥（Freeze-Dried Pet Food）
@@ -457,38 +715,137 @@ export default function Page() {
             都是讓毛孩安心入口的優質零食！
           </div>
         </div>
-        <Image alt="" src={Bird} className="bird" />
+        <Image
+          alt=""
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55bd822bf00168636f5/original.png?1753195867"
+          }
+          width={134}
+          height={150}
+          unoptimized
+          className="bird"
+        />
       </div>
       <div className="commend">
         <div className="commend__title">毛爸毛媽這樣說</div>
-        <Image alt="" src={Balloon} className="balloon" />
-        <Image alt="" src={Balloon} className="balloon" />
+        <Image
+          alt=""
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55b6acd720012b72e1b/original.png?1753195867"
+          }
+          width={62}
+          unoptimized
+          height={76}
+          className="balloon"
+        />
+        <Image
+          alt=""
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55b6acd720012b72e1b/original.png?1753195867"
+          }
+          width={62}
+          height={76}
+          unoptimized
+          className="balloon"
+        />
         <SliderCommend />
-        <Image alt="" src={Line} className="line" />
+        <Image
+          alt=""
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55bd3d923001675c9c0/original.png?1753195867"
+          }
+          width={1920}
+          height={125}
+          unoptimized
+          className="line"
+        />
       </div>
       <div className="member">
         <div className="member__title">派庫 × 會員制</div>
         <div className="member__all">
           <div className="member__all__item">
-            <Image alt="" src={Lv1} className="level" />
+            <Image
+              alt=""
+              src={
+                "https://img.shoplineapp.com/media/image_clips/687fa55fc4712100128c0f08/original.png?1753195871"
+              }
+              width={943}
+              height={449}
+              unoptimized
+              className="level"
+            />
           </div>
           <div className="member__all__item">
-            <Image alt="" src={Lv2} className="level" />
+            <Image
+              alt=""
+              src={
+                "https://img.shoplineapp.com/media/image_clips/687fa55fd822bf00188636c3/original.png?1753195871"
+              }
+              width={943}
+              height={449}
+              unoptimized
+              className="level"
+            />
           </div>
           <div className="member__all__item">
-            <Image alt="" src={Lv3} className="level" />
+            <Image
+              alt=""
+              src={
+                "https://img.shoplineapp.com/media/image_clips/687fa560c563390014132896/original.png?1753195871"
+              }
+              width={943}
+              height={449}
+              unoptimized
+              className="level"
+            />
           </div>
           <div className="member__all__item">
-            <Image alt="" src={Lv4} className="level" />
+            <Image
+              alt=""
+              src={
+                "https://img.shoplineapp.com/media/image_clips/687fa560ec6651000ec1e7d5/original.png?1753195871"
+              }
+              width={943}
+              height={449}
+              unoptimized
+              className="level"
+            />
           </div>
           <div className="member__all__item">
-            <Image alt="" src={Lv5} className="level" />
+            <Image
+              alt=""
+              src={
+                "https://img.shoplineapp.com/media/image_clips/687fa560180f9f000c8db866/original.png?1753195871"
+              }
+              width={943}
+              height={449}
+              unoptimized
+              className="level"
+            />
           </div>
           <div className="member__all__item">
-            <Image alt="" src={Lv6} className="level" />
+            <Image
+              alt=""
+              src={
+                "https://img.shoplineapp.com/media/image_clips/687fa560af3fe500147e4893/original.png?1753195871"
+              }
+              width={943}
+              height={449}
+              unoptimized
+              className="level"
+            />
           </div>
         </div>
-        <Image src={Lv1_m} alt="" className="level mobile" />
+        <Image
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa562e137d8000c03c9ef/original.png?1753195873"
+          }
+          width={696}
+          height={1158}
+          alt=""
+          unoptimized
+          className="level mobile"
+        />
       </div>
       <div className="partner">
         <div>
@@ -516,8 +873,26 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <Image alt="" src={Partner1} className="partner-pic" />
-        <Image alt="" src={Partner2} className="partner-pic" />
+        <Image
+          alt=""
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55eec56a10014c0d1c0/original.png?1753195870"
+          }
+          width={160}
+          unoptimized
+          height={160}
+          className="partner-pic"
+        />
+        <Image
+          alt=""
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55f1c528b00100fddb2/original.png?1753195871"
+          }
+          width={255}
+          height={160}
+          unoptimized
+          className="partner-pic"
+        />
         <div className="all-partner">
           <div className="all-partner__title">
             我們的通路夥伴
@@ -529,10 +904,10 @@ export default function Page() {
             </a>
           </div>
           <div className="all-partner__items">
-            <SlideShop shops={shops} reverseDirection={false} />
+            <SlideShop shops={shops} reverseDirection={""} />
           </div>
-          <div className="all-partner__items reverse">
-            <SlideShop shops={shopsRevers} reverseDirection={true} />
+          <div className="all-partner__items">
+            <SlideShop shops={shopsRevers} reverseDirection={"rtl"} />
           </div>
         </div>
         <div>
@@ -549,10 +924,13 @@ export default function Page() {
           {step?.map((item) => (
             <div className="step__card" key={item.title}>
               <Image
-                src={StepCard}
+                src={
+                  "https://img.shoplineapp.com/media/image_clips/687fa55d728644001498483e/original.png?1753195869"
+                }
                 alt=""
-                width={0}
-                height={0}
+                width={345}
+                height={391}
+                unoptimized
                 className="step__card__bg"
               />
               <Image
@@ -560,6 +938,7 @@ export default function Page() {
                 alt=""
                 width={344}
                 height={344}
+                unoptimized
                 className="step__card__role"
               />
               <div className="step__card__content">
@@ -575,6 +954,7 @@ export default function Page() {
                 alt=""
                 width={344}
                 height={344}
+                unoptimized
                 className="step__card__role2"
               />
             </div>
