@@ -32,7 +32,7 @@ export default function SlideShop({ shops, reverseDirection }) {
         disableOnInteraction: false,
       }}
       loop={true}
-      speed={3000}
+      speed={5000}
       className="marquee"
       dir={reverseDirection}
     >

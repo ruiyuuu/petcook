@@ -106,7 +106,6 @@ $secondary-light: #bbbfc0;
 body {
   background: var(--background);
   color: var(--foreground);
-  // font-family: Arial, Helvetica, sans-serif;
   font-family: var(--lato), var(--notoSans);
 }
 $border: 4px solid $primary-dark;
@@ -977,7 +976,6 @@ $border: 4px solid $primary-dark;
           font-weight: 700;
           letter-spacing: 0.025rem;
           text-align: center;
-          // filter: drop-shadow(4px 4px 0 $primary-dark);
           filter: drop-shadow(4px 4px 0 #452f1d)
             drop-shadow(-2px -2px 0 #452f1d) drop-shadow(-2px 2px 0 #452f1d)
             drop-shadow(2px -2px 0 #452f1d);
@@ -1809,31 +1807,60 @@ $border: 4px solid $primary-dark;
     }
   }
 }
+.product-list__title {
+  height: 130px;
+  opacity: 0;
+  @media (max-width: 768px) {
+    height: auto;
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 991px) {
+  product-item:not(.promotion-product).has-variant-selector .info-box,
+  product-item:not(.promotion-product).has-wishlist-button .info-box {
+    padding-bottom: 10px;
+  }
+}
 .product {
   position: relative;
-  top: -648px;
+  top: -626px;
   left: 0;
   z-index: -1;
   height: 0;
   @media (max-width: 1200px) {
-    top: -580px;
+    top: -565px;
   }
   @media (max-width: 991px) {
-    top: -572px;
+    top: -536px;
   }
-  @media (max-width: 576px) {
-    top: -510px;
+  @media (max-width: 768px) {
+    display: none;
+  }
+  &.a{
+    top: -690px;
+    @media (max-width: 991px) {
+      top: -610px;
+    }
+    .popular-prod{
+      top: -50px;
+    }
   }
   .product-bg {
     width: 100%;
     object-fit: cover;
+    @media (max-width: 768px) {
+      position: absolute;
+      top: -16px;
+    }
+    @media (max-width: 576px) {
+      top: -70px;
+      position: absolute;
+    }
   }
   .paw {
     position: absolute;
     top: -5px;
     right: 195px;
-    // width: 116px;
-    // height: auto;
     &:nth-child(2) {
       right: 37px;
       @media (max-width: 991px) {
@@ -1842,28 +1869,45 @@ $border: 4px solid $primary-dark;
     }
     @media (max-width: 991px) {
       width: 13%;
+      height: auto;
       right: 16%;
+    }
+    @media (max-width: 768px) {
+      top: -4px;
+      width: 8%;
+    }
+    @media (max-width: 576px) {
+      width: 8%;
     }
   }
   .popular-prod {
     position: absolute;
-    top: 32px;
+    top: -8px;
     left: 50%;
     transform: translateX(-50%);
     width: 268px;
     height: auto;
+    @media (max-width: 1200px) {
+      top: -18px;
+    }
+    @media (max-width: 768px) {
+      top: -8px;
+    }
+    @media (max-width: 748px) {
+      top: -18px;
+    }
     @media (max-width: 576px) {
-      width: 50%;
-      top: 10%;
+      width: 40%;
+      top: 0;
     }
   }
   .machine {
     position: absolute;
-    bottom: -9px;
+    top: 501px;
     width: 494px;
     height: auto;
-    left: 0;
-    @media (max-width: 576px) {
+    left: -220px;
+    @media (max-width: 1200px) {
       display: none;
     }
   }
@@ -1923,7 +1967,7 @@ $border: 4px solid $primary-dark;
   }
   &__content {
     position: absolute;
-    top: 13px;
+    top: 33px;
     right: 16px;
     width: 34%;
     background: white;
@@ -1971,7 +2015,7 @@ $border: 4px solid $primary-dark;
   }
   .cat-head {
     position: absolute;
-    top: 10%;
+    top: 12%;
     right: 32.5%;
     width: 8%;
     height: auto;
@@ -2155,9 +2199,11 @@ $border: 4px solid $primary-dark;
         justify-content: center;
         padding: 83px 16px 26px;
         background-repeat: no-repeat;
+        object-fit: contain;
         &__img {
           width: 295px;
-          height: auto;
+          height: 217px;
+          object-fit: cover;
           border: 4px solid white;
         }
         &__content {
@@ -2236,7 +2282,7 @@ $border: 4px solid $primary-dark;
   display: flex;
   justify-content: center;
   @media (max-width: 1200px) {
-    height: 1636px;
+    height: 83vh;
   }
   @media (max-width: 991px) {
     height: fit-content;
@@ -2380,29 +2426,30 @@ $border: 4px solid $primary-dark;
     left: 50%;
     top: 40%;
     transform: translate(-50%, -50%);
-    &:nth-child(1) {
-      animation: waterWave 4s infinite linear;
-    }
+    width: 0;
+    height: 0;
+    opacity: 1;
+    animation: waterWave 4.5s infinite linear;
     &:nth-child(2) {
-      animation: waterWave 4s infinite linear 1.5s;
+      animation: waterWave 4.5s infinite linear 1.5s;
     }
     &:nth-child(3) {
-      animation: waterWave 4s infinite linear 3s;
+      animation: waterWave 4.5s infinite linear 3s;
     }
     @keyframes waterWave {
       0% {
         width: 0;
         height: 0;
-        opacity: 1;
-      }
-      99% {
-        width: 900px;
-        height: 900px;
         opacity: 0;
       }
-      100% {
+      10% {
         width: 0;
         height: 0;
+        opacity: 1;
+      }
+      100% {
+        width: 910px;
+        height: 910px;
         opacity: 0;
       }
     }

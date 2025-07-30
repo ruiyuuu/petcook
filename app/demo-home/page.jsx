@@ -376,13 +376,73 @@ export default function Page() {
         />
         <div className="comic-border w-100 absolute bottom"></div>
       </div>
-      <div className="product">
+      <div className="product a">
         <Image
           src={
             "https://img.shoplineapp.com/media/image_clips/687fa55dc56339000e1328d1/original.png?1753195869"
           }
           width={1920}
-          height={624}
+          height={708}
+          alt=""
+          className="product-bg"
+          priority
+          unoptimized
+        />
+        <div className="comic-border w-100 absolute bottom"></div>
+        <div>
+          <Image
+            src={
+              "https://img.shoplineapp.com/media/image_clips/687fa55a1cbfe400108f1d8a/original.png?1753195866"
+            }
+            width={116}
+            height={152}
+            alt=""
+            className="paw"
+            priority
+            unoptimized
+          />
+          <Image
+            src={
+              "https://img.shoplineapp.com/media/image_clips/687fa55a1cbfe400108f1d8a/original.png?1753195866"
+            }
+            width={116}
+            height={152}
+            alt=""
+            className="paw"
+            priority
+            unoptimized
+          />
+        </div>
+        <Image
+          src={
+            "https://img.shoplineapp.com/media/image_clips/6886fca543112c000a2e70e1/original.png?1753676962"
+          }
+          width={268}
+          height={141}
+          alt=""
+          className="popular-prod"
+          priority
+          unoptimized
+        />
+        <Image
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55b32d89c0014b3760f/original.png?1753195867"
+          }
+          width={494}
+          height={237}
+          alt=""
+          className="machine"
+          priority
+          unoptimized
+        />
+      </div>
+      <div className="product">
+        <Image
+          src={
+            "https://img.shoplineapp.com/media/image_clips/687fa55dee8fd8000aa3bdbd/original.png?1753195869"
+          }
+          width={1920}
+          height={708}
           alt=""
           className="product-bg"
           priority
@@ -439,70 +499,10 @@ export default function Page() {
       <div className="product">
         <Image
           src={
-            "https://img.shoplineapp.com/media/image_clips/687fa55dee8fd8000aa3bdbd/original.png?1753195869"
-          }
-          width={1920}
-          height={624}
-          alt=""
-          className="product-bg"
-          priority
-          unoptimized
-        />
-        <div className="comic-border w-100 absolute bottom"></div>
-        <div>
-          <Image
-            src={
-              "https://img.shoplineapp.com/media/image_clips/687fa55a1cbfe400108f1d8a/original.png?1753195866"
-            }
-            width={116}
-            height={152}
-            alt=""
-            className="paw"
-            priority
-            unoptimized
-          />
-          <Image
-            src={
-              "https://img.shoplineapp.com/media/image_clips/687fa55a1cbfe400108f1d8a/original.png?1753195866"
-            }
-            width={116}
-            height={152}
-            alt=""
-            className="paw"
-            priority
-            unoptimized
-          />
-        </div>
-        <Image
-          src={
-            "https://img.shoplineapp.com/media/image_clips/687fa55d8c4d590012ee8fee/original.png?1753195869"
-          }
-          width={268}
-          height={141}
-          alt=""
-          className="popular-prod"
-          priority
-          unoptimized
-        />
-        <Image
-          src={
-            "https://img.shoplineapp.com/media/image_clips/687fa55b32d89c0014b3760f/original.png?1753195867"
-          }
-          width={494}
-          height={237}
-          alt=""
-          className="machine"
-          priority
-          unoptimized
-        />
-      </div>
-      <div className="product">
-        <Image
-          src={
             "https://img.shoplineapp.com/media/image_clips/687fa55dc56339000e1328d1/original.png?1753195869"
           }
           width={1920}
-          height={624}
+          height={708}
           alt=""
           className="product-bg"
           priority
@@ -558,7 +558,7 @@ export default function Page() {
             "https://img.shoplineapp.com/media/image_clips/687fa55dee8fd8000aa3bdbd/original.png?1753195869"
           }
           width={1920}
-          height={624}
+          height={708}
           alt=""
           unoptimized
           className="product-bg"
@@ -608,6 +608,7 @@ export default function Page() {
         />
       </div>
       <div className="iso">
+        <div class="comic-border w-100"></div>
         <Image
           src={
             "https://img.shoplineapp.com/media/image_clips/687fa573aed6ec00142552fc/original.png?1753195889"
