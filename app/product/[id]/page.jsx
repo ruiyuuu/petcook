@@ -80,11 +80,13 @@ export default function Page({ params }) {
                 <div className="img-content-block__content__left">
                   <div className="img-content-block__content__title">
                     {product[0].product_name}
-                    <div className="img-content-block__content__subtitle">
-                      {product[0].block_intro.subtitle[0]}
-                      <span>{product[0].block_intro.subtitle[1]}</span>
-                      {product[0].block_intro.subtitle[2]}
-                    </div>
+                    {product[0].block_intro.subtitle && (
+                      <div className="img-content-block__content__subtitle">
+                        {product[0].block_intro.subtitle[0]}
+                        <span>{product[0].block_intro.subtitle[1]}</span>
+                        {product[0].block_intro.subtitle[2]}
+                      </div>
+                    )}
                   </div>
                   <div className="img-content-block__content__description">
                     {product[0].block_intro.description}
@@ -205,6 +207,136 @@ export default function Page({ params }) {
                     </span>
                   </div>
                 </div>
+              </div>
+            </div>
+          )}
+          {product[0].block_card_comic && (
+            <div className="comic-block section">
+              <Sub sub={product[0].block_card_comic.subtitle} />
+              <h2 className="main-title">
+                {product[0].block_card_comic.title}
+              </h2>
+              {product[0].block_card_comic.description && (
+                <p className="comic-block__des">
+                  {product[0].block_card_comic.description}
+                </p>
+              )}
+              <div className="comic-block__content">
+                <div className="comic">
+                  <div className="pic">
+                    <Image
+                      src={product[0].block_card_comic.card[0].img}
+                      width={270}
+                      height={270}
+                      unoptimized
+                      alt=""
+                    />
+                  </div>
+                  <div className="comic__title">
+                    {product[0].block_card_comic.card[0].title}
+                  </div>
+                  <div className="comic__des">
+                    {product[0].block_card_comic.card[0].des}
+                  </div>
+                </div>
+                <div className="comic">
+                  <div className="pic">
+                    <Image
+                      src={product[0].block_card_comic.card[1].img}
+                      width={270}
+                      height={270}
+                      unoptimized
+                      alt=""
+                    />
+                  </div>
+                  <div className="comic__title">
+                    {product[0].block_card_comic.card[1].title}
+                  </div>
+                  <div className="comic__des">
+                    {product[0].block_card_comic.card[1].des}
+                  </div>
+                </div>
+                <div className="comic">
+                  <div className="pic">
+                    <Image
+                      src={product[0].block_card_comic.card[2].img}
+                      width={270}
+                      height={270}
+                      unoptimized
+                      alt=""
+                    />
+                  </div>
+                  <div className="comic__title">
+                    {product[0].block_card_comic.card[2].title}
+                  </div>
+                  <div className="comic__des">
+                    {product[0].block_card_comic.card[2].des}
+                  </div>
+                </div>
+              </div>
+              <h2 className="main-title">
+                {product[0].block_card_comic.slogan}
+              </h2>
+            </div>
+          )}
+          {product[0].block_class && (
+            <div className="banner-block section">
+              <Sub sub={product[0].block_class.subtitle} />
+              <h2 className="main-title">{product[0].block_class.title}</h2>
+              {product[0].block_class.description && (
+                <p className="banner-block__des">
+                  {product[0].block_class.description}
+                </p>
+              )}
+              <div className="banner-block__course">
+                <Image
+                  src={
+                    "https://img.shoplineapp.com/media/image_clips/6898151eb7ef12000e0062ca/original.png?1754797342"
+                  }
+                  unoptimized
+                  width={560}
+                  height={262}
+                  alt=""
+                />
+                <div className="banner-block__course__content">
+                  {product[0].block_class.content}
+                </div>
+                <div className="tool">
+                  <div className="eraser"></div>
+                  <div className="chalk"></div>
+                  <div className="chalk right"></div>
+                </div>
+              </div>
+            </div>
+          )}
+          {product[0].block_process && (
+            <div className="process-block section">
+              <Sub sub={product[0].block_process.subtitle} />
+              <h2 className="main-title">{product[0].block_process.title}</h2>
+              {product[0].block_process.description && (
+                <p className="process-block__des">
+                  {product[0].block_process.description}
+                </p>
+              )}
+              <div className="process-block process">
+                {product[0].block_process.step.map((item) => (
+                  <div className="process__item" key={item.step}>
+                    <Image
+                      src={item.img}
+                      unoptimized
+                      width={225}
+                      height={225}
+                      alt=""
+                    />
+                    <div className="des">{item.content}</div>
+                  </div>
+                ))}
+              </div>
+              <div className="process-block__slogan">
+                {product[0].block_process.slogan}
+              </div>
+              <div className="process-block__content">
+                {product[0].block_process.content}
               </div>
             </div>
           )}
@@ -346,7 +478,152 @@ export default function Page({ params }) {
               )}
             </div>
           )}
-          {product[0].type && (
+          {product[0].block_banner2 && (
+            <div className="banner-block section">
+              <Sub sub={product[0].block_banner2.subtitle} />
+              <h2 className="main-title">{product[0].block_banner2.title}</h2>
+              {product[0].block_banner2.description && (
+                <p className="banner-block__des">
+                  {product[0].block_banner2.description}
+                </p>
+              )}
+              {product[0].block_banner2.tags && (
+                <div className="banner-block__banner">
+                  <div className="banner-block__banner__mask">
+                    <Image
+                      src={product[0].block_banner2.img}
+                      width={1130}
+                      height={622}
+                      alt=""
+                      className="banner-block__banner__img"
+                      unoptimized
+                    />
+                  </div>
+                  <div className="tag-group">
+                    {product[0].block_banner2.tags?.map((item) => (
+                      <div className="tag" key={item}>
+                        #{item}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {product[0].block_banner2.list && (
+                <div
+                  className="banner-block__listPic"
+                  style={
+                    product[0].block_banner2.list.length === 0
+                      ? { justifyContent: "center" }
+                      : null
+                  }
+                >
+                  <Image
+                    src={product[0].block_banner2.img}
+                    width={1130}
+                    height={622}
+                    alt=""
+                    className="banner-block__listPic__img"
+                    unoptimized
+                  />
+                  {product[0].block_banner2.list.length > 0 && (
+                    <ul className="banner_list">
+                      {product[0].block_banner2.list?.map((item) => (
+                        <li key={item}>{item}</li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              )}
+              {product[0].block_banner2.note && (
+                <div className="note">
+                  * 食用小提醒：{product[0].block_banner2.note}
+                </div>
+              )}
+            </div>
+          )}
+          {product[0].block_communicate && (
+            <div className="communicate-block section">
+              <Sub sub={product[0].block_communicate.subtitle} />
+              <h2 className="main-title">
+                {product[0].block_communicate.title}
+              </h2>
+              {product[0].block_communicate.description && (
+                <p className="communicate-block__des">
+                  {product[0].block_communicate.description}
+                </p>
+              )}
+              <div className="communicate-block__content">
+                <div className="dialog">
+                  {product[0].block_communicate.content}
+                </div>
+                <Image
+                  src={product[0].block_communicate.img}
+                  width={344}
+                  height={344}
+                  alt=""
+                  className="pic"
+                />
+              </div>
+            </div>
+          )}
+          {product[0].block_card1 && (
+            <div className="card1-block section">
+              <Sub sub={product[0].block_card1.subtitle} />
+              <h2 className="main-title">{product[0].block_card1.title}</h2>
+              {product[0].block_card1.description && (
+                <p className="card1-block__des">
+                  {product[0].block_card1.description}
+                </p>
+              )}
+              <div className="card1-block__content">
+                {product[0].block_card1.card.map((item) => (
+                  <div key={item.id} className="card1-block__content__item">
+                    <Image
+                      src={item.img}
+                      width={234}
+                      height={234}
+                      alt=""
+                      unoptimized
+                    />
+                    <div className="card1-block__content__title">
+                      {item.title}
+                    </div>
+                    <div className="card1-block__content__des">{item.des}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+          {product[0].block_card2 && (
+            <div className="card2-block section">
+              <Sub sub={product[0].block_card2.subtitle} />
+              <h2 className="main-title">{product[0].block_card2.title}</h2>
+              {product[0].block_card2.description && (
+                <p className="card2-block__des">
+                  {product[0].block_card2.description}
+                </p>
+              )}
+              <div className="card2-block__content">
+                {product[0].block_card2.card.map((item) => (
+                  <div key={item.id} className="card2-block__content__item">
+                    <Image
+                      src={item.img}
+                      width={234}
+                      height={234}
+                      alt=""
+                      unoptimized
+                    />
+                    <div className="line"></div>
+                    <div className="card2-block__content__title">
+                      {item.title}
+                    </div>
+                    <div className="card2-block__content__des">{item.des}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+          {product[0].type && product[0].block_suggest && (
             <div className="card-block section">
               <DialogSub
                 title={"建議餵食方式與攝取量"}
@@ -388,7 +665,7 @@ export default function Page({ params }) {
                       {product[0].type === "cat" && <>貓</>}
                       {"(<5kg)"}
                     </div>
-                    {product[0].block_suggest.s}
+                    {product[0].block_suggest?.s}
                   </div>
                 </div>
                 <div className="card-block__content__item m">
@@ -423,7 +700,7 @@ export default function Page({ params }) {
                       中型{product[0].type === "dog" && <>犬</>}
                       {product[0].type === "cat" && <>貓</>} (5–10kg)
                     </div>
-                    {product[0].block_suggest.m}
+                    {product[0].block_suggest?.m}
                   </div>
                 </div>
                 <div className="card-block__content__item l">
@@ -458,10 +735,10 @@ export default function Page({ params }) {
                       大型{product[0].type === "dog" && <>犬</>}
                       {product[0].type === "cat" && <>貓</>} (10kg 以上)
                     </div>
-                    {product[0].block_suggest.l}
+                    {product[0].block_suggest?.l}
                   </div>
                 </div>
-                {product[0].block_suggest.note && (
+                {product[0].block_suggest?.note && (
                   <div className="note">
                     * 食用小提醒：
                     <br />
@@ -475,14 +752,14 @@ export default function Page({ params }) {
                     </ol>
                   </div>
                 )}
-                {!product[0].block_suggest.note && (
+                {!product[0].block_suggest?.note && (
                   <div className="note">
                     \ 食用建議 /<br />
                     日常獎勵或營養補充皆適用，不適合作為主食大量食用喔！
                   </div>
                 )}
               </div>
-              {product[0].block_suggest.note && (
+              {product[0].block_suggest?.note && (
                 <div className="note">
                   * 食用小提醒：
                   <br />
@@ -496,13 +773,44 @@ export default function Page({ params }) {
                   </ol>
                 </div>
               )}
-              {!product[0].block_suggest.note && (
+              {!product[0].block_suggest?.note && (
                 <div className="note">
                   \
                   食用建議：日常獎勵或營養補充皆適用，不適合作為主食大量食用喔！
                   /
                 </div>
               )}
+            </div>
+          )}
+          {product[0].block_list && (
+            <div className="list-block section">
+              <Sub sub={product[0].block_list.subtitle} />
+              <h2 className="main-title">{product[0].block_list.title}</h2>
+              {product[0].block_list.description && (
+                <p className="list-block__des">
+                  {product[0].block_list.description}
+                </p>
+              )}
+              <div className="list-block__content">
+                {product[0].block_list.card.map((item) => (
+                  <div key={item.id} className="list-block__content__item">
+                    <div className="line"></div>
+                    <div className="list-block__content__title">
+                      {item.title}
+                    </div>
+                    <div className="list-block__content__des">{item.des}</div>
+                  </div>
+                ))}
+                <Image
+                  src={
+                    "https://img.shoplineapp.com/media/image_clips/6898b4c967fbc900147358e5/original.png?1754838217"
+                  }
+                  unoptimized
+                  width={542}
+                  height={521}
+                  alt=""
+                />
+              </div>
             </div>
           )}
           {product[0].block_recommend && (
@@ -605,6 +913,13 @@ export default function Page({ params }) {
               </div>
             </>
           )}
+          {product[0].block_quote && (
+            <div className="quote-block section">
+              <div className="quote-block__content">
+                {product[0].block_quote.slogan}
+              </div>
+            </div>
+          )}
           {product[0].block_info && (
             <div className="info-block section">
               <Sub sub={product[0].block_info.subtitle} />
@@ -645,7 +960,7 @@ export default function Page({ params }) {
                       <span className="nutrition">
                         <span>營養標示每 100g</span>
                         <span className="nutrition__block">
-                          {product[0].block_info.nutrition.map((item) => (
+                          {product[0].block_info.nutrition?.map((item) => (
                             <span key={item.name} className="nutrition__item">
                               <span className="nutrition__name">
                                 {item.name}

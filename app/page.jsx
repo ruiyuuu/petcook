@@ -133,19 +133,19 @@ export default function Home() {
               <a href="./product/南海極鮮貝柱">南海極鮮貝柱 </a>
             </li>
             <li>
-              <a href="./product/涮嘴。吻仔魚">涮嘴。吻仔魚 </a>
+              <a href="./product/涮嘴。吻仔魚">涮嘴。吻仔魚（補） </a>
             </li>
             <li>
-              <a href="./product/蒸的是。嫩雞">蒸的是。嫩雞</a>
+              <a href="./product/蒸的是。嫩雞">蒸的是。嫩雞（補） </a>
             </li>
             <li>
-              <a href="./product/鴨力管理員">鴨力管理員</a>
+              <a href="./product/鴨力管理員">鴨力管理員（捕）</a>
             </li>
             <li>
-              <a href="./product/鮮酥虱目魚">鮮酥虱目魚</a>
+              <a href="./product/鮮酥虱目魚凍乾">鮮酥虱目魚凍乾（捕）</a>
             </li>
             <li>
-              <a href="./product/母雞抖雞柳">母雞抖雞柳</a>
+              <a href="./product/母雞抖雞柳凍乾">母雞抖雞柳凍乾</a>
             </li>
             <li>
               <a href="./product/Super Lollipop 超狗能量棒(雞肉南瓜口味)">

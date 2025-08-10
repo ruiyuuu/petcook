@@ -829,6 +829,67 @@ $border: 4px solid $primary-dark;
         }
       }
     }
+    &__course {
+      background-color: #32805c;
+      padding: 72px 48px 128px;
+      border: $border;
+      display: flex;
+      column-gap: 40px;
+      align-items: center;
+      position: relative;
+      margin-top: 38px;
+      box-shadow: inset 0px -24px rgba(0, 0, 0, 0.2);
+      @media (max-width: 991px) {
+        flex-direction: column;
+        row-gap: 32px;
+        padding: 32px 24px 88px;
+        width: 100%;
+      }
+      &__content {
+        color: white;
+        opacity: 0.8;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 160%;
+        letter-spacing: 0.025rem;
+        text-align: justify;
+        @media (max-width: 768px) {
+          font-size: 16px;
+        }
+        b {
+          opacity: 1;
+        }
+      }
+      img {
+        @media (max-width: 768px) {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .tool {
+        position: absolute;
+        bottom: 8px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: flex-end;
+        column-gap: 8px;
+        .eraser {
+          border-radius: 8px;
+          background-color: $primary-dark;
+          width: 83px;
+          height: 42px;
+        }
+        .chalk {
+          background-color: white;
+          width: 9px;
+          height: 26px;
+          &.right {
+            transform: rotate(-30deg);
+          }
+        }
+      }
+    }
   }
   .card-block {
     display: flex;
@@ -1350,6 +1411,484 @@ $border: 4px solid $primary-dark;
       margin-top: 56px;
     }
   }
+  .process-block {
+    display: flex;
+    flex-direction: column;
+    .process {
+      background-color: #fff6ee;
+      border: $border;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      position: relative;
+      margin-top: 38px;
+      width: 100%;
+      justify-content: center;
+      @media (max-width: 991px) {
+        flex-direction: column;
+      }
+      &__item {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 46px 0;
+        width: 25%;
+        align-items: center;
+        @media (max-width: 991px) {
+          flex-direction: row;
+          width: 100%;
+          padding: 16px;
+          justify-content: center;
+        }
+        .des {
+          text-align: center;
+          height: 72px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          z-index: 1;
+          font-size: 24px;
+          line-height: 150%;
+          letter-spacing: 0.05em;
+          font-weight: bolder;
+          @media (max-width: 991px) {
+            width: 200px;
+            font-size: 16px;
+          }
+        }
+        img {
+          z-index: 1;
+          @media (max-width: 768px) {
+            width: 102px;
+            height: 102px;
+          }
+        }
+        &:not(:last-child):after {
+          content: "";
+          background-image: url("https://img.shoplineapp.com/media/image_clips/68982e40af6226000a9696d4/original.png?1754803776");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          right: -88px;
+          width: 138px;
+          @media (max-width: 991px) {
+            background-image: url("https://img.shoplineapp.com/media/image_clips/6898512ab9ceb40012784755/original.png?1754812714");
+            width: 100%;
+            height: 138px;
+            right: 0;
+            top: auto;
+            bottom: -58px;
+            background-size: 100% 100%;
+          }
+        }
+      }
+    }
+    &__slogan {
+      font-size: 24px;
+      line-height: 150%;
+      letter-spacing: 0.05em;
+      font-weight: bolder;
+      margin-top: 38px;
+    }
+    &__content {
+      font-size: 20px;
+      line-height: 150%;
+      letter-spacing: 0.05em;
+      font-weight: bolder;
+      margin-top: 16px;
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
+      .highlight {
+        color: $primary;
+      }
+    }
+  }
+  .communicate-block {
+    display: flex;
+    flex-direction: column;
+    .d-lg-block {
+      display: none;
+      @media (max-width: 991px) {
+        display: block;
+      }
+    }
+    &__content {
+      margin-top: 38px;
+      position: relative;
+      width: 80%;
+      display: flex;
+      @media (max-width: 991px) {
+        flex-direction: column;
+        align-items: flex-end;
+      }
+      .dialog {
+        background-color: #fff6ee;
+        display: flex;
+        padding: 32px 48px;
+        border-radius: 48px 48px 0 48px;
+        width: 90%;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
+        font-weight: bolder;
+        color: $primary-dark;
+        height: fit-content;
+        &:before {
+          content: "";
+          margin-right: 16px;
+          background-image: url("https://img.shoplineapp.com/media/image_clips/6831ee658cf534000f45b784/original.png?1748102757");
+          width: 35px;
+          height: 40px;
+          transform: rotate(25deg);
+          background-size: contain;
+          background-repeat: no-repeat;
+          @media (max-width: 991px) {
+            width: 24px;
+            height: 24px;
+            margin-bottom: 16px;
+          }
+        }
+        @media (max-width: 991px) {
+          margin-right: auto;
+          padding: 32px;
+          flex-direction: column;
+          font-size: 16px;
+        }
+      }
+      .pic {
+        margin-left: -58px;
+        @media (max-width: 991px) {
+          margin-left: 0;
+          margin-top: -90px;
+          width: 213px;
+          height: 213px;
+        }
+      }
+    }
+  }
+  .card1-block {
+    display: flex;
+    flex-direction: column;
+    &__content {
+      display: flex;
+      column-gap: 24px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      @media (max-width: 991px) {
+        flex-direction: column;
+        row-gap: 16px;
+        margin-top: 56px;
+      }
+      &__item {
+        margin: 100px 0 0;
+        background-color: #fff6ee;
+        display: flex;
+        flex-direction: column;
+        border-radius: 48px;
+        padding: 112px 16px 32px;
+        align-items: center;
+        position: relative;
+        width: 33.3%;
+        @media (max-width: 991px) {
+          padding: 32px 32px;
+          align-items: self-start;
+          margin: 0;
+          width: 50%;
+        }
+        @media (max-width: 768px) {
+          width: auto;
+          margin-left: 90px;
+        }
+      }
+      img {
+        position: absolute;
+        top: -50%;
+        @media (max-width: 991px) {
+          width: 122px;
+          height: 122px;
+          left: -90px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+      &__title {
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
+        font-weight: bolder;
+        color: $primary;
+      }
+      &__des {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
+        font-weight: bolder;
+        color: $g-900;
+        text-align: center;
+        @media (max-width: 991px) {
+          text-align: start;
+        }
+      }
+    }
+  }
+  .card2-block {
+    display: flex;
+    flex-direction: column;
+    &__content {
+      display: flex;
+      column-gap: 16px;
+      width: 100%;
+      margin: 72px 0 0;
+      @media (max-width: 991px) {
+        flex-direction: column;
+        row-gap: 16px;
+      }
+      &__item {
+        padding: 48px 32px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 48px;
+        align-items: center;
+        width: calc((100% - 48px) / 4);
+        justify-content: center;
+        column-gap: 16px;
+        @media (max-width: 991px) {
+          flex-direction: row;
+          width: 100%;
+          padding: 8px 16px;
+        }
+        &:nth-child(odd) {
+          background-color: #fff6ee;
+          .line {
+            background: $primary;
+          }
+        }
+        &:nth-child(even) {
+          background-color: $secondary;
+          .line {
+            background: $white;
+          }
+          .card2-block__content__des {
+            color: white;
+          }
+        }
+        .line {
+          width: 50%;
+          height: 1px;
+          margin: 40px 0;
+          @media (max-width: 991px) {
+            display: none;
+          }
+        }
+        img {
+          @media (max-width: 991px) {
+            width: 122px;
+            height: 122px;
+          }
+        }
+      }
+      &__des {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
+        font-weight: bolder;
+        color: $g-900;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media (max-width: 991px) {
+          max-width: 200px;
+          text-align: left;
+        }
+      }
+    }
+  }
+  .comic-block {
+    display: flex;
+    flex-direction: column;
+    &__content {
+      display: flex;
+      column-gap: 40px;
+      margin-top: 38px;
+      margin-bottom: 42px;
+      @media (max-width: 1200px) {
+        flex-direction: column;
+        row-gap: 16px;
+      }
+      .comic {
+        content: "";
+        width: 350px;
+        height: 420px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        &:nth-child(1) {
+          background-image: url("https://img.shoplineapp.com/media/image_clips/689877814d150000143734b0/original.png?1754822528");
+        }
+        &:nth-child(2) {
+          background-image: url("https://img.shoplineapp.com/media/image_clips/6898778023eb63000e13b86d/original.png?1754822528");
+        }
+        &:nth-child(3) {
+          background-image: url("https://img.shoplineapp.com/media/image_clips/68987781baaa6c0012b6f013/original.png?1754822528");
+          .comic__des {
+            color: white;
+          }
+        }
+        &__title {
+          color: #fff;
+          letter-spacing: 0.025rem;
+          text-align: center;
+          filter: drop-shadow(4px 4px #452f1d) drop-shadow(-2px -2px #452f1d)
+            drop-shadow(-2px 2px #452f1d) drop-shadow(2px -2px #452f1d);
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 120%;
+          margin-bottom: 16px;
+        }
+        &__des {
+          letter-spacing: 0.025rem;
+          text-align: center;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          font-size: 24px;
+          line-height: 150%;
+          font-weight: 700;
+          display: flex;
+          @media (max-width: 991px) {
+            font-size: 16px;
+          }
+        }
+        .pic {
+          width: 270px;
+          height: 270px;
+          position: relative;
+          img {
+            top: 0;
+            left: 0;
+            position: absolute;
+            animation: 0.6s ease-in infinite picDog;
+          }
+        }
+      }
+    }
+    .main-title {
+      font-size: 28px;
+    }
+  }
+  .list-block {
+    display: flex;
+    flex-direction: column;
+    &__content {
+      position: relative;
+      margin-top: 72px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      row-gap: 16px;
+      @media (max-width: 991px) {
+        margin-bottom: 120px;
+      }
+      img {
+        position: absolute;
+        top: -12px;
+        right: 0;
+        @media (max-width: 991px) {
+          width: 203px;
+          height: 194px;
+          top: auto;
+          bottom: -144px;
+        }
+      }
+      &__item {
+        padding: 32px;
+        background-color: #fff6ee;
+        border-radius: 48px;
+        &:nth-child(2) {
+          background-color: #eef5ff;
+        }
+      }
+      &__title {
+        color: $primary;
+        letter-spacing: 0.025rem;
+        font-size: 24px;
+        line-height: 150%;
+        font-weight: 700;
+        @media (max-width: 991px) {
+          font-size: 16px;
+        }
+      }
+      &__des {
+        letter-spacing: 0.025rem;
+        font-size: 20px;
+        line-height: 150%;
+        font-weight: 700;
+        @media (max-width: 991px) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .quote-block {
+    display: flex;
+    flex-direction: column;
+    &__content {
+      position: relative;
+      letter-spacing: 0.025rem;
+      font-size: 44px;
+      line-height: 150%;
+      font-weight: 700;
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      @media (max-width: 768px) {
+        font-size: 24px;
+      }
+      &:after,
+      &::before {
+        background-image: url("https://img.shoplineapp.com/media/image_clips/6898bd0557ff4200107d6107/original.png?1754840325");
+        width: 92px;
+        height: 66px;
+        content: "";
+        display: block;
+        position: absolute;
+      }
+      &:after {
+        bottom: -30px;
+        right: -60px;
+        transform: rotate(180deg);
+      }
+      &::before {
+        top: -30px;
+        left: -60px;
+      }
+      .highlight {
+        color: $primary;
+      }
+      div {
+        &:nth-child(2) {
+          margin-left: auto;
+          margin-top: 27px;
+          text-align: end;
+        }
+        br {
+          display: none;
+          @media (max-width: 768px) {
+            display: block;
+          }
+        }
+      }
+    }
+  }
 }
 .primary-button {
   display: flex;
@@ -1836,12 +2375,12 @@ $border: 4px solid $primary-dark;
   @media (max-width: 768px) {
     display: none;
   }
-  &.a{
+  &.a {
     top: -690px;
     @media (max-width: 991px) {
       top: -610px;
     }
-    .popular-prod{
+    .popular-prod {
       top: -50px;
     }
   }

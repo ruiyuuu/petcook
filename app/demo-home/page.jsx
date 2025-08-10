@@ -54,7 +54,6 @@ export default function Page() {
     "寵曖貓狗生活館",
     "好萌pet sitter",
     "毛宅仔寵物美容",
-    "巧森寵物",
     "豆哥與凱特寵物用品",
     "HAPET好寵 永康店",
     "HAPET好寵 安森店",
@@ -68,7 +67,6 @@ export default function Page() {
     "I dog愛逗格寵物美容",
     "帕彼愛逗寵物",
     "汪喵寵物選品",
-    "太陽蛋毛孩選物店",
     "頑皮族寵物生活館-建國店",
     "探狗喵 毛孩選物店 SKM Park Outlets 高雄草衙",
     "集貓舍",
@@ -82,6 +80,8 @@ export default function Page() {
     "百分百 - 寵物生活館",
     "HKTV Mall",
     "Three Little Meow 寵物選品",
+    "福媽寵物特選店",
+    "阿貴養了一隻牛-毛孩選物",
   ];
   const shopsRevers = shops.slice().reverse();
   const step = [
