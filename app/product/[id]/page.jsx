@@ -291,12 +291,12 @@ export default function Page({ params }) {
               <div className="banner-block__course">
                 <Image
                   src={
-                    "https://img.shoplineapp.com/media/image_clips/6898151eb7ef12000e0062ca/original.png?1754797342"
+                    product[0].block_class.img
                   }
                   unoptimized
                   width={560}
                   height={262}
-                  alt=""
+                  alt="" className="circle"
                 />
                 <div className="banner-block__course__content">
                   {product[0].block_class.content}

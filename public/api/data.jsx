@@ -169,7 +169,7 @@ export const data = [
           是哪個部位嗎？
         </>
       ),
-      img: "https://img.shoplineapp.com/media/image_clips/683c6c4851d223000e67309c/original.jpg?1748790344",
+      img: "https://img.shoplineapp.com/media/image_clips/6898151eb7ef12000e0062ca/original.png?1754797342",
       content: (
         <>
           <b>虱目魚魚柳取自虱目魚脊椎兩側靠近魚肚處的背鰭肉</b>
@@ -3158,7 +3158,7 @@ export const data = [
     block_class: {
       subtitle: "派庫小學堂",
       title: <>選對吻仔魚，營養才到位！</>,
-      img: "https://img.shoplineapp.com/media/image_clips/683c6c4851d223000e67309c/original.jpg?1748790344",
+      img: "https://img.shoplineapp.com/media/image_clips/6898c6b1fea6d3001691b931/original.jpg?1754842801",
       content: (
         <>
           你可能不知道，市面上的「吻仔魚」其實不是一種魚的名字，而是幾種魚的總稱。
@@ -3727,7 +3727,7 @@ export const data = [
           是哪個部位嗎？
         </>
       ),
-      img: "https://img.shoplineapp.com/media/image_clips/683c6c4851d223000e67309c/original.jpg?1748790344",
+      img: "https://img.shoplineapp.com/media/image_clips/6898151eb7ef12000e0062ca/original.png?1754797342",
       content: (
         <>
           <b>虱目魚魚柳取自虱目魚脊椎兩側靠近魚肚處的背鰭肉</b>
