@@ -3159,6 +3159,7 @@ export const data = [
       subtitle: "派庫小學堂",
       title: <>選對吻仔魚，營養才到位！</>,
       img: "https://img.shoplineapp.com/media/image_clips/6898c6b1fea6d3001691b931/original.jpg?1754842801",
+      img_type: "circle",
       content: (
         <>
           你可能不知道，市面上的「吻仔魚」其實不是一種魚的名字，而是幾種魚的總稱。
@@ -3236,15 +3237,13 @@ export const data = [
       limit: "12 個月（未開封）",
       protect: "請存放於乾燥陰涼處，開封後請密封冷藏並儘早食用完畢",
       nutrition: [
-        { name: "熱量", data: "403Kcal" },
-        { name: "水分", data: "1.1%" },
-        { name: "灰份", data: "2.8%" },
-        { name: "粗蛋白", data: "87.8%" },
-        { name: "粗脂肪", data: "6.9%" },
-        { name: "飽和脂肪", data: "1%" },
-        { name: "反式脂肪", data: "0%" },
-        { name: "碳水化合物", data: "0%" },
-        { name: "鈉", data: "0.2%" },
+        { name: "熱量", data: "383Kcal" },
+        { name: "粗蛋白", data: "76.6%" },
+        { name: "粗脂肪", data: "8.5%" },
+        { name: "碳水化合物", data: "0.1%" },
+        { name: "水分", data: "1.8%" },
+        { name: "灰份", data: "13%" },
+        { name: "鈉", data: "1.8%" },
       ],
     },
     block_question: {
@@ -3560,9 +3559,9 @@ export const data = [
           <span className="mb-none">」</span>
         </>
       ),
-      img: "https://img.shoplineapp.com/media/image_clips/6841b3f56dfb5a000ebf4a32/original.png?1749136373",
+      img: "https://img.shoplineapp.com/media/image_clips/689b646c1d87f100164a3545/original.png?1755014251",
       img_M:
-        "https://img.shoplineapp.com/media/image_clips/6841b3f56dfb5a000ebf4a32/original.png?1749136373",
+        "https://img.shoplineapp.com/media/image_clips/689b646c1d87f100164a3545/original.png?1755014251",
       description: (
         <>
           <b>
@@ -3580,8 +3579,9 @@ export const data = [
       ),
     },
     block_banner: {
+      subtitle: "好吃又好玩",
       title: <>低敏肉源ｘ剪段餵食ｘ大中小犬都適用</>,
-      img: "https://img.shoplineapp.com/media/image_clips/6841b3f6269338000e9ae325/original.jpg?1749136374",
+      img: "https://img.shoplineapp.com/media/image_clips/689b646c4ad72dcdd347599a/original.jpg?1755014252",
       list: [
         "☆ 100% 鴨氣管原型製作、完整保留彈性咬感",
         "☆ 酥脆有嚼勁，幫助狗狗潔牙與釋放壓力",
@@ -3636,8 +3636,8 @@ export const data = [
     },
     block_info: {
       subtitle: "100% 純天然凍乾 成分看得到",
-      img: "https://img.shoplineapp.com/media/image_clips/6841b3f6f6b4220010b8cf04/original.png?1749136374",
-      element: "雞胸",
+      img: "https://img.shoplineapp.com/media/image_clips/689b646c91482e0016f0573e/original.png?1755014252",
+      element: "鴨氣管",
       weight: "40±2g / 包",
       produce: "臺灣",
       origin: "臺灣",
@@ -3700,9 +3700,9 @@ export const data = [
           <span className="mb-none">」</span>
         </>
       ),
-      img: "https://img.shoplineapp.com/media/image_clips/6841b3f56dfb5a000ebf4a32/original.png?1749136373",
+      img: "https://img.shoplineapp.com/media/image_clips/689b5d0489f4dea32ebf325d/original.png?1755012355",
       img_M:
-        "https://img.shoplineapp.com/media/image_clips/6841b3f56dfb5a000ebf4a32/original.png?1749136373",
+        "https://img.shoplineapp.com/media/image_clips/689b5d0489f4dea32ebf325d/original.png?1755012355",
       description: (
         <>
           <b>
@@ -3746,7 +3746,7 @@ export const data = [
           低敏 高營養價值
         </>
       ),
-      img: "https://img.shoplineapp.com/media/image_clips/6841b3f6269338000e9ae325/original.jpg?1749136374",
+      img: "https://img.shoplineapp.com/media/image_clips/689b5d048d3897000a5c607e/original.jpg?1755012356",
       list: [
         "☆ 選用台南養殖虱目魚，肉質細膩、口感鮮甜",
         "☆ 天然牛磺酸：維持貓咪眼睛、心臟、骨骼健康",
@@ -3782,7 +3782,7 @@ export const data = [
     },
     block_info: {
       subtitle: "100% 純天然凍乾 成分看得到",
-      img: "https://img.shoplineapp.com/media/image_clips/6841b3f6f6b4220010b8cf04/original.png?1749136374",
+      img: "https://img.shoplineapp.com/media/image_clips/689b5d04abf588000fb949ee/original.png?1755012355",
       element: "虱目魚",
       weight: "40±2g / 包",
       produce: "臺灣",

@@ -290,13 +290,12 @@ export default function Page({ params }) {
               )}
               <div className="banner-block__course">
                 <Image
-                  src={
-                    product[0].block_class.img
-                  }
+                  src={product[0].block_class.img}
                   unoptimized
                   width={560}
                   height={262}
-                  alt="" className="circle"
+                  alt=""
+                  className={`${product[0].block_class?.img_type==="circle" && "circle"}`}
                 />
                 <div className="banner-block__course__content">
                   {product[0].block_class.content}
